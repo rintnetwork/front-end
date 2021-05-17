@@ -9425,7 +9425,7 @@
 .About #hand_lines .left-big,
 .About #hand_lines .left-small,
 .About #hand_lines .right-small {
-  opacity: 0;
+  opacity: 1;
 }
 .About #hand_lines .left-big {
   transform: translate(16px, 29px);
@@ -9471,7 +9471,7 @@
   background-image: linear-gradient(68deg, rgba(231, 244, 250, 0.64), rgba(205, 236, 255, 0.64));
 }
 .About-title {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(50px);
   position: relative;
   white-space: nowrap;
@@ -9489,7 +9489,7 @@
   align-self: center;
   position: absolute;
   overflow: visible;
-  opacity: 0;
+  opacity: 1;
 }
 .About-title .svg--hand.show {
   opacity: 1;
@@ -9824,7 +9824,7 @@
 .Work-header span {
   position: relative;
   display: block;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(0.35294118em);
   will-change: transform, opacity;
   transition: opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 563ms, transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 562ms;
@@ -10168,7 +10168,7 @@
 .Clients-header span {
   position: relative;
   display: block;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(0.35294118em);
   will-change: transform, opacity;
   transition: opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1) 562ms, transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 562ms;
@@ -10275,7 +10275,7 @@
 .Clients-description span {
   position: relative;
   display: block;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(0.35294118em);
   will-change: transform, opacity;
 }
@@ -10358,7 +10358,7 @@
   flex-wrap: wrap;
 }
 .Clients-client {
-  opacity: 0;
+  opacity: 1;
   will-change: transform, opacity;
   transform: translateY(2.82352941em);
   transition: opacity 1s cubic-bezier(0.165, 0.84, 0.44, 1), transform 1s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -14161,6 +14161,6 @@ body {
 .isNotDesktop * {
   cursor: pointer;
 }
-.Content {
+/*.Content {
   visibility: hidden;
-}
+}*/
