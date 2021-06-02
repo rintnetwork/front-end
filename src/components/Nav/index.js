@@ -132,7 +132,7 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
 
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "eth-home-icon.png" }) {
+      file(relativePath: { eq: "rnt-home-icon.png" }) {
         childImageSharp {
           fixed(width: 22) {
             ...GatsbyImageSharpFixed
