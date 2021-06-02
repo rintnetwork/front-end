@@ -160,10 +160,7 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
           text: "decentralized-applications-dapps",
           to: "/dapps/",
         },
-        {
-          text: "page-stablecoins-title",
-          to: "/stablecoins/",
-        },
+
         {
           text: "page-stake-eth",
           to: "/eth2/staking/",
