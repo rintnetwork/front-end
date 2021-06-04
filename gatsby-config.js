@@ -12,7 +12,7 @@ module.exports = {
     description: `Rint Network is free and open-source project for enabling anonymous, encryption & communication by directing Internet traffic through a worldwide, volunteer overlay network.`,
     url: siteUrl,
     siteUrl,
-    author: `@ethereum`,
+    author: `@rintnetwork`,
     defaultLanguage,
     supportedLanguages,
     editContentUrl: `https://github.com/rintnetwork/front-end`,
@@ -44,19 +44,6 @@ module.exports = {
         theme_color: `#1c1ce1`,
         display: `standalone`,
         icon: `src/assets/favicon.png`,
-      },
-    },
-    // Matomo analtyics
-    {
-      resolve: "gatsby-plugin-matomo",
-      options: {
-        siteId: "4",
-        matomoUrl: "https://matomo.ethereum.org",
-        siteUrl,
-        matomoPhpScript: "matomo.php",
-        matomoJsScript: "matomo.js",
-        trackLoad: false,
-        // dev: true,
       },
     },
     {
