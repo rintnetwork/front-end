@@ -100,7 +100,7 @@ export const SloganGradient = styled.div`
   max-width: 720px;
   margin-top: 1rem;
   background-clip: text;
-  background-image: ${(props) => props.theme.colors.eth2Gradient};
+  background-image: ${(props) => props.theme.colors.rntGradient};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0rem;
@@ -228,7 +228,7 @@ export const ButtonSecondary = styled(Button)`
   }
 `
 
-export const Eth2Header = styled.h2`
+export const rntHeader = styled.h2`
   font-style: normal;
   font-weight: normal;
   font-weight: 800;
@@ -242,9 +242,9 @@ export const Eth2Header = styled.h2`
   }
 `
 
-export const Eth2HeaderGradient = styled.span`
+export const rntHeaderGradient = styled.span`
   background-clip: text;
-  background-image: ${(props) => props.theme.colors.eth2Gradient};
+  background-image: ${(props) => props.theme.colors.rntGradient};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @media (max-width: ${(props) => props.theme.breakpoints.s}) {

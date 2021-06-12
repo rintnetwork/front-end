@@ -228,7 +228,7 @@ const Subtitle = styled.div`
   }
 `
 
-const EthereumIntroContainer = styled.div`
+const ethereumIntroContainer = styled.div`
   background: ${(props) => props.theme.colors.homeBoxTurquoise};
   display: flex;
   align-items: center;
@@ -424,43 +424,61 @@ const HomePage = ({ data }) => {
   const cards = [
     {
       image: data.robotfixed.childImageSharp.fixed,
-      title: translateMessageId("page-index-get-started-wallet-title", intl),
-      description: translateMessageId(
-        "page-index-get-started-wallet-description",
+      title: translateMessageId(
+        "rint-page-index-get-started-wallet-title",
         intl
       ),
-      alt: translateMessageId("page-index-get-started-wallet-image-alt", intl),
+      description: translateMessageId(
+        "rint-page-index-get-started-wallet-description",
+        intl
+      ),
+      alt: translateMessageId(
+        "rint-page-index-get-started-wallet-image-alt",
+        intl
+      ),
       to: "/wallets/find-wallet/",
     },
 
     {
-      image: data.ethfixed.childImageSharp.fixed,
-      title: translateMessageId("page-index-get-started-eth-title", intl),
+      image: data.rntfixed.childImageSharp.fixed,
+      title: translateMessageId("rint-page-index-get-started-rnt-title", intl),
       description: translateMessageId(
-        "page-index-get-started-eth-description",
+        "rint-page-index-get-started-rnt-description",
         intl
       ),
-      alt: translateMessageId("page-index-get-started-eth-image-alt", intl),
-      to: "/get-eth/",
+      alt: translateMessageId(
+        "rint-page-index-get-started-rnt-image-alt",
+        intl
+      ),
+      to: "/get-rnt/",
     },
     {
       image: data.dogefixed.childImageSharp.fixed,
-      title: translateMessageId("page-index-get-started-dapps-title", intl),
-      description: translateMessageId(
-        "page-index-get-started-dapps-description",
+      title: translateMessageId(
+        "rint-page-index-get-started-dapps-title",
         intl
       ),
-      alt: translateMessageId("page-index-get-started-dapps-image-alt", intl),
+      description: translateMessageId(
+        "rint-page-index-get-started-dapps-description",
+        intl
+      ),
+      alt: translateMessageId(
+        "rint-page-index-get-started-dapps-image-alt",
+        intl
+      ),
       to: "/dapps/",
     },
     {
       image: data.devfixed.childImageSharp.fixed,
-      title: translateMessageId("page-index-get-started-devs-title", intl),
+      title: translateMessageId("rint-page-index-get-started-devs-title", intl),
       description: translateMessageId(
-        "page-index-get-started-devs-description",
+        "rint-page-index-get-started-devs-description",
         intl
       ),
-      alt: translateMessageId("page-index-get-started-devs-image-alt", intl),
+      alt: translateMessageId(
+        "rint-page-index-get-started-devs-image-alt",
+        intl
+      ),
       to: "/developers/",
     },
   ]
@@ -468,27 +486,33 @@ const HomePage = ({ data }) => {
   const touts = [
     {
       image: data.merge.childImageSharp.fixed,
-      alt: translateMessageId("page-index-tout-eth2-image-alt", intl),
-      title: translateMessageId("page-index-tout-eth2-title", intl),
-      description: translateMessageId("page-index-tout-eth2-description", intl),
-      to: "/eth2/",
+      alt: translateMessageId("rint-page-index-tout-rnt-image-alt", intl),
+      title: translateMessageId("rint-page-index-tout-rnt-title", intl),
+      description: translateMessageId(
+        "rint-page-index-tout-rnt-description",
+        intl
+      ),
+      to: "/rnt/",
     },
     {
       image: data.infrastructurefixed.childImageSharp.fixed,
-      alt: translateMessageId("page-index-tout-enterprise-image-alt", intl),
-      title: translateMessageId("page-index-tout-enterprise-title", intl),
+      alt: translateMessageId(
+        "rint-page-index-tout-enterprise-image-alt",
+        intl
+      ),
+      title: translateMessageId("rint-page-index-tout-enterprise-title", intl),
       description: translateMessageId(
-        "page-index-tout-enterprise-description",
+        "rint-page-index-tout-enterprise-description",
         intl
       ),
       to: "/enterprise/",
     },
     {
       image: data.enterprise.childImageSharp.fixed,
-      alt: translateMessageId("page-index-tout-community-image-alt", intl),
-      title: translateMessageId("page-index-tout-community-title", intl),
+      alt: translateMessageId("rint-page-index-tout-community-image-alt", intl),
+      title: translateMessageId("rint-page-index-tout-community-title", intl),
       description: translateMessageId(
-        "page-index-tout-community-description",
+        "rint-page-index-tout-community-description",
         intl
       ),
       to: "/community/",
@@ -501,20 +525,20 @@ const HomePage = ({ data }) => {
   const codeExamples = [
     {
       title: translateMessageId(
-        "page-index-developers-code-example-title-0",
+        "rint-page-index-developers-code-example-title-0",
         intl
       ),
       description: translateMessageId(
-        "page-index-developers-code-example-description-0",
+        "rint-page-index-developers-code-example-description-0",
         intl
       ),
       codeLanguage: "language-solidity",
       code: `// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.1;
 
-// This is a smart contract - a program that can be deployed to the Ethereum blockchain.
+// This is a smart contract - a program that can be deployed to the ethereum blockchain.
 contract SimpleWallet {
-    // An 'address' is comparable to an email address - it's used to identify an account on Ethereum.
+    // An 'address' is comparable to an email address - it's used to identify an account on ethereum.
     address payable private owner;
 
     // Events allow for logging of activity on the blockchain.
@@ -527,13 +551,13 @@ contract SimpleWallet {
         owner = payable(msg.sender);
     }
 
-    // Send ETH from the function caller to the SimpleWallet contract
+    // Send rnt from the function caller to the SimpleWallet contract
     function deposit() public payable {
-        require(msg.value > 0, "Must send ETH.");
+        require(msg.value > 0, "Must send rnt.");
         emit LogDeposit(msg.value, msg.sender);
     }
 
-    // Send ETH from the SimpleWallet contract to a chosen recipient
+    // Send rnt from the SimpleWallet contract to a chosen recipient
     function withdraw(uint amount, address payable recipient) public {
         require(msg.sender == owner, "Only the owner of this wallet can withdraw.");
         require(address(this).balance >= amount, "Not enough funds.");
@@ -545,20 +569,20 @@ contract SimpleWallet {
     },
     {
       title: translateMessageId(
-        "page-index-developers-code-example-title-1",
+        "rint-page-index-developers-code-example-title-1",
         intl
       ),
       description: translateMessageId(
-        "page-index-developers-code-example-description-1",
+        "rint-page-index-developers-code-example-description-1",
         intl
       ),
       codeLanguage: "language-solidity",
       code: `// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.1;
 
-// This is a smart contract - a program that can be deployed to the Ethereum blockchain.
+// This is a smart contract - a program that can be deployed to the ethereum blockchain.
 contract SimpleToken {
-    // An address is comparable to an email address - it's used to identify an account on Ethereum.
+    // An address is comparable to an email address - it's used to identify an account on ethereum.
     address public owner;
     uint256 public constant token_supply = 1000000000000;
 
@@ -589,26 +613,26 @@ contract SimpleToken {
     },
     {
       title: translateMessageId(
-        "page-index-developers-code-example-title-2",
+        "rint-page-index-developers-code-example-title-2",
         intl
       ),
       description: translateMessageId(
-        "page-index-developers-code-example-description-2",
+        "rint-page-index-developers-code-example-description-2",
         intl
       ),
       codeLanguage: "language-javascript",
-      code: `const ethers = require("ethers");
+      code: `const rnters = require("rnters");
 
 // Create a wallet instance from a mnemonic...
 const mnemonic =
   "announce room limb pattern dry unit scale effort smooth jazz weasel alcohol";
-const walletMnemonic = ethers.Wallet.fromMnemonic(mnemonic);
+const walletMnemonic = rnters.Wallet.fromMnemonic(mnemonic);
 
 // ...or from a private key
-const walletPrivateKey = new ethers.Wallet(walletMnemonic.privateKey);
+const walletPrivateKey = new rnters.Wallet(walletMnemonic.privateKey);
 
 // ...or create a wallet from a random private key
-const randomWallet = ethers.Wallet.createRandom();
+const randomWallet = rnters.Wallet.createRandom();
 
 walletMnemonic.address;
 // '0x71CB05EE1b1F506fF321Da3dac38f25c0c9ce6E1'
@@ -621,14 +645,14 @@ walletMnemonic.publicKey;
 
 const tx = {
   to: "0x8ba1f109551bD432803012645Ac136ddd64DBA72",
-  value: ethers.utils.parseEther("1.0"),
+  value: rnters.utils.parsernter("1.0"),
 };
 
 // Sign a transaction
 walletMnemonic.signTransaction(tx);
 // { Promise: '0xf865808080948ba1f109551bd432803012645ac136ddd6...dfc' }
 
-// Connect to the Ethereum network using a provider
+// Connect to the ethereum network using a provider
 const wallet = walletMnemonic.connect(provider);
 
 // Query the network
@@ -637,35 +661,35 @@ wallet.getBalance();
 wallet.getTransactionCount();
 // { Promise: 0 }
 
-// Send ether
+// Send rnter
 wallet.sendTransaction(tx);
 
-// Content adapted from ethers documentation by Richard Moore
-// https://docs.ethers.io/v5/api/signer/#Wallet
-// https://github.com/ethers-io/ethers.js/blob/master/docs/v5/api/signer/README.md#methods
+// Content adapted from rnters documentation by Richard Moore
+// https://docs.rnters.io/v5/api/signer/#Wallet
+// https://github.com/rnters-io/rnters.js/blob/master/docs/v5/api/signer/README.md#mrntods
 // Content is licensed under the Creative Commons License:
 // https://choosealicense.com/licenses/cc-by-4.0/      
       `,
     },
     {
       title: translateMessageId(
-        "page-index-developers-code-example-title-3",
+        "rint-page-index-developers-code-example-title-3",
         intl
       ),
       description: translateMessageId(
-        "page-index-developers-code-example-description-3",
+        "rint-page-index-developers-code-example-description-3",
         intl
       ),
       codeLanguage: "language-solidity",
       code: `// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.1;
 
-// This is a smart contract - a program that can be deployed to the Ethereum blockchain.
+// This is a smart contract - a program that can be deployed to the ethereum blockchain.
 contract SimpleDomainRegistry {
 
     address public owner;
     // Hypothetical cost to register a domain name
-    uint constant public DOMAIN_NAME_COST = 1 ether;
+    uint constant public DOMAIN_NAME_COST = 1 rnter;
 
     // A mapping is essentially a hash table data structure.
     // This mapping assigns an address (the domain holder) to a string (the domain name).
@@ -704,24 +728,27 @@ contract SimpleDomainRegistry {
   return (
     <Page>
       <PageMetadata
-        title={translateMessageId("page-index-meta-title", intl)}
-        description={translateMessageId("page-index-meta-description", intl)}
+        title={translateMessageId("rint-page-index-meta-title", intl)}
+        description={translateMessageId(
+          "rint-page-index-meta-description",
+          intl
+        )}
       />
       <Hero
         fluid={data.hero.childImageSharp.fluid}
-        alt={translateMessageId("page-index-hero-image-alt", intl)}
+        alt={translateMessageId("rint-page-index-hero-image-alt", intl)}
         loading="eager"
       />
       <Morpher />
       <Header>
         <H1>
-          <Translation id="page-index-title" />
+          <Translation id="rint-page-index-title" />
         </H1>
         <Description>
-          <Translation id="page-index-description" />
+          <Translation id="rint-page-index-description" />
         </Description>
         <ButtonLink isSecondary to="/what-is-ethereum/">
-          <Translation id="page-index-title-button" />
+          <Translation id="rint-page-index-title-button" />
         </ButtonLink>
       </Header>
       <StyledGrayContainer>
@@ -729,17 +756,17 @@ contract SimpleDomainRegistry {
           <IntroRow>
             <IntroLeftColumn>
               <H2>
-                <Translation id="page-index-get-started" />
+                <Translation id="rint-page-index-get-started" />
               </H2>
               <Subtitle>
-                <Translation id="page-index-get-started-description" />
+                <Translation id="rint-page-index-get-started-description" />
               </Subtitle>
             </IntroLeftColumn>
             <ImageContainer>
               <IntroImage
                 fluid={data.hackathon.childImageSharp.fluid}
                 alt={translateMessageId(
-                  "page-index-get-started-image-alt",
+                  "rint-page-index-get-started-image-alt",
                   intl
                 )}
               />
@@ -759,21 +786,21 @@ contract SimpleDomainRegistry {
           </StyledCardContainer>
         </StyledContent>
       </StyledGrayContainer>
-      <EthereumIntroContainer>
+      <ethereumIntroContainer>
         <RowReverse>
           <FeatureContent>
             <StyledH2>
-              <Translation id="page-index-what-is-ethereum" />
+              <Translation id="rint-page-index-what-is-rint" />
             </StyledH2>
             <Subtitle>
-              <Translation id="page-index-what-is-ethereum-description" />
+              <Translation id="rint-page-index-what-is-rint-description" />
             </Subtitle>
             <ButtonRow>
               <ButtonLink to="/what-is-ethereum/">
-                <Translation id="page-index-what-is-ethereum-button" />
+                <Translation id="rint-page-index-what-is-rint-button" />
               </ButtonLink>
-              <StyledButtonLink isSecondary to="/eth/">
-                <Translation id="page-index-what-is-ethereum-secondary-button" />
+              <StyledButtonLink isSecondary to="/rnt/">
+                <Translation id="rint-page-index-what-is-rint-secondary-button" />
               </StyledButtonLink>
             </ButtonRow>
           </FeatureContent>
@@ -781,26 +808,26 @@ contract SimpleDomainRegistry {
             <FeatureImage
               fluid={data.ethereum.childImageSharp.fluid}
               alt={translateMessageId(
-                "page-index-what-is-ethereum-image-alt",
+                "rint-page-index-what-is-rint-image-alt",
                 intl
               )}
             />
           </ImageContainer>
         </RowReverse>
-      </EthereumIntroContainer>
+      </ethereumIntroContainer>
       <FinanceContainer>
         <Row>
           <FeatureContent>
             <LeftColumnContent>
               <StyledH2>
-                <Translation id="page-index-defi" />
+                <Translation id="rint-page-index-defi" />
               </StyledH2>
               <Subtitle>
-                <Translation id="page-index-defi-description" />
+                <Translation id="rint-page-index-defi-description" />
               </Subtitle>
               <div>
                 <ButtonLink to="/defi/">
-                  <Translation id="page-index-defi-button" />
+                  <Translation id="rint-page-index-defi-button" />
                 </ButtonLink>
               </div>
             </LeftColumnContent>
@@ -808,7 +835,7 @@ contract SimpleDomainRegistry {
           <ImageContainer>
             <FeatureImage
               fluid={data.impact.childImageSharp.fluid}
-              alt={translateMessageId("page-index-defi-image-alt", intl)}
+              alt={translateMessageId("rint-page-index-defi-image-alt", intl)}
             />
           </ImageContainer>
         </Row>
@@ -818,20 +845,20 @@ contract SimpleDomainRegistry {
           <ImageContainer>
             <FeatureImage
               fluid={data.infrastructure.childImageSharp.fluid}
-              alt={translateMessageId("page-index-nft-alt", intl)}
+              alt={translateMessageId("rint-page-index-nft-alt", intl)}
             />
           </ImageContainer>
           <FeatureContent>
             <LeftColumnContent>
               <StyledH2>
-                <Translation id="page-index-nft" />
+                <Translation id="rint-page-index-nft" />
               </StyledH2>
               <Subtitle>
-                <Translation id="page-index-nft-description" />
+                <Translation id="rint-page-index-nft-description" />
               </Subtitle>
               <div>
                 <ButtonLink to="/nft/">
-                  <Translation id="page-index-nft-button" />
+                  <Translation id="rint-page-index-nft-button" />
                 </ButtonLink>
               </div>
             </LeftColumnContent>
@@ -843,17 +870,17 @@ contract SimpleDomainRegistry {
           <FeatureContent>
             <LeftColumnContent>
               <StyledH2>
-                <Translation id="page-index-internet" />
+                <Translation id="rint-page-index-internet" />
               </StyledH2>
               <Subtitle>
-                <Translation id="page-index-internet-description" />
+                <Translation id="rint-page-index-internet-description" />
               </Subtitle>
               <ButtonRow>
                 <ButtonLink to="/dapps/?category=technology">
-                  <Translation id="page-index-internet-button" />
+                  <Translation id="rint-page-index-internet-button" />
                 </ButtonLink>
                 <StyledButtonLink isSecondary to="/wallets/">
-                  <Translation id="page-index-internet-secondary-button" />
+                  <Translation id="rint-page-index-internet-secondary-button" />
                 </StyledButtonLink>
               </ButtonRow>
             </LeftColumnContent>
@@ -861,7 +888,10 @@ contract SimpleDomainRegistry {
           <ImageContainer>
             <FeatureImage
               fluid={data.future.childImageSharp.fluid}
-              alt={translateMessageId("page-index-internet-image-alt", intl)}
+              alt={translateMessageId(
+                "rint-page-index-internet-image-alt",
+                intl
+              )}
             />
           </ImageContainer>
         </Row>
@@ -880,14 +910,14 @@ contract SimpleDomainRegistry {
         <FeatureContent>
           <LeftColumnContent>
             <StyledH2>
-              <Translation id="page-index-developers" />
+              <Translation id="rint-page-index-developers" />
             </StyledH2>
             <Subtitle>
-              <Translation id="page-index-developers-description" />
+              <Translation id="rint-page-index-developers-description" />
             </Subtitle>
             <ButtonRow>
               <ButtonLink to="/developers/">
-                <Translation id="page-index-developers-button" />
+                <Translation id="rint-page-index-developers-button" />
               </ButtonLink>
             </ButtonRow>
           </LeftColumnContent>
@@ -909,17 +939,17 @@ contract SimpleDomainRegistry {
       <StyledGrayContainer>
         <StyledContent>
           <h2>
-            <Translation id="page-index-network-stats-title" />
+            <Translation id="rint-page-index-network-stats-title" />
           </h2>
           <Subtitle>
-            <Translation id="page-index-network-stats-subtitle" />
+            <Translation id="rint-page-index-network-stats-subtitle" />
           </Subtitle>
         </StyledContent>
         <StatsBoxGrid />
       </StyledGrayContainer>
       <StyledContent>
         <h2>
-          <Translation id="page-index-touts-header" />
+          <Translation id="rint-page-index-touts-header" />
         </h2>
       </StyledContent>
       <StyledContent>
@@ -938,27 +968,27 @@ contract SimpleDomainRegistry {
         </StyledCardContainer>
         <StyledCalloutBanner
           title={translateMessageId(
-            "page-index-contribution-banner-title",
+            "rint-page-index-contribution-banner-title",
             intl
           )}
           description={translateMessageId(
-            "page-index-contribution-banner-description",
+            "rint-page-index-contribution-banner-description",
             intl
           )}
           image={data.finance.childImageSharp.fluid}
           maxImageWidth={600}
           alt={translateMessageId(
-            "page-index-contribution-banner-image-alt",
+            "rint-page-index-contribution-banner-image-alt",
             intl
           )}
         >
           <ButtonRow>
             <ButtonLink to="/en/contributing/">
-              <Translation id="page-index-contribution-banner-button" />
+              <Translation id="rint-page-index-contribution-banner-button" />
             </ButtonLink>
             <StyledButtonLink
               isSecondary
-              to="https://github.com/ethereum/ethereum-org-website"
+              to="https://github.com/rintnetwork/front-end"
             >
               <StyledIcon name="github" /> GitHub
             </StyledButtonLink>
@@ -980,79 +1010,77 @@ export const query = graphql`
         }
       }
     }
-    ethereum: file(relativePath: { eq: "what-is-ethereum.png" }) {
+    ethereum: file(relativePath: { eq: "what-is-rint-network.png" }) {
       childImageSharp {
         fluid(maxWidth: 1440) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    enterprise: file(relativePath: { eq: "enterprise-eth.png" }) {
+    enterprise: file(relativePath: { eq: "the-rint-network-community.png" }) {
       childImageSharp {
         fixed(width: 320) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    dogefixed: file(relativePath: { eq: "doge-computer.png" }) {
+    dogefixed: file(relativePath: { eq: "use-dapp.png" }) {
       childImageSharp {
         fixed(width: 320) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    robotfixed: file(relativePath: { eq: "wallet-cropped.png" }) {
+    robotfixed: file(relativePath: { eq: "pick-wallet.png" }) {
       childImageSharp {
         fixed(width: 320) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    ethfixed: file(relativePath: { eq: "eth.png" }) {
+    rntfixed: file(relativePath: { eq: "get-rnt.png" }) {
       childImageSharp {
         fixed(width: 320) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    devfixed: file(relativePath: { eq: "developers-eth-blocks.png" }) {
+    devfixed: file(relativePath: { eq: "start-building.png" }) {
       childImageSharp {
         fixed(width: 320) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    future: file(relativePath: { eq: "future_transparent.png" }) {
+    future: file(relativePath: { eq: "an-open-internet.png" }) {
       childImageSharp {
         fluid(maxWidth: 1440) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    impact: file(relativePath: { eq: "impact_transparent.png" }) {
+    impact: file(relativePath: { eq: "a-fairer-financial-system.png" }) {
       childImageSharp {
         fluid(maxWidth: 1440) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    finance: file(relativePath: { eq: "finance_transparent.png" }) {
+    finance: file(relativePath: { eq: "contribute-to-rint-network.png" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    hackathon: file(relativePath: { eq: "hackathon_transparent.png" }) {
+    hackathon: file(relativePath: { eq: "get-started.png" }) {
       childImageSharp {
         fluid(maxWidth: 1440) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    infrastructure: file(
-      relativePath: { eq: "infrastructure_transparent.png" }
-    ) {
+    infrastructure: file(relativePath: { eq: "the-internet-of-assets.png" }) {
       childImageSharp {
         fluid(maxWidth: 1440) {
           ...GatsbyImageSharpFluid
@@ -1060,7 +1088,7 @@ export const query = graphql`
       }
     }
     infrastructurefixed: file(
-      relativePath: { eq: "infrastructure_transparent.png" }
+      relativePath: { eq: "rint-network-for-enterprises.png" }
     ) {
       childImageSharp {
         fixed(width: 320) {
@@ -1068,7 +1096,9 @@ export const query = graphql`
         }
       }
     }
-    merge: file(relativePath: { eq: "eth2/merge.png" }) {
+    merge: file(
+      relativePath: { eq: "upgrade-your-rint-network-knowledge.png" }
+    ) {
       childImageSharp {
         fixed(width: 320) {
           ...GatsbyImageSharpFixed

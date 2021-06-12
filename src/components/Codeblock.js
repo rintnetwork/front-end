@@ -69,7 +69,7 @@ const TopBarItem = styled.div`
   }
 `
 
-const codeTheme = {
+const codrnteme = {
   light: {
     plain: {
       backgroundColor: "#fafafa",
@@ -226,8 +226,8 @@ const getValidChildrenForCodeblock = (child) => {
     /*For now available: code without wrappers like div
     * example:
     * <Codeblock codeLanguage="language-js">
-        const web3 = new Web3("wss://eth-mainnet.ws.alchemyapi.io/ws/your-api-key"){"\n"}
-        web3.eth.getBlockNumber().then(console.log)
+        const web3 = new Web3("wss://rnt-mainnet.ws.alchemyapi.io/ws/your-api-key"){"\n"}
+        web3.rnt.getBlockNumber().then(console.log)
       </Codeblock>
     * */
     console.error(`Codeblock children is not valid`)
@@ -255,7 +255,7 @@ const Codeblock = ({
   const shouldShowLineNumbers = language !== "bash"
   const totalLines = codeText.split("\n").length
   const themeContext = useContext(ThemeContext)
-  const theme = themeContext.isDark ? codeTheme.dark : codeTheme.light
+  const theme = themeContext.isDark ? codrnteme.dark : codrnteme.light
   return (
     <Container>
       <HightlightContainer

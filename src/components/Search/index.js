@@ -112,49 +112,51 @@ const StyledHighlight = styled(Highlight)`
   }
 `
 
-const PageHit = (clickHandler) => ({ hit }) => {
-  // Make url relative, so `handleSelect` is triggered
-  const url = hit.url.replace("https://ethereum.org", "")
-  return (
-    <div>
-      <GatsbyLink to={url} onClick={clickHandler}>
-        <PageHeader>
-          <Highlight attribute="hierarchy.lvl1" hit={hit} tagName="mark" />
-        </PageHeader>
-        {hit.hierarchy.lvl2 && (
-          <StyledHighlight
-            attribute="hierarchy.lvl2"
-            hit={hit}
-            tagName="mark"
-          />
-        )}
-        {hit.hierarchy.lvl3 && (
-          <StyledHighlight
-            attribute="hierarchy.lvl3"
-            hit={hit}
-            tagName="mark"
-          />
-        )}
-        {hit.hierarchy.lvl4 && (
-          <StyledHighlight
-            attribute="hierarchy.lvl4"
-            hit={hit}
-            tagName="mark"
-          />
-        )}
-        {hit.content && (
-          <StyledSnippet attribute="content" hit={hit} tagName="mark" />
-        )}
-      </GatsbyLink>
-    </div>
-  )
-}
+const PageHit =
+  (clickHandler) =>
+  ({ hit }) => {
+    // Make url relative, so `handleSelect` is triggered
+    const url = hit.url.replace("https://ethereum.org", "")
+    return (
+      <div>
+        <GatsbyLink to={url} onClick={clickHandler}>
+          <PageHeader>
+            <Highlight attribute="hierarchy.lvl1" hit={hit} tagName="mark" />
+          </PageHeader>
+          {hit.hierarchy.lvl2 && (
+            <StyledHighlight
+              attribute="hierarchy.lvl2"
+              hit={hit}
+              tagName="mark"
+            />
+          )}
+          {hit.hierarchy.lvl3 && (
+            <StyledHighlight
+              attribute="hierarchy.lvl3"
+              hit={hit}
+              tagName="mark"
+            />
+          )}
+          {hit.hierarchy.lvl4 && (
+            <StyledHighlight
+              attribute="hierarchy.lvl4"
+              hit={hit}
+              tagName="mark"
+            />
+          )}
+          {hit.content && (
+            <StyledSnippet attribute="content" hit={hit} tagName="mark" />
+          )}
+        </GatsbyLink>
+      </div>
+    )
+  }
 
 const indices = [
   { name: `prod-ethereum-org`, title: `Pages`, hitComp: `PageHit` },
 ]
 
-// Validate agaisnt basic requirements of an ETH address
+// Validate agaisnt basic requirements of an rnt address
 const isValidAddress = (address) => {
   return /^(0x)?[0-9a-f]{40}$/i.test(address)
 }
@@ -174,9 +176,9 @@ const Results = connectStateResults(
             "{state.query}"
           </p>
           <p>
-            <Translation id="search-eth-address" />{" "}
-            <Link to={`https://etherscan.io/address/${state.query}`}>
-              Etherscan
+            <Translation id="search-rnt-address" />{" "}
+            <Link to={`https://rnterscan.io/address/${state.query}`}>
+              rnterscan
             </Link>
             .
           </p>

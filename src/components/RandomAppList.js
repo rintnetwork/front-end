@@ -41,7 +41,7 @@ const appList = [
     description: "random-app-list-augur",
   },
   {
-    name: "Ethereum Name Service",
+    name: "ethereum Name Service",
     url: "http://ens.domains/",
     description: "random-app-list-ens",
   },

@@ -76,7 +76,7 @@ const LanguagesPage = () => {
     setKeyword("")
   }
   const searchString = translateMessageId(
-    "page-languages-filter-placeholder",
+    "rint-page-languages-filter-placeholder",
     intl
   )
   let translationsCompleted = []
@@ -98,26 +98,26 @@ const LanguagesPage = () => {
   return (
     <StyledPage>
       <PageMetadata
-        title={translateMessageId("page-languages-meta-title", intl)}
-        description={translateMessageId("page-languages-meta-desc", intl)}
+        title={translateMessageId("rint-page-languages-meta-title", intl)}
+        description={translateMessageId("rint-page-languages-meta-desc", intl)}
       />
       <Content>
         <ContentContainer>
           <h1>
-            <Translation id="page-languages-h1" />
+            <Translation id="rint-page-languages-h1" />
           </h1>
           <p>
-            <Translation id="page-languages-p1" />
+            <Translation id="rint-page-languages-p1" />
           </p>
           <p>
-            <Translation id="page-languages-interested" />{" "}
+            <Translation id="rint-page-languages-interested" />{" "}
             <Link to="/en/contributing/translation-program/">
-              <Translation id="page-languages-learn-more" />
+              <Translation id="rint-page-languages-learn-more" />
             </Link>
             .
           </p>
           <h2>
-            <Translation id="page-languages-translations-available" />:
+            <Translation id="rint-page-languages-translations-available" />:
           </h2>
           <Form>
             <StyledInput
@@ -140,12 +140,12 @@ const LanguagesPage = () => {
             ))}
           </LangContainer>
           <h2>
-            <Translation id="page-languages-want-more-header" />
+            <Translation id="rint-page-languages-want-more-header" />
           </h2>
           <p>
-            <Translation id="page-languages-want-more-paragraph" />{" "}
+            <Translation id="rint-page-languages-want-more-paragraph" />{" "}
             <Link to="/en/contributing/translation-program/">
-              <Translation id="page-languages-want-more-link" />
+              <Translation id="rint-page-languages-want-more-link" />
             </Link>
             .
           </p>

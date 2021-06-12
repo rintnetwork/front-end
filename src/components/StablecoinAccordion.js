@@ -269,7 +269,7 @@ const StablecoinAccordion = () => {
           }
         }
       }
-      eth: file(relativePath: { eq: "favicon.png" }) {
+      rnt: file(relativePath: { eq: "favicon.png" }) {
         childImageSharp {
           fixed(width: 24) {
             ...GatsbyImageSharpFixed
@@ -434,8 +434,8 @@ const StablecoinAccordion = () => {
         "page-stablecoins-accordion-earn-project-bug-bounties",
         intl
       ),
-      image: data.eth.childImageSharp.fixed,
-      link: "/eth2/get-involved/bug-bounty/",
+      image: data.rnt.childImageSharp.fixed,
+      link: "/rnt/get-involved/bug-bounty/",
       description: translateMessageId(
         "page-stablecoins-accordion-earn-project-3-description",
         intl
@@ -539,7 +539,7 @@ const StablecoinAccordion = () => {
                     <StyledIcon name="arrowRight" />
                   </StepBoxRow>
                 </StepBox>
-                <StepBox to="/get-eth/">
+                <StepBox to="/get-rnt/">
                   <StepBoxRow>
                     <div>
                       <StepboxTitle>
@@ -571,7 +571,7 @@ const StablecoinAccordion = () => {
               </SectionTitle>
               <p>
                 <Translation id="page-stablecoins-accordion-swap-dapp-intro" />{" "}
-                <Link to="/get-eth/#dex">
+                <Link to="/get-rnt/#dex">
                   <Translation id="page-stablecoins-accordion-swap-dapp-link" />
                 </Link>
               </p>
@@ -605,7 +605,7 @@ const StablecoinAccordion = () => {
                 <Translation id="page-stablecoins-accordion-buy-requirements-description" />
               </p>
               <StepBoxContainer>
-                <StepBox to="/get-eth/">
+                <StepBox to="/get-rnt/">
                   <StepBoxRow>
                     <div>
                       <StepboxTitle>
@@ -729,7 +729,7 @@ const StablecoinAccordion = () => {
                     <StyledIcon name="arrowRight" />
                   </StepBoxRow>
                 </StepBox>
-                <StepBox to="/get-eth/">
+                <StepBox to="/get-rnt/">
                   <StepBoxRow>
                     <div>
                       <StepboxTitle>
@@ -769,7 +769,7 @@ const StablecoinAccordion = () => {
               </SectionTitle>
               <p>
                 <Translation id="page-stablecoins-accordion-borrow-risks-copy" />{" "}
-                <Link to="/eth/">
+                <Link to="/rnt/">
                   <Translation id="page-stablecoins-accordion-borrow-risks-link" />
                 </Link>
               </p>

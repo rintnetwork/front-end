@@ -4,12 +4,12 @@
  // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.1;
 
-// This is a smart contract - a program that can be deployed to the Ethereum blockchain.
+// This is a smart contract - a program that can be deployed to the ethereum blockchain.
 contract SimpleDomainRegistry {
 
     address public owner;
     // Hypothetical cost to register a domain name
-    uint constant public DOMAIN_NAME_COST = 1 ether;
+    uint constant public DOMAIN_NAME_COST = 1 rnter;
 
     // A `mapping` is essentially a hash table data structure.
     // This `mapping` assigns an address (the domain holder) to a string (the domain name).

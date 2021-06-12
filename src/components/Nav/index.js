@@ -126,13 +126,13 @@ const NavIcon = styled(Icon)`
 `
 
 // TODO display page title on mobile
-const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
+const Nav = ({ handlrntemeChange, isDarkTheme, path }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
 
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "eth-home-icon.png" }) {
+      file(relativePath: { eq: "rnt-home-icon.png" }) {
         childImageSharp {
           fixed(width: 22) {
             ...GatsbyImageSharpFixed
@@ -145,28 +145,24 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
 
   const linkSections = [
     {
-      text: "use-ethereum",
-      ariaLabel: "use-ethereum-menu",
+      text: "use-rint",
+      ariaLabel: "use-rint-menu",
       items: [
         {
-          text: "ethereum-wallets",
+          text: "rint-wallets",
           to: "/wallets/",
         },
         {
-          text: "get-eth",
-          to: "/get-eth/",
+          text: "get-rnt",
+          to: "/get-rnt/",
         },
         {
           text: "decentralized-applications-dapps",
           to: "/dapps/",
         },
         {
-          text: "page-stablecoins-title",
-          to: "/stablecoins/",
-        },
-        {
-          text: "page-stake-eth",
-          to: "/eth2/staking/",
+          text: "page-stake-rnt",
+          to: "/rnt/staking/",
         },
       ],
     },
@@ -175,44 +171,24 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
       ariaLabel: "learn-menu",
       items: [
         {
-          text: "what-is-ethereum",
-          to: "/what-is-ethereum/",
+          text: "what-is-rint",
+          to: "/what-is-rint/",
         },
         {
-          text: "what-is-ether",
-          to: "/eth/",
+          text: "what-is-rnt",
+          to: "/rnt/",
         },
         {
-          text: "defi-page",
-          to: "/defi/",
-        },
-        {
-          text: "dao-page",
-          to: "/dao/",
-        },
-        {
-          text: "nft-page",
-          to: "/nft/",
-        },
-        {
-          text: "history-of-ethereum",
+          text: "history-of-rint",
           to: "/history/",
         },
         {
-          text: "ethereum-whitepaper",
+          text: "rint-whitepaper",
           to: "/whitepaper/",
         },
         {
-          text: "ethereum-2-0",
-          to: "/eth2/",
-        },
-        {
-          text: "ethereum-glossary",
-          to: "/glossary/",
-        },
-        {
-          text: "eips",
-          to: "/eips/",
+          text: "rips",
+          to: "/rips/",
         },
         {
           text: "guides-and-resources",
@@ -221,42 +197,16 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
       ],
     },
     {
-      text: "developers",
-      ariaLabel: "page-developers-aria-label",
-      items: [
-        {
-          text: "developers-home",
-          to: "/developers/",
-        },
-        {
-          text: "documentation",
-          to: "/developers/docs/",
-        },
-        {
-          text: "tutorials",
-          to: "/developers/tutorials/",
-        },
-        {
-          text: "learn-by-coding",
-          to: "/developers/learning-tools/",
-        },
-        {
-          text: "set-up-local-env",
-          to: "/developers/local-environment/",
-        },
-      ],
-    },
-    {
       text: "enterprise",
       ariaLabel: "enterprise-menu",
       items: [
         {
-          text: "mainnet-ethereum",
+          text: "mainnet-rint",
           to: "/enterprise/",
         },
         {
-          text: "private-ethereum",
-          to: "/enterprise/private-ethereum/",
+          text: "private-rint",
+          to: "/enterprise/private-rint/",
         },
       ],
     },
@@ -265,7 +215,7 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
       ariaLabel: "community-menu",
       items: [
         {
-          text: "ethereum-community",
+          text: "rint-community",
           to: "/community/",
         },
         {
@@ -320,7 +270,7 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
           <HomeLogoNavLink to="/">
             <HomeLogo
               fixed={data.file.childImageSharp.fixed}
-              alt={translateMessageId("ethereum-logo", intl)}
+              alt={translateMessageId("rint-logo", intl)}
             />
           </HomeLogoNavLink>
           {/* Desktop */}
@@ -347,7 +297,7 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
             </LeftItems>
             <RightItems>
               <Search />
-              <ThemeToggle onClick={handleThemeChange}>
+              <ThemeToggle onClick={handlrntemeChange}>
                 <NavIcon name={isDarkTheme ? "darkTheme" : "lightTheme"} />
               </ThemeToggle>
               <RightNavLink to="/languages/">
@@ -364,7 +314,7 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
             isSearchOpen={isSearchOpen}
             isDarkTheme={isDarkTheme}
             toggleMenu={handleMenuToggle}
-            toggleTheme={handleThemeChange}
+            togglrnteme={handlrntemeChange}
             linkSections={mobileLinkSections}
           />
         </NavContent>

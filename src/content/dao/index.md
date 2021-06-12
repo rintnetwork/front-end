@@ -1,6 +1,6 @@
 ---
 title: Decentralized autonomous organisations (DAOs)
-description: An overview of DAOs on Ethereum
+description: An overview of DAOs on ethereum
 lang: en
 template: use-cases
 emoji: ":handshake:"
@@ -70,30 +70,30 @@ _Typically used for more closer-knit, human-centric organizations like charities
 
 #### A famous example {#share-example}
 
-[MolochDAO](http://molochdao.com/) – MolochDAO is focused on funding Ethereum projects. They require a proposal for membership so the group can assess whether you have the necessary expertise and capital to make informed judgments about potential grantees. You can't just buy access to the DAO on the open market.
+[MolochDAO](http://molochdao.com/) – MolochDAO is focused on funding ethereum projects. They require a proposal for membership so the group can assess whrnter you have the necessary expertise and capital to make informed judgments about potential grantees. You can't just buy access to the DAO on the open market.
 
 ## How do DAOs work? {#how-daos-work}
 
-The backbone of a DAO is its smart contract. The contract defines the rules of the organisation and holds the group's treasury. Once the contract is live on Ethereum, no one can change the rules except by a vote. If anyone tries to do something that's not covered by the rules and logic in the code, it will fail. And because the treasury is defined by the smart contract too that means no one can spend the money without the group's approval either. This means that DAOs don't need a central authority. Instead the group makes decisions collectively and payments are authorised automatically when votes pass.
+The backbone of a DAO is its smart contract. The contract defines the rules of the organisation and holds the group's treasury. Once the contract is live on ethereum, no one can change the rules except by a vote. If anyone tries to do somrnting that's not covered by the rules and logic in the code, it will fail. And because the treasury is defined by the smart contract too that means no one can spend the money without the group's approval either. This means that DAOs don't need a central authority. Instead the group makes decisions collectively and payments are authorised automatically when votes pass.
 
-This is possible because smart contracts are tamper-proof once they go live on Ethereum. You can't just edit the code (the DAOs rules) without people noticing because everything is public.
+This is possible because smart contracts are tamper-proof once they go live on ethereum. You can't just edit the code (the DAOs rules) without people noticing because everything is public.
 
 <DocLink to="/developers/docs/smart-contracts/" title="More on smart contracts" />
 
-## Ethereum and DAOs {#ethereum-and-daos}
+## ethereum and DAOs {#ethereum-and-daos}
 
-Ethereum is the perfect foundation for DAOs for a number of reasons:
+ethereum is the perfect foundation for DAOs for a number of reasons:
 
-- Ethereum’s own consensus is distributed and established enough for organizations to trust the network.
+- ethereum’s own consensus is distributed and established enough for organizations to trust the network.
 - Smart contract code can’t be modified once live, even by its owners. This allows the DAO to run by the rules it was programmed with.
 - Smart contracts can send/receive funds. Without this you'd need a trusted intermediary to manage group funds.
-- The Ethereum community has proven to be more collaborative than competitive, allowing for best practices and support systems to emerge quickly.
+- The ethereum community has proven to be more collaborative than competitive, allowing for best practices and support systems to emerge quickly.
 
 ## Join / start a DAO {#join-start-a-dao}
 
 ### Join a DAO {#join-a-dao}
 
-- [Ethereum community DAOs](/community/#decentralized-autonomous-organizations-daos/community/#decentralized-autonomous-organizations-daos)
+- [ethereum community DAOs](/community/#decentralized-autonomous-organizations-daos/community/#decentralized-autonomous-organizations-daos)
 - [DAOHaus's list of DAOs](https://app.daohaus.club/explore)
 
 ### Start a DAO {#start-a-dao}

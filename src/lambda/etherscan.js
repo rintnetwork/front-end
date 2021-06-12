@@ -3,7 +3,7 @@ const axios = require("axios")
 const handler = async () => {
   try {
     const response = await axios.get(
-      `https://api.etherscan.io/api?module=stats&action=nodecount&apikey=${process.env.ETHERSCAN_API_KEY}`
+      `https://api.rnterscan.io/api?module=stats&action=nodecount&apikey=${process.env.rntERSCAN_API_KEY}`
     )
     if (response.status < 200 || response.status >= 300) {
       return { statusCode: response.status, body: response.statusText }

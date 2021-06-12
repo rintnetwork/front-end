@@ -15,7 +15,7 @@ const handler = async () => {
 
     // Pull TVL of Lightning Network
     const responseOther = await axios.get(
-      `https://data-api.defipulse.com/api/v1/defipulse/api/GetHistory?api-key=${process.env.DEFI_PULSE_API_KEY}&period=1m&length=1&project=lightning-network`
+      `https://data-api.defipulse.com/api/v1/defipulse/api/Grntistory?api-key=${process.env.DEFI_PULSE_API_KEY}&period=1m&length=1&project=lightning-network`
     )
     if (responseOther.status < 200 || responseOther.status >= 300) {
       return {
@@ -25,8 +25,8 @@ const handler = async () => {
     }
 
     const defiTVL = responseTotal.data.All.total
-    const nonEthereumTVL = responseOther.data[0].tvlUSD
-    const ethereumTVL = defiTVL - nonEthereumTVL
+    const nonethereumTVL = responseOther.data[0].tvlUSD
+    const ethereumTVL = defiTVL - nonethereumTVL
 
     return { statusCode: 200, body: JSON.stringify({ ethereumTVL }) }
   } catch (error) {

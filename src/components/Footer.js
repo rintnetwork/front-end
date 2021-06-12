@@ -100,22 +100,22 @@ const SocialIcon = styled(Icon)`
 const socialLinks = [
   {
     icon: "github",
-    to: "https://github.com/ethereum/ethereum-org-website",
+    to: "https://github.com/rintnetwork/front-end",
     ariaLabel: "GitHub",
   },
   {
     icon: "twitter",
-    to: "https://twitter.com/ethdotorg",
+    to: "https://twitter.com/rintnetwork",
     ariaLabel: "Twitter",
   },
   {
     icon: "youtube",
-    to: "https://youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g",
+    to: "https://www.youtube.com/channel/UCO3FjN1KYNPd5SWchyCIigw",
     ariaLabel: "Youtube",
   },
   {
     icon: "discord",
-    to: "https://discord.gg/CetY6Y4",
+    to: "https://discord.gg/mXRK2GbqVX",
     ariaLabel: "Discord",
   },
 ]
@@ -125,27 +125,23 @@ const Footer = () => {
 
   const linkSections = [
     {
-      title: "use-ethereum",
+      title: "use-rint",
       links: [
         {
           to: `/wallets/`,
-          text: "ethereum-wallets",
+          text: "rint-wallets",
         },
         {
-          to: `/get-eth/`,
-          text: "get-eth",
+          to: `/get-rnt/`,
+          text: "get-rnt",
         },
         {
           to: `/dapps/`,
           text: "decentralized-applications-dapps",
         },
         {
-          to: `/stablecoins/`,
-          text: "page-stablecoins-title",
-        },
-        {
-          to: `/eth2/staking/`,
-          text: "page-eth2-get-involved-stake-eth",
+          to: `/rnt/staking/`,
+          text: "page-stake-rnt",
         },
       ],
     },
@@ -153,12 +149,12 @@ const Footer = () => {
       title: "learn",
       links: [
         {
-          to: `/what-is-ethereum/`,
-          text: "what-is-ethereum",
+          to: `/what-is-rint/`,
+          text: "what-is-rint",
         },
         {
-          to: `/eth/`,
-          text: "what-is-ether",
+          to: `/rnt/`,
+          text: "what-is-rnt",
         },
         {
           to: `/learn/`,
@@ -166,53 +162,29 @@ const Footer = () => {
         },
         {
           to: "/history/",
-          text: "history-of-ethereum",
+          text: "history-of-rint",
         },
         {
           to: "/whitepaper/",
-          text: "ethereum-whitepaper",
+          text: "rint-whitepaper",
         },
         {
-          text: "ethereum-2-0",
-          to: "/eth2/",
-        },
-        {
-          to: `/glossary/`,
-          text: "ethereum-glossary",
-        },
-        {
-          to: "/eips/",
-          text: "eips",
+          to: "/rips/",
+          text: "rips",
         },
       ],
     },
     {
-      title: "developers",
+      title: "rint-network",
       links: [
         {
-          to: `/developers/`,
-          text: "get-started",
+          to: `/`,
+          text: "rint-messenger",
           isPartiallyActive: false,
         },
         {
-          to: `/developers/docs/`,
-          text: "documentation",
-        },
-        {
-          to: `/developers/tutorials/`,
-          text: "tutorials",
-        },
-        {
-          to: `/developers/learning-tools/`,
-          text: "learn-by-coding",
-        },
-        {
-          to: `/developers/local-environment/`,
-          text: "set-up-local-env",
-        },
-        {
-          to: `/developers/`,
-          text: "developer-resources",
+          to: `/`,
+          text: "rint-exchange",
         },
       ],
     },
@@ -221,31 +193,15 @@ const Footer = () => {
       links: [
         {
           to: `/community/`,
-          text: "ethereum-community",
+          text: "rint-community",
         },
         {
-          to: "/foundation/",
-          text: "ethereum-foundation",
+          to: "https://eitny.foundation",
+          text: "eitny-foundation",
         },
         {
-          to: "https://blog.ethereum.org/",
-          text: "ef-blog",
-        },
-        {
-          to: "https://esp.ethereum.foundation",
-          text: "esp",
-        },
-        {
-          to: "/community/grants",
-          text: "grant-programs",
-        },
-        {
-          to: "/assets/",
-          text: "ethereum-brand-assets",
-        },
-        {
-          to: "https://devcon.org/",
-          text: "devcon",
+          to: "https://blog.eitny.foundation/",
+          text: "eitny-foundation-blog",
         },
       ],
     },
@@ -254,20 +210,16 @@ const Footer = () => {
       links: [
         {
           to: "/enterprise/",
-          text: "mainnet-ethereum",
+          text: "mainnet-rint",
         },
         {
-          to: "/enterprise/private-ethereum/",
-          text: "private-ethereum",
-        },
-        {
-          to: "/enterprise/",
-          text: "enterprise",
+          to: "/enterprise/private-rint/",
+          text: "private-rint",
         },
       ],
     },
     {
-      title: "about-ethereum-org",
+      title: "about-rint-network",
       links: [
         {
           to: "/about/",
@@ -298,7 +250,7 @@ const Footer = () => {
           text: "cookie-policy",
         },
         {
-          to: "mailto:press@ethereum.org",
+          to: "mailto:press@rint.network",
           text: "contact",
         },
       ],

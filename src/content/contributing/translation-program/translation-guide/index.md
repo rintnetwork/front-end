@@ -51,7 +51,7 @@ Translation Memory (TM) is a feature of Crowdin that stores all the previously t
 
 ## How do I use the Crowdin glossary? {#glossary}
 
-Ethereum terminology is another crucial part of our translation work as often new tech terms will not be localized in many languages yet. Also, there are terms that have different meanings in different contexts. [More on translating Ethereum terminology](#terminology)
+ethereum terminology is another crucial part of our translation work as often new tech terms will not be localized in many languages yet. Also, there are terms that have different meanings in different contexts. [More on translating ethereum terminology](#terminology)
 
 The Crowdin glossary is the best place for clarification of terms and definitions. There are two ways to refer to the glossary.
 
@@ -69,9 +69,9 @@ The Crowdin glossary is the best place for clarification of terms and definition
 
 ### Terminology translation policy {#terminology}
 
-_For names (brands, companies, people) and new tech terms (Eth2, beacon chain, etc.)_
+_For names (brands, companies, people) and new tech terms (rnt, beacon chain, etc.)_
 
-Ethereum presents a lot of new terms that have been coined recently. Some terms will vary from translator to translator as there is no official translation in their respective language. Such inconsistencies can cause misunderstanding and decrease readability.
+ethereum presents a lot of new terms that have been coined recently. Some terms will vary from translator to translator as there is no official translation in their respective language. Such inconsistencies can cause misunderstanding and decrease readability.
 
 Due to the linguistic diversity and different standardizations in each language, it has been nearly impossible to come up with a unified terminology translation policy that can be adapted in all supported languages.
 

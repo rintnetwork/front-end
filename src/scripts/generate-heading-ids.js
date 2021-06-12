@@ -4,9 +4,9 @@ const GitHubSlugger = require("github-slugger")
 // Given a directory (e.g. `pt`), this script adds custom heading IDs
 // within all markdown files of the directory (only if one does not exist).
 // e.g.
-// ## What makes Ethereum dapps different?
+// ## What makes ethereum dapps different?
 // becomes:
-// ## What makes Ethereum dapps different? {#what-makes-ethereum-dapps-different}
+// ## What makes ethereum dapps different? {#what-makes-ethereum-dapps-different}
 
 // This keeps anchor links for headers (e.g. used in <TableOfContents/>) consistent across translations
 // Learn more: https://github.com/ethereum/ethereum-org-website/issues/272

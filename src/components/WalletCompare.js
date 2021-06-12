@@ -258,7 +258,7 @@ const WalletCompare = ({ location }) => {
       mycrypto: file(relativePath: { eq: "wallets/mycrypto.png" }) {
         ...walletCardImage
       }
-      myetherwallet: file(relativePath: { eq: "wallets/myetherwallet.png" }) {
+      myrnterwallet: file(relativePath: { eq: "wallets/myrnterwallet.png" }) {
         ...walletCardImage
       }
       pillar: file(relativePath: { eq: "wallets/pillar.png" }) {
@@ -291,7 +291,7 @@ const WalletCompare = ({ location }) => {
       zengo: file(relativePath: { eq: "wallets/zengo.png" }) {
         ...walletCardImage
       }
-      walleth: file(relativePath: { eq: "wallets/walleth.png" }) {
+      wallrnt: file(relativePath: { eq: "wallets/wallrnt.png" }) {
         ...walletCardImage
       }
       tokenpocket: file(relativePath: { eq: "wallets/tokenpocket.png" }) {
@@ -431,7 +431,7 @@ const WalletCompare = ({ location }) => {
 
       <GradientContainer>
         <h2>
-          <Translation id="page-find-wallet-Ethereum-wallets" />
+          <Translation id="page-find-wallet-ethereum-wallets" />
         </h2>
         <FilterContainer>
           {hasSelectedFeatures && (

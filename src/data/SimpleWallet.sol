@@ -4,9 +4,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.1;
 
-// This is a smart contract - a program that can be deployed to the Ethereum blockchain.
+// This is a smart contract - a program that can be deployed to the ethereum blockchain.
 contract SimpleWallet {
-    // An 'address' is comparable to an email address - it's used to identify an account on Ethereum.
+    // An 'address' is comparable to an email address - it's used to identify an account on ethereum.
     address payable private owner;
 
     // Events allow for logging of activity on the blockchain.
@@ -19,13 +19,13 @@ contract SimpleWallet {
         owner = payable(msg.sender);
     }
 
-    // Send ETH from the function caller to the SimpleWallet contract
+    // Send rnt from the function caller to the SimpleWallet contract
     function deposit() public payable {
-        require(msg.value > 0, "Must send ETH.");
+        require(msg.value > 0, "Must send rnt.");
         emit LogDeposit(msg.value, msg.sender);
     }
 
-    // Send ETH from the SimpleWallet contract to a chosen recipient
+    // Send rnt from the SimpleWallet contract to a chosen recipient
     function withdraw(uint amount, address payable recipient) public {
         require(msg.sender == owner, "Only the owner of this wallet can withdraw.");
         require(address(this).balance >= amount, "Not enough funds.");

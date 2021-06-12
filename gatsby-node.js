@@ -45,10 +45,10 @@ const getMessages = (path, language) => {
 const outdatedMarkdownPages = [
   "/dapps/",
   "/enterprise/",
-  "/eth/",
+  "/rnt/",
   "/learn/",
   "/wallets/",
-  "/what-is-ethereum/",
+  "/what-is-rint/",
 ]
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -203,7 +203,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   })
 
   // Create contentVersion v2.0 pages
-  const contentV2Pages = [`eth`, `dapps`, `wallets/index`, `what-is-ethereum`]
+  const contentV2Pages = [`rnt`, `dapps`, `wallets/index`, `what-is-rint`]
   const contentV2Languages = supportedLanguages.filter(
     (lang) => getLangContentVersion(lang) >= 2.0
   )
@@ -235,7 +235,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Create contentVersion v1.0 pages
   // v1.0 doesn't have existing markdown files for these pages
-  const contentV1Pages = [`eth`, `dapps`, `wallets/index`]
+  const contentV1Pages = [`rnt`, `dapps`, `wallets/index`]
   const contentV1Languages = supportedLanguages.filter(
     (lang) => getLangContentVersion(lang) === 1.0
   )
@@ -288,7 +288,8 @@ exports.onCreatePage = ({ page, actions }) => {
         ...page.context,
         isOutdated,
         //display TranslationBanner for translation-component pages that are still in English
-        isContentEnglish: langVersion < 2 && !page.component.includes('/developers/index.js')
+        isContentEnglish:
+          langVersion < 2 && !page.component.includes("/developers/index.js"),
       },
     })
   }

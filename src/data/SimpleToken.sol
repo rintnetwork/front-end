@@ -4,9 +4,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.1;
 
-// This is a smart contract - a program that can be deployed to the Ethereum blockchain.
+// This is a smart contract - a program that can be deployed to the ethereum blockchain.
 contract SimpleToken {
-    // An `address` is comparable to an email address - it's used to identify an account on Ethereum.
+    // An `address` is comparable to an email address - it's used to identify an account on ethereum.
     address public owner;
     uint256 public constant token_supply = 1000000000000;
 

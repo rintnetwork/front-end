@@ -3,19 +3,19 @@ require("dotenv").config()
 
 const supportedLanguages = translations.supportedLanguages
 const defaultLanguage = `en`
-const siteUrl = `https://ethereum.org`
+const siteUrl = `https://rint.network`
 
 module.exports = {
   siteMetadata: {
     // `title` & `description` pulls from respective ${lang}.json files in PageMetadata.js
-    title: `ethereum.org`,
-    description: `Ethereum is a global, decentralized platform for money and new kinds of applications. On Ethereum, you can write code that controls money, and build applications accessible anywhere in the world.`,
+    title: `Rint Network`,
+    description: `Rint Network is free and open-source project for enabling anonymous, encryption & communication by directing Internet traffic through a worldwide, volunteer overlay network.`,
     url: siteUrl,
     siteUrl,
-    author: `@ethereum`,
+    author: `@rintnetwork`,
     defaultLanguage,
     supportedLanguages,
-    editContentUrl: `https://github.com/ethereum/ethereum-org-website/tree/dev/`,
+    editContentUrl: `https://github.com/rintnetwork/front-end/tree/dev/`,
   },
   plugins: [
     // i18n support
@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ethereum.org`,
-        short_name: `ethereum.org`,
+        name: `Rint Network`,
+        short_name: `RNT`,
         start_url: `/en/`,
         background_color: `#fff`,
         theme_color: `#1c1ce1`,
@@ -81,7 +81,7 @@ module.exports = {
         ],
       },
     },
-    // Sitemap generator (ethereum.org/sitemap.xml)
+    // Sitemap generator (rint.network/sitemap.xml)
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {

@@ -33,7 +33,7 @@ Developer tool submissions will be assessed by the following criteria:
 
 **Is the tool widely used?**
 
-- We will consider metrics such as GitHub stars, download statistics, and whether it is used by known companies or projects
+- We will consider metrics such as GitHub stars, download statistics, and whrnter it is used by known companies or projects
 
 **Is the tool of sufficient quality?**
 
@@ -43,7 +43,7 @@ Developer tool submissions will be assessed by the following criteria:
 
 **Is the tool open source?**
 
-Many projects in the Ethereum space are open source. We are more likely to list open-source projects that allows community developers to inspect the code and contribute to it.
+Many projects in the ethereum space are open source. We are more likely to list open-source projects that allows community developers to inspect the code and contribute to it.
 
 ---
 

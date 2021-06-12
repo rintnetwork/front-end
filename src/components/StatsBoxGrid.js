@@ -142,7 +142,7 @@ const tooltipContent = (metric) => (
 
 const StatsBoxGrid = () => {
   const intl = useIntl()
-  const [ethPrice, setEthPrice] = useState({
+  const [rntPrice, setrntPrice] = useState({
     value: 0,
     hasError: false,
   })
@@ -196,7 +196,7 @@ const StatsBoxGrid = () => {
   useEffect(() => {
     // Skip APIs when not in production
     if (process.env.NODE_ENV !== "production") {
-      setEthPrice({
+      setrntPrice({
         value: formatPrice(2265),
         hasError: false,
       })
@@ -220,13 +220,13 @@ const StatsBoxGrid = () => {
           )
           const { usd } = response.data.ethereum
           const value = formatPrice(usd)
-          setEthPrice({
+          setrntPrice({
             value,
             hasError: false,
           })
         } catch (error) {
           console.error(error)
-          setEthPrice({
+          setrntPrice({
             hasError: true,
           })
         }
@@ -235,7 +235,7 @@ const StatsBoxGrid = () => {
 
       const fetchNodes = async () => {
         try {
-          const data = await getData("/.netlify/functions/etherscan")
+          const data = await getData("/.netlify/functions/rnterscan")
           const total = data.result.TotalNodeCount
           const value = formatNodes(total)
           setNodes({
@@ -293,41 +293,45 @@ const StatsBoxGrid = () => {
   const metrics = [
     {
       apiProvider: "CoinGecko",
-      apiUrl: "https://www.coingecko.com/en/coins/ethereum",
+      apiUrl: "https://www.coingecko.com/en/coins",
       title: (
-        <Translation id="page-index-network-stats-eth-price-description" />
+        <Translation id="rint-page-index-network-stats-rnt-price-description" />
       ),
       description: (
-        <Translation id="page-index-network-stats-eth-price-explainer" />
+        <Translation id="rint-page-index-network-stats-rnt-price-explainer" />
       ),
-      state: ethPrice,
+      state: rntPrice,
     },
     {
-      apiProvider: "Etherscan",
-      apiUrl: "https://etherscan.io/",
-      title: <Translation id="page-index-network-stats-tx-day-description" />,
+      apiProvider: "BscScan",
+      apiUrl: "https://bscscan.com/",
+      title: (
+        <Translation id="rint-page-index-network-stats-tx-day-description" />
+      ),
       description: (
-        <Translation id="page-index-network-stats-tx-day-explainer" />
+        <Translation id="rint-page-index-network-stats-tx-day-explainer" />
       ),
       state: txs,
     },
     {
-      apiProvider: "DeFi Pulse",
-      apiUrl: "https://defipulse.com",
+      apiProvider: "DexTools",
+      apiUrl: "https://dextools.io",
       title: (
-        <Translation id="page-index-network-stats-value-defi-description" />
+        <Translation id="rint-page-index-network-stats-value-defi-description" />
       ),
       description: (
-        <Translation id="page-index-network-stats-value-defi-explainer" />
+        <Translation id="rint-page-index-network-stats-value-defi-explainer" />
       ),
       state: valueLocked,
     },
     {
-      apiProvider: "Etherscan",
-      apiUrl: "https://etherscan.io/nodetracker",
-      title: <Translation id="page-index-network-stats-nodes-description" />,
+      apiProvider: "BscScan",
+      apiUrl: "https://bscscan.com/validators",
+      title: (
+        <Translation id="rint-page-index-network-stats-nodes-description" />
+      ),
       description: (
-        <Translation id="page-index-network-stats-nodes-explainer" />
+        <Translation id="rint-page-index-network-stats-nodes-explainer" />
       ),
       state: nodes,
     },

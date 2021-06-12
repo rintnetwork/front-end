@@ -117,14 +117,14 @@ const LegacyPageHome = () => {
           }
         }
       }
-      developers: file(relativePath: { eq: "developers-eth-blocks.png" }) {
+      developers: file(relativePath: { eq: "developers-rnt-blocks.png" }) {
         childImageSharp {
           fixed(height: 200) {
             ...GatsbyImageSharpFixed
           }
         }
       }
-      enterprise: file(relativePath: { eq: "enterprise-eth.png" }) {
+      enterprise: file(relativePath: { eq: "enterprise-rnt.png" }) {
         childImageSharp {
           fixed(height: 200) {
             ...GatsbyImageSharpFixed
@@ -138,36 +138,36 @@ const LegacyPageHome = () => {
     {
       img: {
         src: data.individuals,
-        alt: "page-index-sections-individuals-image-alt",
+        alt: "rint-page-index-sections-individuals-image-alt",
       },
-      title: "page-index-sections-individuals-title",
-      desc: "page-index-sections-individuals-desc",
+      title: "rint-page-index-sections-individuals-title",
+      desc: "rint-page-index-sections-individuals-desc",
       link: {
-        text: "page-index-sections-individuals-link-text",
-        to: "/what-is-ethereum/",
+        text: "rint-page-index-sections-individuals-link-text",
+        to: "/what-is-rint/",
       },
     },
     {
       img: {
         src: data.developers,
-        alt: "page-index-sections-developers-image-alt",
+        alt: "rint-page-index-sections-developers-image-alt",
       },
-      title: "page-index-sections-developers-title",
-      desc: "page-index-sections-developers-desc",
+      title: "rint-page-index-sections-developers-title",
+      desc: "rint-page-index-sections-developers-desc",
       link: {
-        text: "page-index-sections-developers-link-text",
+        text: "rint-page-index-sections-developers-link-text",
         to: "/developers/",
       },
     },
     {
       img: {
         src: data.enterprise,
-        alt: "page-index-sections-enterprise-image-alt",
+        alt: "rint-page-index-sections-enterprise-image-alt",
       },
-      title: "page-index-sections-enterprise-title",
-      desc: "page-index-sections-enterprise-desc",
+      title: "rint-page-index-sections-enterprise-title",
+      desc: "rint-page-index-sections-enterprise-desc",
       link: {
-        text: "page-index-sections-enterprise-link-text",
+        text: "rint-page-index-sections-enterprise-link-text",
         to: "/enterprise/",
       },
     },
@@ -176,36 +176,35 @@ const LegacyPageHome = () => {
   return (
     <Page>
       <PageMetadata
-        title={translateMessageId("page-index-meta-title", intl)}
-        description={translateMessageId("page-index-meta-description", intl)}
+        title={translateMessageId("rint-page-index-meta-title", intl)}
+        description={translateMessageId(
+          "rint-page-index-meta-description",
+          intl
+        )}
       />
       <Hero
         fluid={data.hero.childImageSharp.fluid}
-        alt={translateMessageId("page-index-hero-image-alt", intl)}
+        alt={translateMessageId("rint-page-index-hero-image-alt", intl)}
         loading="eager"
       />
       <Content>
         <Header>
           <Title>
             <H1>
-              <Translation id="page-index-title" />
+              <Translation id="rint-page-index-title" />
             </H1>
             <H3>
               <Morpher />
             </H3>
           </Title>
           <Description>
-            <Translation id="page-index-subtitle" />
+            <Translation id="rint-page-index-subtitle" />
           </Description>
         </Header>
         <Divider />
         <SectionContainer>
           {sections.map((section, idx) => (
             <Section key={idx}>
-              <Img
-                fixed={section.img.src.childImageSharp.fixed}
-                alt={translateMessageId(section.img.alt, intl)}
-              />
               <h2>
                 <Translation id={section.title} />
               </h2>

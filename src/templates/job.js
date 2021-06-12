@@ -322,13 +322,13 @@ const JobPage = ({ data: { mdx } }) => {
   return (
     <Container>
       <HeroContainer>
-        <Image fluid={mdx.frontmatter.image.childImageSharp.fluid} />
+        {/* <Image fluid={mdx.frontmatter.image.childImageSharp.fluid} /> */}
       </HeroContainer>
       <Page dir={isRightToLeft ? "rtl" : "ltr"}>
         <PageMetadata
           title={mdx.frontmatter.title}
           description={mdx.frontmatter.description}
-          image={mdx.frontmatter.image.childImageSharp.fluid.src}
+          // image={mdx.frontmatter.image.childImageSharp.fluid.src}
         />
         <InfoColumn>
           <KeyInfo>

@@ -46,17 +46,17 @@ const CrumbLink = styled(Link)`
 `
 
 // Generate crumbs from slug
-// e.g. "/en/eth2/proof-of-stake/" will generate:
+// e.g. "/en/rnt/proof-of-stake/" will generate:
 // [
 //   { fullPath: "/en/", text: "HOME" },
-//   { fullPath: "/en/eth2/", text: "ETH2" },
-//   { fullPath: "/en/eth2/proof-of-stake/", text: "PROOF OF STAKE" },
+//   { fullPath: "/en/rnt/", text: "rnt" },
+//   { fullPath: "/en/rnt/proof-of-stake/", text: "PROOF OF STAKE" },
 // ]
 // `startDepth` will trim breadcrumbs
 // e.g. startDepth=1 will generate:
 // [
-//   { fullPath: "/en/eth2/", text: "ETH2" },
-//   { fullPath: "/en/eth2/proof-of-stake/", text: "PROOF OF STAKE" },
+//   { fullPath: "/en/rnt/", text: "rnt" },
+//   { fullPath: "/en/rnt/proof-of-stake/", text: "PROOF OF STAKE" },
 // ]
 const Breadcrumbs = ({ slug, startDepth = 0, className }) => {
   const intl = useIntl()

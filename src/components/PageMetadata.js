@@ -15,7 +15,7 @@ const PageMetadata = ({ description, meta, title, image, canonicalUrl }) => {
     ogImageDefault,
     ogImageDevelopers,
     ogImageDapps,
-    ogImageEthtwo,
+    ogImagernttwo,
   } = useStaticQuery(
     graphql`
       query {
@@ -32,7 +32,7 @@ const PageMetadata = ({ description, meta, title, image, canonicalUrl }) => {
             }
           }
         }
-        ogImageDevelopers: file(relativePath: { eq: "enterprise-eth.png" }) {
+        ogImageDevelopers: file(relativePath: { eq: "enterprise-rnt.png" }) {
           childImageSharp {
             fixed(width: 1200) {
               src
@@ -46,7 +46,7 @@ const PageMetadata = ({ description, meta, title, image, canonicalUrl }) => {
             }
           }
         }
-        ogImageEthtwo: file(relativePath: { eq: "eth2/eth2_doge.png" }) {
+        ogImagernttwo: file(relativePath: { eq: "rnt/eth2_doge.png" }) {
           childImageSharp {
             fixed(width: 1200) {
               src
@@ -86,8 +86,8 @@ const PageMetadata = ({ description, meta, title, image, canonicalUrl }) => {
         if (pathname.includes("/dapps/")) {
           ogImage = ogImageDapps.childImageSharp.fixed.src
         }
-        if (pathname.includes("/eth2/")) {
-          ogImage = ogImageEthtwo.childImageSharp.fixed.src
+        if (pathname.includes("/rnt/")) {
+          ogImage = ogImagernttwo.childImageSharp.fixed.src
         }
         if (image) {
           ogImage = image
@@ -170,7 +170,7 @@ const PageMetadata = ({ description, meta, title, image, canonicalUrl }) => {
           "@type": "Organization",
           "url": "https://ethereum.org",
           "email": "press@ethereum.org",
-          "name": "Ethereum",
+          "name": "ethereum",
           "logo": "https://ethereum.org/og-image.png"
         }
       `}

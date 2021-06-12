@@ -3,7 +3,7 @@ const axios = require("axios")
 const handler = async () => {
   try {
     const response = await axios.get(
-      "https://community-api.coinmetrics.io/v2/assets/eth/metricdata/?metrics=TxCnt"
+      "https://community-api.coinmetrics.io/v2/assets/rnt/metricdata/?metrics=TxCnt"
     )
     if (response.status < 200 || response.status >= 300) {
       return { statusCode: response.status, body: response.statusText }
