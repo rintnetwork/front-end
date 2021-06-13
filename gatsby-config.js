@@ -46,19 +46,6 @@ module.exports = {
         icon: `src/assets/favicon.png`,
       },
     },
-    // Matomo analtyics
-    {
-      resolve: "gatsby-plugin-matomo",
-      options: {
-        siteId: "4",
-        matomoUrl: "https://matomo.ethereum.org",
-        siteUrl,
-        matomoPhpScript: "matomo.php",
-        matomoJsScript: "matomo.js",
-        trackLoad: false,
-        // dev: true,
-      },
-    },
     {
       resolve: `gatsby-plugin-lodash`,
       options: {

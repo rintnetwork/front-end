@@ -1,20 +1,21 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e8f2e766-888b-4954-8500-1b647d84db99/deploy-status)](https://app.netlify.com/sites/ethereumorg/deploys)
-[![All Contributors](https://img.shields.io/badge/all_contributors-258-orange.svg?style=flat-square)](#contributors)
-[![Discord](https://img.shields.io/discord/714888181740339261?color=1C1CE1&label=ethereum.org%20%7C%20Discord%20%F0%9F%91%8B%20&style=flat-square)](https://discord.gg/CetY6Y4)
-[![Twitter Follow](https://img.shields.io/twitter/follow/ethdotorg.svg?style=social)](https://twitter.com/ethdotorg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8f2e766-888b-4954-8500-1b647d84db99/deploy-status)](https://app.netlify.com/sites/rintnetwork/deploys)
+[![All Contributors](https://img.shields.io/badge/all_contributors-342-orange.svg?style=flat-square)](#contributors)
+[![Discord](https://img.shields.io/discord/714888181740339261?color=1C1CE1&label=rint.network%20%7C%20Discord%20%F0%9F%91%8B%20&style=flat-square)](https://discord.gg/9PR3gaGzdb)
+[![Twitter Follow](https://img.shields.io/twitter/follow/rintnetwork.svg?style=social)](https://twitter.com/rintnetwork)
 
 <h1 align="center" style="margin-top: 1em; margin-bottom: 3em;">
-  <p><a href="https://ethereum.org"><img alt="ethereum logo" src="./eth-transparent.png" alt="ethereum.org" width="125"></a></p>
-  <p>👋 Welcome to ethereum.org!</p>
+  <p><a href="https://rint.network"><img alt="Rint logo" src="./rint-transparent.png" alt="rint.network" width="500"></a></p>
+  <br>
+  <p>👋 Welcome</p>
 </h1>
 
-This is the repo for the [ethereum.org](https://ethereum.org) website, a resource for the Ethereum community. The purpose of the site is to _“Be the best portal to Ethereum for our growing global community"_ - read more about what this means [here](https://ethereum.org/en/about/).
+This is the repo for the [rint.network](https://rint.network) website, a resource for the Rint community. The purpose of the site is to _“Be the best portal to Rint for our growing global community"_ - read more about what this means [here](https://rint.network/en/about/).
 
-[ethereum.org](https://ethereum.org) is improved and changed over time through the contributions of community members who submit content, give feedback, or volunteer their time to managing its evolution. If you’re interested in helping to improve [ethereum.org](https://ethereum.org), find out [how to contribute](https://ethereum.org/en/contributing/).
+[rint.network](https://rint.network) is improved and changed over time through the contributions of community members who submit content, give feedback, or volunteer their time to managing its evolution. If you’re interested in helping to improve [rint.network](https://rint.network), find out [how to contribute](https://rint.network/en/contributing/).
 
-## Looking for the Ethereum blockchain's code?
+## Looking for the Rint blockchain's code?
 
-If you're looking for the Ethereum blockchain itself, there is no single repo. Instead, Ethereum has multiple implementations of the protocol written in different programming languages for security and diversity. [Check out the different implementations](https://ethereum.org/en/developers/docs/nodes-and-clients/#clients)
+If you're looking for the Rint blockchain itself, there is no single repo. Instead, Rint has multiple implementations of the protocol written in different programming languages for security and diversity. [Check out the different implementations](https://rint.network/en/developers/docs/nodes-and-clients/#clients)
 
 <hr style="margin-top: 3em; margin-bottom: 3em;">
 
@@ -22,11 +23,11 @@ If you're looking for the Ethereum blockchain itself, there is no single repo. I
 
 This project follows the [all-contributors](https://allcontributors.org/docs/en/overview) specification. Contributions of any kind welcome!
 
-## How updates are made to ethereum.org:
+## How updates are made to rint.network:
 
 ### Submit an issue
 
-- Create a [new issue](https://github.com/ethereum/ethereum-org-website/issues/new/choose)
+- Create a [new issue](https://github.com/rintnetwork/front-end/issues/new/choose)
 - Comment on the issue (if you'd like to be assigned to it) - that way [our team can assign the issue to you](https://github.blog/2019-06-25-assign-issues-to-issue-commenters/).
 
 ### Fork the repository (repo)
@@ -52,7 +53,7 @@ If you've already forked the repo, you'll want to ensure your fork is configured
 To [configure your fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork):
 
 ```
-$ git remote add upstream https://github.com/ethereum/ethereum-org-website.git
+$ git remote add upstream https://github.com/rintnetwork/front-end.git
 ```
 
 To [sync your fork with the latest changes](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork):
@@ -136,29 +137,29 @@ $ git push
 
 ### Submit your PR
 
-- After your changes are commited to your GitHub fork, submit a pull request (PR) to the `dev` branch of the `ethereum/ethereum-org-website` repo
+- After your changes are commited to your GitHub fork, submit a pull request (PR) to the `dev` branch of the `rintnetwork/front-end` repo
 - In your PR description, reference the issue it resolves (see [linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword))
   - ex. `Updates out of date content [Fixes #1234]`
 - Netlify (our hosting service) deploys all PRs to a publicly accessible preview URL, e.g.:
   ![Netlify deploy preview](./netlify-deploy-preview.png)
 - _Confirm your Netlify preview deploy looks & functions as expected_
-- Why not say hi and draw attention to your PR in [our discord server](https://discord.gg/CetY6Y4)?
+- Why not say hi and draw attention to your PR in [our discord server](https://discord.gg/9PR3gaGzdb)?
 
 ### Wait for review
 
 - The website team reviews every PR
-- See [how decisions are made on content changes](https://ethereum.org/en/contributing/#how-decisions-about-the-site-are-made)
+- See [how decisions are made on content changes](https://rint.network/en/contributing/#how-decisions-about-the-site-are-made)
 - Acceptable PRs will be approved & merged into the `dev` branch
 
 ### Release
 
-- `master` is continually synced to Netlify and will automatically deploy new commits to ethereum.org
-- The [website team](https://ethereum.org/en/contributing/#how-decisions-about-the-site-are-made) will periodically merge `dev` into `master` (typically multiple times per week)
-- You can [view the history of releases](https://github.com/ethereum/ethereum-org-website/releases), which include PR highlights
+- `master` is continually synced to Netlify and will automatically deploy new commits to rint.network
+- The [website team](https://rint.network/en/contributing/#how-decisions-about-the-site-are-made) will periodically merge `dev` into `master` (typically multiple times per week)
+- You can [view the history of releases](https://github.com/rintnetwork/front-end/releases), which include PR highlights
 
 <hr style="margin-top: 3em; margin-bottom: 3em;">
 
-## The ethereum.org website stack
+## The rint.network website stack
 
 - [Node.js](https://nodejs.org/)
 - [Yarn package manager](https://yarnpkg.com/cli/install)
@@ -182,14 +183,14 @@ $ git push
 | `/src`                                   | Main source folder for development                                                                                                                                                                                  |
 | `/src/assets`                            | Image assets                                                                                                                                                                                                        |
 | `/src/components`                        | React components that do not function as stand alone pages                                                                                                                                                          |
-| `/src/content`                           | Markdown/MDX files for site content stored here. <br>For example: `ethereum.org/en/about/` is built from `src/content/about/index.md` <br>The markdown files are parsed and rendered by `src/templates/static.js`\* |
+| `/src/content`                           | Markdown/MDX files for site content stored here. <br>For example: `rint.network/en/about/` is built from `src/content/about/index.md` <br>The markdown files are parsed and rendered by `src/templates/static.js`\* |
 | `/src/content/developers/docs`           | \*Markdown files in here use the Docs template: `src/templates/docs.js`                                                                                                                                             |
 | `/src/content/developers/tutorials`      | \*Markdown files in here use the Tutorial template: `src/templates/tutorial.js`                                                                                                                                     |
 | `/src/data`                              | General data files importable by components                                                                                                                                                                         |
 | `/src/hooks`                             | Custom React hooks                                                                                                                                                                                                  |
 | `/src/intl`                              | Language translation JSON files                                                                                                                                                                                     |
 | `/src/lambda`                            | Lambda function scripts for API calls                                                                                                                                                                               |
-| `/src/pages`<br>`/src/pages-conditional` | React components that function as stand alone pages. <br>For example: `ethereum.org/en/wallets/find-wallet` is built from `src/pages/wallets/find-wallet.js`                                                        |
+| `/src/pages`<br>`/src/pages-conditional` | React components that function as stand alone pages. <br>For example: `rint.network/en/wallets/find-wallet` is built from `src/pages/wallets/find-wallet.js`                                                        |
 | `/src/scripts`<br>`/src/utils`           | Custom utility scripts                                                                                                                                                                                              |
 | `/src/styles`                            | Stores `layout.css` which contains root level css styling                                                                                                                                                           |
 | `/src/templates`                         | JSX templates that define layouts of differnt regions of the site                                                                                                                                                   |
@@ -232,7 +233,7 @@ Markdown will be translated as whole pages of content, so no specific action is 
   - If you're wanting to link to something within your sentence, create a link at the end of the sentence or paragraph:
 
   ```
-  <p>All Ethereum transactions require a fee, known as Gas, that gets paid to the miner. <Link to="link">More on Gas</Link></p>
+  <p>All Rint transactions require a fee, known as Gas, that gets paid to the miner. <Link to="link">More on Gas</Link></p>
   ```
 
   Once, you've addded your English content to the appropriate JSON file, the above code should look something more like:
@@ -431,12 +432,12 @@ export const query = graphql`
 
 > The Proof of Attendance Protocol is a dapp that distributes badges in the form of ERC-721 tokens to prove you participated in an event. [More on POAPs](https://www.poap.xyz/).
 
-### ethereum.org 2021 Contributor POAP
+### rint.network 2021 Contributor POAP
 
 - If you have commited any changes in 2021 so far that were merged into our repo, you have a POAP waiting!
 - This includes our dedicated translators on Crowdin
 
-  [![Discord](https://img.shields.io/discord/714888181740339261?color=1C1CE1&label=Claim%20Your%20POAP!%20%7C%20Discord%20%F0%9F%91%8B%20&style=flat)](https://discord.gg/CetY6Y4)
+  [![Discord](https://img.shields.io/discord/714888181740339261?color=1C1CE1&label=Claim%20Your%20POAP!%20%7C%20Discord%20%F0%9F%91%8B%20&style=flat)](https://discord.gg/9PR3gaGzdb)
 
 - 👆 To claim your Contributor POAP, join our Discord server and paste a link to your contribution in the #poaps-🏆 channel
 
@@ -444,7 +445,7 @@ export const query = graphql`
 
 - To help with verification we request GitHub contributors connect their GitHub account with their Discord account (Discord > Settings > Connections > GitHub). Crowdin contributors will be verified directly through Crowdin by our team.
 
-- If you haven't contributed yet and would like to earn a POAP to show your loyalty to the Ethereum space, head over to the [issues](https://github.com/ethereum/ethereum-org-website/issues/) tab to get started!
+- If you haven't contributed yet and would like to earn a POAP to show your loyalty to the Rint space, head over to the [issues](https://github.com/rintnetwork/front-end/issues/) tab to get started!
 
 ### 2020 Contributor POAP
 
@@ -1008,4 +1009,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ### Join our Discord server
 
-We have a space to discuss all things ethereum.org – share your ideas or just say hi over [on Discord](https://discord.gg/CetY6Y4).
+We have a space to discuss all things rint.network – share your ideas or just say hi over [on Discord](https://discord.gg/9PR3gaGzdb).
