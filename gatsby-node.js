@@ -27,14 +27,14 @@ const flattenMessages = (nestedMessages, prefix = "") => {
 // same function from 'gatsby-plugin-intl'
 const getMessages = (path, language) => {
   try {
-    const messages = require(`${path}${language}.json`)
+    const messages = require(`${path}/${language}.json`)
 
     return flattenMessages(messages)
   } catch (error) {
     if (error.code === "MODULE_NOT_FOUND") {
       process.env.NODE_ENV !== "test" &&
         console.error(
-          `[gatsby-plugin-intl] couldn't find file "${path}${language}.json"`
+          `[gatsby-plugin-intl] couldn't find file "${path}/${language}.json"`
         )
     }
 

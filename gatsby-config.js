@@ -3,7 +3,7 @@ require("dotenv").config()
 
 const supportedLanguages = translations.supportedLanguages
 const defaultLanguage = `en`
-const siteUrl = `https://reyna.network`
+const siteUrl = `https://reyna2.com`
 
 module.exports = {
   siteMetadata: {
