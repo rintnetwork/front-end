@@ -12,10 +12,10 @@ module.exports = {
     description: `Reyna Limited is free and open-source project for enabling anonymous, encryption & communication by directing Internet traffic through a worldwide, volunteer overlay network.`,
     url: siteUrl,
     siteUrl,
-    author: `@reynanetwork`,
+    author: `@rint-network`,
     defaultLanguage,
     supportedLanguages,
-    editContentUrl: `https://github.com/reynanetwork/front-end/tree/master/`,
+    editContentUrl: `https://github.com/rint-network/front-end/tree/master/`,
   },
   plugins: [
     // i18n support

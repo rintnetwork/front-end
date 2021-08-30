@@ -27,7 +27,7 @@ const flattenMessages = (nestedMessages, prefix = "") => {
 // same function from 'gatsby-plugin-intl'
 const getMessages = (path, language) => {
   try {
-    const messages = require(`${path}${language}.json`)
+    const messages = require(`${path}/${language}.json`)
 
     return flattenMessages(messages)
   } catch (error) {
