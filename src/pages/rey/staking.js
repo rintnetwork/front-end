@@ -132,20 +132,20 @@ const StakeContainer = styled.div`
 const paths = [
   {
     emoji: ":money_with_wings:",
-    title: <Translation id="reyna-page-rnt-staking-title-1" />,
-    description: <Translation id="reyna-page-rnt-staking-desc-1" />,
+    title: <Translation id="reyna-page-rey-staking-title-1" />,
+    description: <Translation id="reyna-page-rey-staking-desc-1" />,
   },
   {
     emoji: ":warning:",
-    title: <Translation id="reyna-page-rnt-staking-title-2" />,
-    description: <Translation id="reyna-page-rnt-staking-desc-2" />,
+    title: <Translation id="reyna-page-rey-staking-title-2" />,
+    description: <Translation id="reyna-page-rey-staking-desc-2" />,
   },
   {
     emoji: ":clipboard:",
-    title: <Translation id="reyna-page-rnt-staking-title-3" />,
-    description: <Translation id="reyna-page-rnt-staking-desc-3" />,
+    title: <Translation id="reyna-page-rey-staking-title-3" />,
+    description: <Translation id="reyna-page-rey-staking-desc-3" />,
     url: "/developers/docs/apis/backend/#available-libraries",
-    link: <Translation id="reyna-page-rnt-staking-link-1" />,
+    link: <Translation id="reyna-page-rey-staking-link-1" />,
   },
 ]
 
@@ -154,15 +154,15 @@ const StakingPage = ({ data, location }) => {
   const [isSoloStaking, setIsSoloStaking] = useState(true)
 
   const heroContent = {
-    title: translateMessageId("reyna-page-rnt-staking-title-4", intl),
-    header: translateMessageId("reyna-page-rnt-staking-header-1", intl),
-    subtitle: translateMessageId("reyna-page-rnt-staking-subtitle", intl),
+    title: translateMessageId("reyna-page-rey-staking-title-4", intl),
+    header: translateMessageId("reyna-page-rey-staking-header-1", intl),
+    subtitle: translateMessageId("reyna-page-rey-staking-subtitle", intl),
     image: data.staking.childImageSharp.fluid,
-    alt: translateMessageId("reyna-page-rnt-staking-image-alt", intl),
+    alt: translateMessageId("reyna-page-rey-staking-image-alt", intl),
     buttons: [
       {
         path: "#stake",
-        content: translateMessageId("reyna-page-rnt-staking-start", intl),
+        content: translateMessageId("reyna-page-rey-staking-start", intl),
       },
     ],
   }
@@ -170,9 +170,9 @@ const StakingPage = ({ data, location }) => {
   return (
     <Page>
       <PageMetadata
-        title={translateMessageId("reyna-page-rnt-staking-meta-title", intl)}
+        title={translateMessageId("reyna-page-rey-staking-meta-title", intl)}
         description={translateMessageId(
-          "reyna-page-rnt-staking-meta-description",
+          "reyna-page-rey-staking-meta-description",
           intl
         )}
       />
@@ -182,12 +182,12 @@ const StakingPage = ({ data, location }) => {
         <Vision>
           <Breadcrumbs slug={location.pathname} startDepth={1} />
           <h2>
-            <Translation id="reyna-page-rnt-just-staking" />
+            <Translation id="reyna-page-rey-just-staking" />
           </h2>
           <p>
-            <Translation id="reyna-page-rnt-staking-description" />{" "}
-            <Link to="/rnt/beacon-chain/">
-              <Translation id="reyna-page-rnt-staking-binance-smart-chain" />
+            <Translation id="reyna-page-rey-staking-description" />{" "}
+            <Link to="/rey/beacon-chain/">
+              <Translation id="reyna-page-rey-staking-binance-smart-chain" />
             </Link>
           </p>
           <CardContainer>
@@ -208,13 +208,13 @@ const StakingPage = ({ data, location }) => {
       <Content>
         <StakeContainer>
           <h2>
-            <Translation id="reyna-page-rnt-staking-how-to-stake" />
+            <Translation id="reyna-page-rey-staking-how-to-stake" />
           </h2>
           <p>
-            <Translation id="reyna-page-rnt-staking-how-to-stake-desc" />{" "}
+            <Translation id="reyna-page-rey-staking-how-to-stake-desc" />{" "}
           </p>
           <h3>
-            <Translation id="reyna-page-rnt-staking-how-much" />
+            <Translation id="reyna-page-rey-staking-how-much" />
           </h3>
           <OptionContainer>
             <Option
@@ -222,7 +222,7 @@ const StakingPage = ({ data, location }) => {
               onClick={() => setIsSoloStaking(true)}
             >
               <Emoji mr={`1rem`} text=":moneybag:" />
-              <OptionText>100M RNT</OptionText>
+              <OptionText>100M REY</OptionText>
             </Option>
             <Option
               isActive={!isSoloStaking}
@@ -230,7 +230,7 @@ const StakingPage = ({ data, location }) => {
             >
               <Emoji mr={`1rem`} text=":swimmer:" />
               <OptionText>
-                <Translation id="reyna-page-rnt-staking-less-than" /> 100M RNT
+                <Translation id="reyna-page-rey-staking-less-than" /> 100M REY
               </OptionText>
             </Option>
           </OptionContainer>
@@ -238,54 +238,54 @@ const StakingPage = ({ data, location }) => {
             <GhostCard>
               <InfoBanner isWarning={true} mb={`2rem`}>
                 <H2>
-                  <Translation id="reyna-page-rnt-staking-withdrawals" />
+                  <Translation id="reyna-page-rey-staking-withdrawals" />
                 </H2>
                 <div>
-                  <Translation id="reyna-page-rnt-staking-withdrawals-desc" />{" "}
-                  <Link to="/rnt/merge/">
-                    <Translation id="reyna-page-rnt-staking-docked" />
+                  <Translation id="reyna-page-rey-staking-withdrawals-desc" />{" "}
+                  <Link to="/rey/merge/">
+                    <Translation id="reyna-page-rey-staking-docked" />
                   </Link>
                 </div>
               </InfoBanner>
               <h3>
-                <Translation id="reyna-page-rnt-staking-solo" />
+                <Translation id="reyna-page-rey-staking-solo" />
               </h3>
               <p>
-                <Translation id="reyna-page-rnt-staking-solo-desc" />
+                <Translation id="reyna-page-rey-staking-solo-desc" />
               </p>
               <ButtonLink mb={`2rem`} to="https://launchpad.ethereum.org">
-                <Translation id="reyna-page-rnt-staking-start" />
+                <Translation id="reyna-page-rey-staking-start" />
               </ButtonLink>
               <h3>
-                <Translation id="reyna-page-rnt-staking-deposit-address" />
+                <Translation id="reyna-page-rey-staking-deposit-address" />
               </h3>
               <p>
-                <Translation id="reyna-page-rnt-staking-deposit-address-desc" />
+                <Translation id="reyna-page-rey-staking-deposit-address-desc" />
               </p>
-              <ButtonLink mb={`2rem`} to="/rnt/deposit-contract/">
-                <Translation id="reyna-page-rnt-staking-check-address" />
+              <ButtonLink mb={`2rem`} to="/rey/deposit-contract/">
+                <Translation id="reyna-page-rey-staking-check-address" />
               </ButtonLink>
             </GhostCard>
           )}
           {!isSoloStaking && (
             <GhostCard>
               <H3>
-                <Translation id="reyna-page-rnt-staking-pool" />
+                <Translation id="reyna-page-rey-staking-pool" />
               </H3>
               <p>
-                <Translation id="reyna-page-rnt-staking-pool-desc" />
+                <Translation id="reyna-page-rey-staking-pool-desc" />
               </p>
               <p>
                 <Link to="https://beaconcha.in/stakingServices">
-                  <Translation id="reyna-page-rnt-staking-services" />
+                  <Translation id="reyna-page-rey-staking-services" />
                 </Link>
               </p>
               <InfoBanner isWarning={true}>
                 <H2>
-                  <Translation id="reyna-page-rnt-staking-dyor" />
+                  <Translation id="reyna-page-rey-staking-dyor" />
                 </H2>
                 <div>
-                  <Translation id="reyna-page-rnt-staking-dyor-desc" />{" "}
+                  <Translation id="reyna-page-rey-staking-dyor-desc" />{" "}
                 </div>
               </InfoBanner>
             </GhostCard>
@@ -296,15 +296,18 @@ const StakingPage = ({ data, location }) => {
       <StyledCallout
         image={data.staking.childImageSharp.fluid}
         alt={translateMessageId("reyna-img-alt", intl)}
-        title={translateMessageId("reyna-page-rnt-staking-join-community", intl)}
+        title={translateMessageId(
+          "reyna-page-rey-staking-join-community",
+          intl
+        )}
         description={translateMessageId(
-          "reyna-page-rnt-staking-join-community-desc",
+          "reyna-page-rey-staking-join-community-desc",
           intl
         )}
       >
         <div>
           <ButtonLink to="https://www.reddit.com/r/reynanetwork/">
-            <Translation id="reyna-page-rnt-staking-join" /> r/reynanetwork
+            <Translation id="reyna-page-rey-staking-join" /> r/reynanetwork
           </ButtonLink>
         </div>
       </StyledCallout>
@@ -312,52 +315,52 @@ const StakingPage = ({ data, location }) => {
         <Row>
           <Column>
             <H2>
-              <Translation id="reyna-page-rnt-staking-pos-explained" />
+              <Translation id="reyna-page-rey-staking-pos-explained" />
             </H2>
             <p>
-              <Translation id="reyna-page-rnt-staking-pos-explained-desc" />{" "}
+              <Translation id="reyna-page-rey-staking-pos-explained-desc" />{" "}
               <Link to="https://academy.binance.com/en/glossary/proof-of-stake">
-                <Translation id="reyna-page-rnt-staking-consensus" />
+                <Translation id="reyna-page-rey-staking-consensus" />
               </Link>
             </p>
 
             <p>
-              <Translation id="reyna-page-rnt-staking-pos-explained-desc-1" />
+              <Translation id="reyna-page-rey-staking-pos-explained-desc-1" />
             </p>
             <h3>
-              <Translation id="reyna-page-rnt-staking-at-stake" />
+              <Translation id="reyna-page-rey-staking-at-stake" />
             </h3>
             <p>
-              <Translation id="reyna-page-rnt-staking-at-stake-desc" />
+              <Translation id="reyna-page-rey-staking-at-stake-desc" />
             </p>
             <h3>
-              <Translation id="reyna-page-rnt-base-pools" />
+              <Translation id="reyna-page-rey-base-pools" />
             </h3>
             <p>
-              <Translation id="reyna-page-rnt-base-pools-desc" />
+              <Translation id="reyna-page-rey-base-pools-desc" />
             </p>
           </Column>
           <Column>
             <Box>
               <H2>
-                <Translation id="reyna-page-rnt-staking-upgrades-title" />
+                <Translation id="reyna-page-rey-staking-upgrades-title" />
               </H2>
               <BoxText>
                 <ul>
                   <li>
-                    <Translation id="reyna-page-rnt-staking-upgrades-li" />
+                    <Translation id="reyna-page-rey-staking-upgrades-li" />
                   </li>
                   <li>
-                    <Translation id="reyna-page-rnt-staking-upgrades-li-2" />
+                    <Translation id="reyna-page-rey-staking-upgrades-li-2" />
                   </li>
                   <li>
-                    <Translation id="reyna-page-rnt-staking-upgrades-li-3" />
+                    <Translation id="reyna-page-rey-staking-upgrades-li-3" />
                   </li>
                   <li>
-                    <Translation id="reyna-page-rnt-staking-upgrades-li-4" />
+                    <Translation id="reyna-page-rey-staking-upgrades-li-4" />
                   </li>
                   <li>
-                    <Translation id="reyna-page-rnt-staking-upgrades-li-5" />
+                    <Translation id="reyna-page-rey-staking-upgrades-li-5" />
                   </li>
                 </ul>
               </BoxText>
@@ -365,41 +368,41 @@ const StakingPage = ({ data, location }) => {
           </Column>
         </Row>
         <H2>
-          <Translation id="reyna-page-rnt-staking-benefits" />
+          <Translation id="reyna-page-rey-staking-benefits" />
         </H2>
         <CardContainer>
           <StyledCard
             emoji=":evergreen_tree:"
             title={translateMessageId(
-              "reyna-page-rnt-staking-sustainability",
+              "reyna-page-rey-staking-sustainability",
               intl
             )}
             description={translateMessageId(
-              "reyna-page-rnt-staking-sustainability-desc",
+              "reyna-page-rey-staking-sustainability-desc",
               intl
             )}
           />
           <StyledCard
             emoji=":globe_showing_americas:"
             title={translateMessageId(
-              "reyna-page-rnt-staking-accessibility",
+              "reyna-page-rey-staking-accessibility",
               intl
             )}
             description={translateMessageId(
-              "reyna-page-rnt-staking-accessibility-desc",
+              "reyna-page-rey-staking-accessibility-desc",
               intl
             )}
           />
           <StyledCard
             emoji=":old_key:"
-            title={translateMessageId("reyna-page-rnt-staking-sharding", intl)}
+            title={translateMessageId("reyna-page-rey-staking-sharding", intl)}
             description={translateMessageId(
-              "reyna-page-rnt-staking-sharding-desc",
+              "reyna-page-rey-staking-sharding-desc",
               intl
             )}
           >
-            <Link to="/rnt/shard-chains/">
-              <Translation id="reyna-page-rnt-staking-more-sharding" />
+            <Link to="/rey/shard-chains/">
+              <Translation id="reyna-page-rey-staking-more-sharding" />
             </Link>
           </StyledCard>
         </CardContainer>
@@ -432,11 +435,11 @@ export const query = graphql`
     consensys: file(relativePath: { eq: "projects/consensys.png" }) {
       ...poolImage
     }
-    rnthub: file(relativePath: { eq: "projects/rnthub.png" }) {
+    reyhub: file(relativePath: { eq: "projects/reyhub.png" }) {
       ...poolImage
     }
-    rnterscan: file(
-      relativePath: { eq: "projects/rnterscan-logo-circle.png" }
+    reyerscan: file(
+      relativePath: { eq: "projects/reyerscan-logo-circle.png" }
     ) {
       ...poolImage
     }

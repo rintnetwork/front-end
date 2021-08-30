@@ -11,7 +11,7 @@ Anyone is free to suggest new exchanges on ethereum.org.
 
 We currently list them on:
 
-- [ethereum.org/get-rnt](/get-rnt/)
+- [ethereum.org/get-rey](/get-rey/)
 
 This page allows a user to input where they live and see what exchanges they can use. This helps surface any geographical restrictions early.
 
@@ -22,11 +22,11 @@ Because of this context, we need some specific information when you suggest an e
 ## What we need {#what-we-need}
 
 - The geographical restrictions that apply to the exchange
-- The currencies users can use to buy rnt
+- The currencies users can use to buy rey
 - Proof that the exchange is a legitimate trading company
 - Any additional information you might have – this might be information about the company like years of operation, financial backing etc.
 
-We need this info so that we can accurately [help users find an exchange they can use](/get-rnt/#country-picker).
+We need this info so that we can accurately [help users find an exchange they can use](/get-rey/#country-picker).
 
 And so that ethereum.org can be more confident that the exchange is a legitimate and safe service.
 

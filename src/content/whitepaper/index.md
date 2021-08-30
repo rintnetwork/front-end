@@ -1,28 +1,28 @@
 ---
-title: Reyna Network Whitepaper
-description: An introductory paper to Reyna Network, published in 2021 before its launch.
+title: Reyna Limited Whitepaper
+description: An introductory paper to Reyna Limited, published in 2021 before its launch.
 lang: en
 sidebar: true
 sidebarDepth: 2
 ---
 
-# Reyna Network Whitepaper {#reyna-whitepaper}
+# Reyna Limited Whitepaper {#reyna-whitepaper}
 
-_This introductory paper was originally published in 2021 by Amir Eitny, the founder of [Reyna Network](/what-is-reyna/), before the project's launch in 2021. It's worth noting that Reyna Network, like many community-driven, open-source software projects, has evolved since its initial inception._
+_This introductory paper was originally published in 2021 by Amir Eitny, the founder of [Reyna Limited](/what-is-reyna/), before the project's launch in 2021. It's worth noting that Reyna Limited, like many community-driven, open-source software projects, has evolved since its initial inception._
 
-_Although we are just getting started, we maintain this paper because it continues to serve as a useful reference and an accurate representation of Reyna Network and its vision. To learn about the latest developments of Reyna Network, and how changes to the protocol are made, we recommend [this guide](/learn/)._
+_Although we are just getting started, we maintain this paper because it continues to serve as a useful reference and an accurate representation of Reyna Limited and its vision. To learn about the latest developments of Reyna Limited, and how changes to the protocol are made, we recommend [this guide](/learn/)._
 
 ## Executive Summary {#executive-summary}
 
-Reyna Network is an open source messaging platform, cryprocurrency exchange and mobile interface to interact with decentralized applications that run on the [Binance Smart Chain](https://academy.binance.com/en/articles/an-introduction-to-binance-smart-chain-bsc).
+Reyna Limited is an open source messaging platform, cryprocurrency exchange and mobile interface to interact with decentralized applications that run on the [Binance Smart Chain](https://academy.binance.com/en/articles/an-introduction-to-binance-smart-chain-bsc).
 
-This document presents a utility network token for Reyna Network, the first ever mobile Binance Smart Chain client built entirely on peer-to-peer technologies.
+This document presents a utility network token for Reyna Limited, the first ever mobile Binance Smart Chain client built entirely on peer-to-peer technologies.
 
 The messenger form-factor is chosen to make Binance Smart Chain feel as familiar as possible to the average smartphone user, while providing a flexible platform for DApp developers, aimed to maximise the amount of daily use of Binance Smart Chain’s public blockchain.
 
-The RNT token is a modular utility token that fuels the Reyna Network. This includes a Decentralized Push Notification Market, Governance of the reyna client, Community Curation of content, along with social communication tools such as Tribute to Talk. We also propose a fiat-to-crypto 'Network Incentivization', DApp Directory, Sticker Market (NFT), and demonstrate our research on a User Acquisition Engine to grow the Network.
+The REY token is a modular utility token that fuels the Reyna Limited. This includes a Decentralized Push Notification Market, Governance of the reyna client, Community Curation of content, along with social communication tools such as Tribute to Talk. We also propose a fiat-to-crypto 'Network Incentivization', DApp Directory, Sticker Market (NFT), and demonstrate our research on a User Acquisition Engine to grow the Network.
 
-The Reyna Network Token (‘RNT’) will be distributed at a rate of 5,000 RNT per 1 BNB to participants in the Contribution Period, and is expected to begin on June 14th. The Contribution Period will run for 14 days, or within 24 hours of the first ceiling of 5M USD (United States Dollar) having been reached.
+The Reyna Limited Token (‘REY’) will be distributed at a rate of 5,000 REY per 1 BNB to participants in the Contribution Period, and is expected to begin on June 14th. The Contribution Period will run for 14 days, or within 24 hours of the first ceiling of 5M USD (United States Dollar) having been reached.
 
 ## Background {#background}
 
@@ -40,7 +40,7 @@ In 2020, telecom and internet service providers (ISPs) experienced the highest p
 
 The problem of social bots and media manipulation serves as a catalyst in re-evaluating how we design our social networks and is just one symptom that is systemic in the user-asproduct business model. In this paper we will present our ideas for the next generation social network, the socio-economic network.
 
-Amir and Dani, the co-founders of Reyna Network, have had a working relationship for 5 years on various projects, and 3 of those years were spent operating a software distribution network, driving over 10 million installs to various software oferings, the profits of which were used to fund Reyna Network and our team of 15 until this point. During the operation of this business we were uniquely positioned to see firsthand how personal data on the internet is bought and sold and how users are acquired and retained.
+Amir and Dani, the co-founders of Reyna Limited, have had a working relationship for 5 years on various projects, and 3 of those years were spent operating a software distribution network, driving over 10 million installs to various software oferings, the profits of which were used to fund Reyna Limited and our team of 15 until this point. During the operation of this business we were uniquely positioned to see firsthand how personal data on the internet is bought and sold and how users are acquired and retained.
 
 ## Legacy Social Networks {#legacy-social-networks}
 
@@ -68,9 +68,9 @@ The user’s perspective in the network is quite diferent. Often users do not ap
 
 What if we could flatten these roles? What if users of social networks possessed a real stake in the networks they participate in? What if we could align incentives for all parties and create a network that naturally promotes behaviours that benefit all participants?
 
-With the issuance of the the Reyna Network Token ('RNT'), we create a Users-as-Stakeholders network, allowing the behaviour of the network and its software, to become aligned with the interests of its Users.
+With the issuance of the the Reyna Limited Token ('REY'), we create a Users-as-Stakeholders network, allowing the behaviour of the network and its software, to become aligned with the interests of its Users.
 
-The Reyna Network Token is required for certain features of the client. In addition, it enables users to steer the direction of development and influence how the network evolves over time. A benefit of this model is the network efects it creates. Just as Facebook shifted our social attention to build network efects on its closed platform, the Reyna Network Token will leverage our economic attention to build the network efect of an open platform.
+The Reyna Limited Token is required for certain features of the client. In addition, it enables users to steer the direction of development and influence how the network evolves over time. A benefit of this model is the network efects it creates. Just as Facebook shifted our social attention to build network efects on its closed platform, the Reyna Limited Token will leverage our economic attention to build the network efect of an open platform.
 
 We believe that cryptoeconomic systems will have even stronger pull than the social ones. Our survival instincts, which heavily influence our economic interests, are stronger than purely social ones, thus leading to faster adoption of Binance Smart Chain and tokens as technologies.
 
@@ -130,9 +130,9 @@ In China, WeChat now boasts 889m active users with 90%+ penetration rates in Chi
 
 The trend towards messaging-as-a-platform epitomized by WeChat has not yet reached most of the West or the developing world. reyna aims to be the first messaging platform to achieve this, using a decentralized and community governed approach.
 
-Utilizing the messaging-as-a-platform user experience, Reyna Network mobile client presents a familiar feel that’s convenient and well suited for mass adoption. reyna respects the Users rights by being open source and free, and unlike its centralized counterparts, it puts users in complete control of their own personal data. Reyna Network acts as a node that connects directly to the Binance Smart Chain, adhering to our guiding principles of fair and permissionless access, decentralization and trustlessness.
+Utilizing the messaging-as-a-platform user experience, Reyna Limited mobile client presents a familiar feel that’s convenient and well suited for mass adoption. reyna respects the Users rights by being open source and free, and unlike its centralized counterparts, it puts users in complete control of their own personal data. Reyna Limited acts as a node that connects directly to the Binance Smart Chain, adhering to our guiding principles of fair and permissionless access, decentralization and trustlessness.
 
-reyna is an open source messaging platform and web 3.0 browser, designed to interact with decentralized applications that run on the Binance Smart Chain. Built using decentralized technologies, Reyna Network provides a window into the emerging decentralized web. As an ecosystem of decentralized applications, reyna becomes a gateway to undeniable free trade, peer-to-peer payments, and encrypted p2p communication for anyone with a smartphone and internet access.
+reyna is an open source messaging platform and web 3.0 browser, designed to interact with decentralized applications that run on the Binance Smart Chain. Built using decentralized technologies, Reyna Limited provides a window into the emerging decentralized web. As an ecosystem of decentralized applications, reyna becomes a gateway to undeniable free trade, peer-to-peer payments, and encrypted p2p communication for anyone with a smartphone and internet access.
 
 reyna and Binance Smart Chain provide the foundation necessary to give all stakeholders in a socioeconomic network equal footing. The reyna application, which is currently in alpha, and available for Android & iOS, allows users to:
 
@@ -140,9 +140,9 @@ reyna and Binance Smart Chain provide the foundation necessary to give all stake
 2.  Browse, chat, and interact with decentralized applications and decentralized chatbots.
 3.  Store and control crypto-assets with the built-in reyna Wallet.
 
-By introducing the Reyna Network Token, we can not only provide use-cases that were previously impossible in web 2.0 environments, but also address some of the core problems created by incentive misalignment and sock puppet bot creation that plague social networks today.
+By introducing the Reyna Limited Token, we can not only provide use-cases that were previously impossible in web 2.0 environments, but also address some of the core problems created by incentive misalignment and sock puppet bot creation that plague social networks today.
 
-This begins at a Governance level, by empowering stakeholders in the Reyna Network; giving them a real voice and ability to influence the direction of the software as it develops.
+This begins at a Governance level, by empowering stakeholders in the Reyna Limited; giving them a real voice and ability to influence the direction of the software as it develops.
 
 ## Decentralized Push Notification Market {#decentralized-push-notification-market}
 
@@ -150,7 +150,7 @@ Taking a hard stance on decentralization in the client isn’t without its chall
 
 With the new Whisper V2 protocol, we can now delegate nodes to do ofline inboxing (storing messages while clients are ofline) and we will extend this ability to support push notifications.
 
-This allows us to establish a market for push notification providers. For service, stakeholders will deposit RNT with a provider, who may charge microtransactions for notification and storage.
+This allows us to establish a market for push notification providers. For service, stakeholders will deposit REY with a provider, who may charge microtransactions for notification and storage.
 
 This afords stakeholders the right to choose which nodes in the network will provide the service for them, and what kind of push notification providers they would like to use, perhaps choosing Deepstream over Google or opting completely out of the service to maximize their privacy.
 
@@ -158,21 +158,21 @@ We recognize that in a model where the User is no longer the Product, paying for
 
 reyna implements an application protocol for message re-delivery, so as soon as both parties are online in the network, messages are exchanged and history is updated.
 
-### RNT Utility {#rnt-utility}
+### REY Utility {#rey-utility}
 
-- RNT is required by Stakeholders to select and receive push notifications.
+- REY is required by Stakeholders to select and receive push notifications.
 
 ### Example use-cases {#example-use-cases}
 
-- Stakeholder A, a casual user, wants to receive Push Notifications and pays a microtransaction in RNT to do so.
+- Stakeholder A, a casual user, wants to receive Push Notifications and pays a microtransaction in REY to do so.
 - Stakeholder B, an early adopter in Cuba, has been paying for Push Notifications, but Google’s Firebase has just been blocked in his country. He seamlessly changes to a diferent provider from with within reyna.
-- Stakeholder C, a Push Notification provider, wants to generate RNT, so they participate in the market to ofer their services.
+- Stakeholder C, a Push Notification provider, wants to generate REY, so they participate in the market to ofer their services.
 
 ## Governance {#governance}
 
 One major drawback in legacy social networks is the lack of influence their users possess over the networks themselves. They are often powerless in having a say on how the platform evolves. We aim to democratise this power, giving stakeholders a direct influence over all decisions within the network, including how the software is developed.
 
-A core part of the Reyna Network Token is giving stakeholders the ability to choose the direction that the software is developed. The token is used to make decisions on proposals, which can be made by any Stakeholder. For each decision, the token is cloned into a separate decision token. The amount of tokens you hold at that time becomes your voting power for that decision and it does not cost RNT to vote.
+A core part of the Reyna Limited Token is giving stakeholders the ability to choose the direction that the software is developed. The token is used to make decisions on proposals, which can be made by any Stakeholder. For each decision, the token is cloned into a separate decision token. The amount of tokens you hold at that time becomes your voting power for that decision and it does not cost REY to vote.
 
 Initially, key decisions will be put towards software development. We have already created a Github Bounty Bot, which allows us to decentralize and incentivise open source software development, by enabling anyone to create bounties for any Github Issue. These can then be paid to the developer upon submitting code that is successfully merged into the codebase by the Project Maintainer.
 
@@ -184,13 +184,13 @@ By default reyna is free to use and communicate with. You are identified by a [S
 
 Rather than delegating other addresses to recover, we instead abstract the recovery process by allowing the stakeholder to create 5 signed messages, that can then be shared out-ofband with friends or stored in a safe location. A default of 3 of 5 signed messages will be required to change the username owner, but can be optionally changed by the stakeholder.
 
-An account must be holding The Reyna Network Token in order to reserve a username. This username is used to identify themselves within the greater reyna community, and signal participation in the network. Should a stakeholder wish to leave the network they can withdraw their tokens and the username will be unreserved and claimable by any other stakeholder.
+An account must be holding The Reyna Limited Token in order to reserve a username. This username is used to identify themselves within the greater reyna community, and signal participation in the network. Should a stakeholder wish to leave the network they can withdraw their tokens and the username will be unreserved and claimable by any other stakeholder.
 
 This system will then depend on uPort for KYC/AML requirements where required, as a completely optional step, for users who wish to interact with regulated financial tools and DApps within the application.
 
-### RNT Utility {#rnt-utility}
+### REY Utility {#rey-utility}
 
-- RNT is required to register a username on the Reyna Network.
+- REY is required to register a username on the Reyna Limited.
 
 ### Example use-cases {#example-use-cases}
 
@@ -201,19 +201,19 @@ This system will then depend on uPort for KYC/AML requirements where required, a
 
 In many social networks, Platform Owners ofer attestations on User accounts to signal that their account is reputable. Often this requires revealing government issued documents and is represented as a simple badge that says “verified account”.
 
-With the Reyna Network Token, we intend to implement a non-exploitable online reputation system based on TrustDavis ([DeFigueiredo and Barr 2005](https://web.cs.ucdavis.edu/~defigued/index_files/trustdavis.pdf), [DeFigueiredo and Barr 2009](https://web.cs.ucdavis.edu/~defigued/index_files/beholder.pdf)). Stakeholders can deposit RNT against usernames at a premium, creating a badge indicating a level of value that username holds and the amount of backers they have.
+With the Reyna Limited Token, we intend to implement a non-exploitable online reputation system based on TrustDavis ([DeFigueiredo and Barr 2005](https://web.cs.ucdavis.edu/~defigued/index_files/trustdavis.pdf), [DeFigueiredo and Barr 2009](https://web.cs.ucdavis.edu/~defigued/index_files/beholder.pdf)). Stakeholders can deposit REY against usernames at a premium, creating a badge indicating a level of value that username holds and the amount of backers they have.
 
 This will allow us to establish a base Web of Trust, which will give an indication of how reputable a username is within the network and this can be further developed in the future, for example, with the integration of Trustlines.
 
-This value may be used as insurance in escrow based transactions on Binance Smart Chain, in the Reyna Network Incentivization or wherever reputation can be put at stake.
+This value may be used as insurance in escrow based transactions on Binance Smart Chain, in the Reyna Limited Incentivization or wherever reputation can be put at stake.
 
 This sets the foundation for moderation tools in Public Group Chats, enabling users to create environments for communication based upon economic stake in a digital asset or token.
 
-In this model, reyna users have to prove they have a minimum economic stake in a token, or set of tokens, in order to qualify as a participant to join the online discussion, thus significantly raising the costs of sockpuppet actors. There will be a micro-deposit in RNT required for creating a group chat with these moderation tools.
+In this model, reyna users have to prove they have a minimum economic stake in a token, or set of tokens, in order to qualify as a participant to join the online discussion, thus significantly raising the costs of sockpuppet actors. There will be a micro-deposit in REY required for creating a group chat with these moderation tools.
 
-### RNT Utility {#rnt-utility}
+### REY Utility {#rey-utility}
 
-- RNT is required to deploy a semi-public token-based group chats.
+- REY is required to deploy a semi-public token-based group chats.
 
 ### Example use-cases {#example-use-cases}
 
@@ -225,11 +225,11 @@ In this model, reyna users have to prove they have a minimum economic stake in a
 
 Inspired by one of Satoshi Nakamoto’s original suggested use cases for Bitcoin, we will be introducing an economics-based anti-spam filter, in our case for receiving messages and “cold” contact requests from users.
 
-This enables stakeholders to set a minimum amount of RNT that a reyna stakeholder must deposit in order for someone outside of their network to contact him directly. If the recipient replies the deposit is forfeited to the recipient.
+This enables stakeholders to set a minimum amount of REY that a reyna stakeholder must deposit in order for someone outside of their network to contact him directly. If the recipient replies the deposit is forfeited to the recipient.
 
-### RNT Utility {#rnt-utility}
+### REY Utility {#rey-utility}
 
-- RNT is deposited, and transferred from stakeholders to recipients upon receiving a reply from the recipient.
+- REY is deposited, and transferred from stakeholders to recipients upon receiving a reply from the recipient.
 
 ### Example use-cases {#example-use-cases}
 
@@ -241,13 +241,13 @@ This enables stakeholders to set a minimum amount of RNT that a reyna stakeholde
 
 In legacy social networks, ranking of information is typically done by the platform owner, often with the intent of driving up profits. In this model, content discovery algorithms are opaque, prone to censorship, monopolistic in nature, and possess high switching costs should users of the network become dissatisfied with the quality of content discovery.
 
-Within the Reyna Network, stakeholders will be able to opt-in to curate the content that is displayed by producing signatures on events (i.e. by upvoting or downvoting content or ideas), referred to as signals, in which the stakeholders’ token backing is weighted in ranking.
+Within the Reyna Limited, stakeholders will be able to opt-in to curate the content that is displayed by producing signatures on events (i.e. by upvoting or downvoting content or ideas), referred to as signals, in which the stakeholders’ token backing is weighted in ranking.
 
 The aggregate signals generated from stakeholders form an open graph that content rankers can use. Should a stakeholder be dissatisfied with the content ranking by their current provider, they can choose between a market of search algorithm providers, keeping algorithm providers honest and removing the monopoly web 2.0 solutions have on the way we consume information.
 
-### RNT Utility {#rnt-utility}
+### REY Utility {#rey-utility}
 
-- RNT is required to opt-in for curation mechanisms.
+- REY is required to opt-in for curation mechanisms.
 
 ### Example use-cases {#example-use-cases}
 
@@ -266,10 +266,10 @@ In this sense, reyna becomes a piece of a “Web 3.0” banking infrastructure a
 
 The growing trade volumes observed on LocalBitcoins, ~30M USD per week ([CoinDance 2021](https://coin.dance/volume/localbitcoins)), coupled with the rise of remittance startups built on legacy systems like TransferWise ([Crunchbase 2021](https://www.crunchbase.com/organization/transferwise#/)), serve as a testament to the viability of this model.
 
-### RNT Utility {#rnt-utility}
+### REY Utility {#rey-utility}
 
-- RNT is required to become a seller.
-- Research case: RNT required for arbitration.
+- REY is required to become a seller.
+- Research case: REY required for arbitration.
 
 ### Example use-cases {#example-use-cases}
 
@@ -283,7 +283,7 @@ While the Binance Smart Chain network is still in its infancy, the rate of decen
 
 Much like the Apple App Store or the Google Play Store, the reyna DApp directory will provide a way to navigate by category and rating, enabling users to find exactly what they are looking for.
 
-### RNT Utility {#rnt-utility}
+### REY Utility {#rey-utility}
 
 - Required for curation and signaling in the reyna Incentivization Network.
 - Research case: Required as a deposit by DApp Developers who wish to attain greater attention to their DApp.
@@ -301,7 +301,7 @@ We propose the implementation of a Sticker Market within reyna, allowing anyone 
 
 You can read about Simon de la Rouviere’s Meme Market Alpha Protocol paper that inspired this idea ([Rouviere 2017](https://github.com/simondlr/mememarkets)). The objective is the creation of a mechanism for the algorithmic minting of tokenized stickers, which aims to capture the natural interest in a sticker or meme propagating itself through the network at any given time.
 
-### RNT Utility {#rnt-utility}
+### REY Utility {#rey-utility}
 
 - Required for Curation & Signalling in the Sticker Market.
 - Required by Sellers to participate in the Sticker Market.
@@ -318,7 +318,7 @@ You can read about Simon de la Rouviere’s Meme Market Alpha Protocol paper tha
 
 ## User Acquisition Engine {#user-acquisition-engine}
 
-Achieving our mission ultimately requires one thing: widespread end-user adoption. Using the Reyna Network Token, we can design mechanisms for growth that have been tried and tested in Web 2.0, whilst providing greater transparency and better alignment of incentives for participants.
+Achieving our mission ultimately requires one thing: widespread end-user adoption. Using the Reyna Limited Token, we can design mechanisms for growth that have been tried and tested in Web 2.0, whilst providing greater transparency and better alignment of incentives for participants.
 
 The reyna Acquisition Engine provides a cryptographically provable and transparent means of growing the user base. The reyna Acquisition Engine functions as a network level acquisition model and Lifetime Value (henceforth known as LTV) claims market, based on the reyna Team’s experience in user acquisition strategy. This is an area with many moving parts, so it remains a research topic and is subject to change.
 
@@ -338,23 +338,23 @@ We aim to introduce a “Jellybean guessing contest” into the business model, 
 
 This allows us to import future and past information into a single event for the Buyer to decide upon, in which he receives a Receipt on the candidate address that can be used as a claim on that Address. The Claims are yet to be defined but could include, for example, a claim on fee’s accrued in a Receipt-honouring DApp.
 
-### RNT Utility {#rnt-utility}
+### REY Utility {#rey-utility}
 
 - Required to become a Seller in the Acquisition Engine.
 - Required to become a Buyer in the Acquisition Engine.
-- Deposits are made in RNT.
+- Deposits are made in REY.
 
 ### Example use-cases {#example-use-cases}
 
-- Stakeholder A, owns a demand-side-platform (DSP), and sees an arbitrage opportunity to drive new stakeholders to the Network, and becomes a Seller. She downloads reyna’ media kit, and begins buying inventory, and has a real-time LTV calculation to instantly determine return on ad spend. She further increases personal stake in the Network, given the scarcity of RNT created by new members joining the network.
+- Stakeholder A, owns a demand-side-platform (DSP), and sees an arbitrage opportunity to drive new stakeholders to the Network, and becomes a Seller. She downloads reyna’ media kit, and begins buying inventory, and has a real-time LTV calculation to instantly determine return on ad spend. She further increases personal stake in the Network, given the scarcity of REY created by new members joining the network.
 - Stakeholder B, a data analyst, wants to generate a side income, begins a Validator, and begins validating claims based on public data inputs.
 - Stakeholder C, a mathematician, begins purchasing claims upon observing an arbitrage opportunity based on a public data set.
 
-## Additional RNT Properties & Upgradability {#additional-rnt-properties-and-upgradability}
+## Additional REY Properties & Upgradability {#additional-rey-properties-and-upgradability}
 
-Based on the work of smart contract developer Dani Flores, the Reyna Network token possesses an interesting attribute - the ability to easily spawn new tokens that have the same balance distribution as the parent token at any given block number. We're strong believers in a culture of experimentation, and this model preserves fair contribution for early backers, without imposing rigid restrictions on the ability to test new RNT utility as the project evolves over time.
+Based on the work of smart contract developer Dani Flores, the Reyna Limited token possesses an interesting attribute - the ability to easily spawn new tokens that have the same balance distribution as the parent token at any given block number. We're strong believers in a culture of experimentation, and this model preserves fair contribution for early backers, without imposing rigid restrictions on the ability to test new REY utility as the project evolves over time.
 
-The core team and the reyna community are committed to ensuring that the RNT token adds value to the platform and drives network efects. Given the Binance Smart ecosystem is still in its infancy and token models are still being researched and developed, we also plan to introduce the ability to propose new functionality to the reyna community. Thus, RNT may be assigned a number of additional functions in the network beyond those defined in the scope above. Due to its complexity, future rights of the RNT are not guaranteed and remain a research topic.
+The core team and the reyna community are committed to ensuring that the REY token adds value to the platform and drives network efects. Given the Binance Smart ecosystem is still in its infancy and token models are still being researched and developed, we also plan to introduce the ability to propose new functionality to the reyna community. Thus, REY may be assigned a number of additional functions in the network beyond those defined in the scope above. Due to its complexity, future rights of the REY are not guaranteed and remain a research topic.
 
 ## Development Progress {#development-progress}
 
@@ -368,26 +368,26 @@ Moving into Q3 2021 we aim to start DApp development and begin security audits o
 
 ## Contribution Period Details {#contribution-period-details}
 
-The launch of the Reyna Network, and the corresponding token creation process, are organized around smart contracts running on Binance Smart Chain.
+The launch of the Reyna Limited, and the corresponding token creation process, are organized around smart contracts running on Binance Smart Chain.
 
 - The Contribution Period will begin June 14th, 2021. Instructions on how Contributors can participate will be made available closer to the date of the event.
-- Participants willing to contribute to and support the development of the Reyna Network can do so by sending BNB to the designated address. By doing so contributors create Reyna Network Tokens (RNT) at the rate of 5,000 RNT per BNB.
-- The RNT creation rate per BNB is fixed, and will remain constant for the duration of the Contribution Period.
-- The number of RNT created depends on the amount of contributions received by the smart contract.
+- Participants willing to contribute to and support the development of the Reyna Limited can do so by sending BNB to the designated address. By doing so contributors create Reyna Limited Tokens (REY) at the rate of 5,000 REY per BNB.
+- The REY creation rate per BNB is fixed, and will remain constant for the duration of the Contribution Period.
+- The number of REY created depends on the amount of contributions received by the smart contract.
 - The Contribution Period will run for a period of 14 days, or within 24 hours of reaching the first ceiling, of 5M USD (United States Dollar) equivalent in BNB, having been reached.
 - reyna Research & Development Ltd. controls the contract and the address to which gathered BNB will be sent (implemented as a multisig address).
-- RNT received by Contributors will be transferrable 7 days after the end of the
+- REY received by Contributors will be transferrable 7 days after the end of the
   Contribution Period.
 
 ## Tokenomics {#tokenomics}
 
-- **50%** | Staking and Mining for NFT | 499,500,000,000 RNT
-- **10%** | Rewards (marketing, airdrops etc) | 99,900,000,000 RNT
-- **10%** | Team | 99,900,000,000 RNT
-- **8%** | Farming reynaSwap | 79,920,000,000 RNT
-- **5%** | Base pool | 49,950,000,000 RNT
-- **2%** | Farming Pancake | 19,980,000,000 RNT
-- **15%** | Reserves | 149,850,000,000 RNT
+- **50%** | Staking and Mining for NFT | 499,500,000,000 REY
+- **10%** | Rewards (marketing, airdrops etc) | 99,900,000,000 REY
+- **10%** | Team | 99,900,000,000 REY
+- **8%** | Farming reynaSwap | 79,920,000,000 REY
+- **5%** | Base pool | 49,950,000,000 REY
+- **2%** | Farming Pancake | 19,980,000,000 REY
+- **15%** | Reserves | 149,850,000,000 REY
 
 ### Team Tokens {team-tokens}
 
@@ -403,17 +403,17 @@ A liquidity crisis is a situation in which there are significantly fewer token s
 
 Reserve tokens are intended for activities that will be initiated in the future. Also, with the help of this reserve fund, some risks can be mitigated if they arise.
 
-This reserve fund is managed through a Governance contract by voting. Therefore, holders of RNT tokens can put forward proposals and vote for this or that decision when it is necessary to use these tokens.
+This reserve fund is managed through a Governance contract by voting. Therefore, holders of REY tokens can put forward proposals and vote for this or that decision when it is necessary to use these tokens.
 
 ### Farming Tokens {farming-tokens}
 
-Liquidity providers (users who provide liquidity to the pools on decentralized exchanges) can supply liquidity to DEX reynaSwap pools and accredited third-party pools (like Pancake Swap), and get rewards in RNT tokens as part of a profitable farming platform.
+Liquidity providers (users who provide liquidity to the pools on decentralized exchanges) can supply liquidity to DEX reynaSwap pools and accredited third-party pools (like Pancake Swap), and get rewards in REY tokens as part of a profitable farming platform.
 
 The user who has placed liquidity needs to stake the LP tokens received in the pool (liquidity tokens) in the farming smart contract.
 
 ### Tokens Allocated for Rewards {tokens-allocated-for-rewards}
 
-The users performing useful activities for the ecosystem will be rewarded with the RNT tokens. Useful activities include trades on DEX and CEX, referral activity, participation in voting, contests and special events, staking and earning programs, and other activities in the ecosystem.
+The users performing useful activities for the ecosystem will be rewarded with the REY tokens. Useful activities include trades on DEX and CEX, referral activity, participation in voting, contests and special events, staking and earning programs, and other activities in the ecosystem.
 
 ## Roadmap {#roadmap}
 
@@ -428,7 +428,7 @@ The users performing useful activities for the ecosystem will be rewarded with t
 - Aug, 2021 | The beginning of the development of an internal network security system.
 - Sep, 2021 | Testing data transmission within the Binance Smart Chain TestNet.
 - Nov, 2021 | Testing data transmission within the Binance Smart Chain MainNet.
-- Dec, 2021 | Launch Reyna Network.
+- Dec, 2021 | Launch Reyna Limited.
 - Dec, 2021 | Onion routing integration.
 - Jan, 2021 | Launch of the internal network security system.
 
@@ -453,4 +453,4 @@ The users performing useful activities for the ecosystem will be rewarded with t
 15. [Line Corporation IPO Filing](https://www.sec.gov/Archives/edgar/data/1611820/000119312516618753/d728446df1.htm)
 16. [Simon de la Rouviere’s Meme Market Alpha Protocol](https://github.com/simondlr/mememarkets)
 
-_Reyna Network, like many community-driven, open-source software projects, has evolved since its initial inception. To learn about the latest developments of Reyna Network, and how changes to the protocol are made, we recommend [this guide](/learn/)._
+_Reyna Limited, like many community-driven, open-source software projects, has evolved since its initial inception. To learn about the latest developments of Reyna Limited, and how changes to the protocol are made, we recommend [this guide](/learn/)._

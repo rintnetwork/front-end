@@ -117,14 +117,14 @@ const LegacyPageHome = () => {
           }
         }
       }
-      developers: file(relativePath: { eq: "developers-rnt-blocks.png" }) {
+      developers: file(relativePath: { eq: "developers-rey-blocks.png" }) {
         childImageSharp {
           fixed(height: 200) {
             ...GatsbyImageSharpFixed
           }
         }
       }
-      enterprise: file(relativePath: { eq: "enterprise-rnt.png" }) {
+      enterprise: file(relativePath: { eq: "enterprise-rey.png" }) {
         childImageSharp {
           fixed(height: 200) {
             ...GatsbyImageSharpFixed

@@ -19,13 +19,13 @@ contract SimpleWallet {
         owner = payable(msg.sender);
     }
 
-    // Send rnt from the function caller to the SimpleWallet contract
+    // Send rey from the function caller to the SimpleWallet contract
     function deposit() public payable {
-        require(msg.value > 0, "Must send rnt.");
+        require(msg.value > 0, "Must send rey.");
         emit LogDeposit(msg.value, msg.sender);
     }
 
-    // Send rnt from the SimpleWallet contract to a chosen recipient
+    // Send rey from the SimpleWallet contract to a chosen recipient
     function withdraw(uint amount, address payable recipient) public {
         require(msg.sender == owner, "Only the owner of this wallet can withdraw.");
         require(address(this).balance >= amount, "Not enough funds.");

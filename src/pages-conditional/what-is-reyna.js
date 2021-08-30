@@ -241,7 +241,9 @@ const cards = [
   {
     emoji: ":cloud:",
     title: <Translation id="reyna-page-what-is-reyna-transparency" />,
-    description: <Translation id="reyna-page-what-is-reyna-transparency-desc" />,
+    description: (
+      <Translation id="reyna-page-what-is-reyna-transparency-desc" />
+    ),
   },
   {
     emoji: ":unlock:",
@@ -273,7 +275,10 @@ const WhatIsethereumPage = ({ data }) => {
     {
       title: <Translation id="reyna-page-what-is-reyna-report-2021q2" />,
       to: "https://reynanetwork.medium.com/",
-      alt: translateMessageId("reyna-page-what-is-reyna-report-2021q2-alt", intl),
+      alt: translateMessageId(
+        "reyna-page-what-is-reyna-report-2021q2-alt",
+        intl
+      ),
       image: data.quarterly.childImageSharp.fixed,
       description: (
         <Translation id="reyna-page-what-is-reyna-report-2021q2-desc" />
@@ -439,7 +444,10 @@ const WhatIsethereumPage = ({ data }) => {
           </StyledCallout>
           <StyledCallout
             image={data.community.childImageSharp.fixed}
-            title={translateMessageId("reyna-page-what-is-reyna-community", intl)}
+            title={translateMessageId(
+              "reyna-page-what-is-reyna-community",
+              intl
+            )}
             alt={translateMessageId(
               "reyna-page-what-is-reyna-alt-img-comm",
               intl

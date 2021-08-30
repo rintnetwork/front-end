@@ -440,17 +440,17 @@ const HomePage = ({ data }) => {
     },
 
     {
-      image: data.rntfixed.childImageSharp.fixed,
-      title: translateMessageId("reyna-page-index-get-started-rnt-title", intl),
+      image: data.reyfixed.childImageSharp.fixed,
+      title: translateMessageId("reyna-page-index-get-started-rey-title", intl),
       description: translateMessageId(
-        "reyna-page-index-get-started-rnt-description",
+        "reyna-page-index-get-started-rey-description",
         intl
       ),
       alt: translateMessageId(
-        "reyna-page-index-get-started-rnt-image-alt",
+        "reyna-page-index-get-started-rey-image-alt",
         intl
       ),
-      to: "/get-rnt/",
+      to: "/get-rey/",
     },
     {
       image: data.dogefixed.childImageSharp.fixed,
@@ -470,7 +470,10 @@ const HomePage = ({ data }) => {
     },
     {
       image: data.devfixed.childImageSharp.fixed,
-      title: translateMessageId("reyna-page-index-get-started-devs-title", intl),
+      title: translateMessageId(
+        "reyna-page-index-get-started-devs-title",
+        intl
+      ),
       description: translateMessageId(
         "reyna-page-index-get-started-devs-description",
         intl
@@ -486,13 +489,13 @@ const HomePage = ({ data }) => {
   const touts = [
     {
       image: data.merge.childImageSharp.fixed,
-      alt: translateMessageId("reyna-page-index-tout-rnt-image-alt", intl),
-      title: translateMessageId("reyna-page-index-tout-rnt-title", intl),
+      alt: translateMessageId("reyna-page-index-tout-rey-image-alt", intl),
+      title: translateMessageId("reyna-page-index-tout-rey-title", intl),
       description: translateMessageId(
-        "reyna-page-index-tout-rnt-description",
+        "reyna-page-index-tout-rey-description",
         intl
       ),
-      to: "/rnt/",
+      to: "/rey/",
     },
     {
       image: data.infrastructurefixed.childImageSharp.fixed,
@@ -509,7 +512,10 @@ const HomePage = ({ data }) => {
     },
     {
       image: data.enterprise.childImageSharp.fixed,
-      alt: translateMessageId("reyna-page-index-tout-community-image-alt", intl),
+      alt: translateMessageId(
+        "reyna-page-index-tout-community-image-alt",
+        intl
+      ),
       title: translateMessageId("reyna-page-index-tout-community-title", intl),
       description: translateMessageId(
         "reyna-page-index-tout-community-description",
@@ -551,13 +557,13 @@ contract SimpleWallet {
         owner = payable(msg.sender);
     }
 
-    // Send rnt from the function caller to the SimpleWallet contract
+    // Send rey from the function caller to the SimpleWallet contract
     function deposit() public payable {
-        require(msg.value > 0, "Must send rnt.");
+        require(msg.value > 0, "Must send rey.");
         emit LogDeposit(msg.value, msg.sender);
     }
 
-    // Send rnt from the SimpleWallet contract to a chosen recipient
+    // Send rey from the SimpleWallet contract to a chosen recipient
     function withdraw(uint amount, address payable recipient) public {
         require(msg.sender == owner, "Only the owner of this wallet can withdraw.");
         require(address(this).balance >= amount, "Not enough funds.");
@@ -621,18 +627,18 @@ contract SimpleToken {
         intl
       ),
       codeLanguage: "language-javascript",
-      code: `const rnters = require("rnters");
+      code: `const reyers = require("reyers");
 
 // Create a wallet instance from a mnemonic...
 const mnemonic =
   "announce room limb pattern dry unit scale effort smooth jazz weasel alcohol";
-const walletMnemonic = rnters.Wallet.fromMnemonic(mnemonic);
+const walletMnemonic = reyers.Wallet.fromMnemonic(mnemonic);
 
 // ...or from a private key
-const walletPrivateKey = new rnters.Wallet(walletMnemonic.privateKey);
+const walletPrivateKey = new reyers.Wallet(walletMnemonic.privateKey);
 
 // ...or create a wallet from a random private key
-const randomWallet = rnters.Wallet.createRandom();
+const randomWallet = reyers.Wallet.createRandom();
 
 walletMnemonic.address;
 // '0x71CB05EE1b1F506fF321Da3dac38f25c0c9ce6E1'
@@ -645,7 +651,7 @@ walletMnemonic.publicKey;
 
 const tx = {
   to: "0x8ba1f109551bD432803012645Ac136ddd64DBA72",
-  value: rnters.utils.parsernter("1.0"),
+  value: reyers.utils.parsereyer("1.0"),
 };
 
 // Sign a transaction
@@ -661,12 +667,12 @@ wallet.getBalance();
 wallet.getTransactionCount();
 // { Promise: 0 }
 
-// Send rnter
+// Send reyer
 wallet.sendTransaction(tx);
 
-// Content adapted from rnters documentation by Richard Moore
-// https://docs.rnters.io/v5/api/signer/#Wallet
-// https://github.com/rnters-io/rnters.js/blob/master/docs/v5/api/signer/README.md#mrntods
+// Content adapted from reyers documentation by Richard Moore
+// https://docs.reyers.io/v5/api/signer/#Wallet
+// https://github.com/reyers-io/reyers.js/blob/master/docs/v5/api/signer/README.md#mreyods
 // Content is licensed under the Creative Commons License:
 // https://choosealicense.com/licenses/cc-by-4.0/      
       `,
@@ -689,7 +695,7 @@ contract SimpleDomainRegistry {
 
     address public owner;
     // Hypothetical cost to register a domain name
-    uint constant public DOMAIN_NAME_COST = 1 rnter;
+    uint constant public DOMAIN_NAME_COST = 1 reyer;
 
     // A mapping is essentially a hash table data structure.
     // This mapping assigns an address (the domain holder) to a string (the domain name).
@@ -799,7 +805,7 @@ contract SimpleDomainRegistry {
               <ButtonLink to="/what-is-ethereum/">
                 <Translation id="reyna-page-index-what-is-reyna-button" />
               </ButtonLink>
-              <StyledButtonLink isSecondary to="/rnt/">
+              <StyledButtonLink isSecondary to="/rey/">
                 <Translation id="reyna-page-index-what-is-reyna-secondary-button" />
               </StyledButtonLink>
             </ButtonRow>
@@ -1038,7 +1044,7 @@ export const query = graphql`
         }
       }
     }
-    rntfixed: file(relativePath: { eq: "get-rnt.png" }) {
+    reyfixed: file(relativePath: { eq: "get-rey.png" }) {
       childImageSharp {
         fixed(width: 320) {
           ...GatsbyImageSharpFixed

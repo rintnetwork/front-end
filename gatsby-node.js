@@ -27,7 +27,7 @@ const flattenMessages = (nestedMessages, prefix = "") => {
 // same function from 'gatsby-plugin-intl'
 const getMessages = (path, language) => {
   try {
-    const messages = require(`${path}/${language}.json`)
+    const messages = require(`${path}${language}.json`)
 
     return flattenMessages(messages)
   } catch (error) {
@@ -45,7 +45,7 @@ const getMessages = (path, language) => {
 const outdatedMarkdownPages = [
   "/dapps/",
   "/enterprise/",
-  "/rnt/",
+  "/rey/",
   "/learn/",
   "/wallets/",
   "/what-is-reyna/",
@@ -203,7 +203,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   })
 
   // Create contentVersion v2.0 pages
-  const contentV2Pages = [`rnt`, `dapps`, `wallets/index`, `what-is-reyna`]
+  const contentV2Pages = [`rey`, `dapps`, `wallets/index`, `what-is-reyna`]
   const contentV2Languages = supportedLanguages.filter(
     (lang) => getLangContentVersion(lang) >= 2.0
   )
@@ -235,7 +235,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Create contentVersion v1.0 pages
   // v1.0 doesn't have existing markdown files for these pages
-  const contentV1Pages = [`rnt`, `dapps`, `wallets/index`]
+  const contentV1Pages = [`rey`, `dapps`, `wallets/index`]
   const contentV1Languages = supportedLanguages.filter(
     (lang) => getLangContentVersion(lang) === 1.0
   )

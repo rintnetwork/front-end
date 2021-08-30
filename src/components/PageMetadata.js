@@ -15,7 +15,7 @@ const PageMetadata = ({ description, meta, title, image, canonicalUrl }) => {
     ogImageDefault,
     ogImageDevelopers,
     ogImageDapps,
-    ogImagernttwo,
+    ogImagereytwo,
   } = useStaticQuery(
     graphql`
       query {
@@ -32,7 +32,7 @@ const PageMetadata = ({ description, meta, title, image, canonicalUrl }) => {
             }
           }
         }
-        ogImageDevelopers: file(relativePath: { eq: "enterprise-rnt.png" }) {
+        ogImageDevelopers: file(relativePath: { eq: "enterprise-rey.png" }) {
           childImageSharp {
             fixed(width: 1200) {
               src
@@ -46,7 +46,7 @@ const PageMetadata = ({ description, meta, title, image, canonicalUrl }) => {
             }
           }
         }
-        ogImagernttwo: file(relativePath: { eq: "rnt/eth2_doge.png" }) {
+        ogImagereytwo: file(relativePath: { eq: "rey/eth2_doge.png" }) {
           childImageSharp {
             fixed(width: 1200) {
               src
@@ -86,8 +86,8 @@ const PageMetadata = ({ description, meta, title, image, canonicalUrl }) => {
         if (pathname.includes("/dapps/")) {
           ogImage = ogImageDapps.childImageSharp.fixed.src
         }
-        if (pathname.includes("/rnt/")) {
-          ogImage = ogImagernttwo.childImageSharp.fixed.src
+        if (pathname.includes("/rey/")) {
+          ogImage = ogImagereytwo.childImageSharp.fixed.src
         }
         if (image) {
           ogImage = image

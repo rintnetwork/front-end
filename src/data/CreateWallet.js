@@ -1,18 +1,18 @@
 // This content is used as a code example in /src/pages/index.js
 // Kept here for easy formatting.
 
-const rnters = require("rnters")
+const reyers = require("reyers")
 
 // Create a wallet instance from a mnemonic...
 const mnemonic =
   "announce room limb pattern dry unit scale effort smooth jazz weasel alcohol"
-const walletMnemonic = rnters.Wallet.fromMnemonic(mnemonic)
+const walletMnemonic = reyers.Wallet.fromMnemonic(mnemonic)
 
 // ...or from a private key
-const walletPrivateKey = new rnters.Wallet(walletMnemonic.privateKey)
+const walletPrivateKey = new reyers.Wallet(walletMnemonic.privateKey)
 
 // ...or create a wallet from a random private key
-const randomWallet = rnters.Wallet.createRandom()
+const randomWallet = reyers.Wallet.createRandom()
 
 walletMnemonic.address
 // '0x71CB05EE1b1F506fF321Da3dac38f25c0c9ce6E1'
@@ -25,7 +25,7 @@ walletMnemonic.publicKey
 
 const tx = {
   to: "0x8ba1f109551bD432803012645Ac136ddd64DBA72",
-  value: rnters.utils.parsernter("1.0"),
+  value: reyers.utils.parsereyer("1.0"),
 }
 
 // Sign a transaction
@@ -41,11 +41,11 @@ wallet.getBalance()
 wallet.getTransactionCount()
 // { Promise: 0 }
 
-// Send rnter
+// Send reyer
 wallet.sendTransaction(tx)
 
-// Content adapted from rnters documentation by Richard Moore
-// https://docs.rnters.io/v5/api/signer/#Wallet
-// https://github.com/rnters-io/rnters.js/blob/master/docs/v5/api/signer/README.md#mrntods
+// Content adapted from reyers documentation by Richard Moore
+// https://docs.reyers.io/v5/api/signer/#Wallet
+// https://github.com/reyers-io/reyers.js/blob/master/docs/v5/api/signer/README.md#mreyods
 // Content is licensed under the Creative Commons License:
 // https://choosealicense.com/licenses/cc-by-4.0/

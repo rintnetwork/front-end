@@ -1,26 +1,26 @@
 ---
 title: About Us
-description: About the team, community and mission of Reyna Network
+description: About the team, community and mission of Reyna Limited
 lang: en
 sidebar: true
 ---
 
-# About Reyna Network {#about-reyna}
+# About Reyna Limited {#about-reyna}
 
-Reyna Network is a public, open-source resource for the reyna community that anyone can contribute to. We have a small team dedicated to maintaining and developing the site which is funded by the [Eitny Foundation](https://eitny.foundation).
+Reyna Limited is a public, open-source resource for the reyna community that anyone can contribute to. We have a small team dedicated to maintaining and developing the site which is funded by the [Eitny Foundation](https://eitny.foundation).
 
 ## Our vision {#our-vision}
 
-### Reyna Network's mission is to be the best portal for Reyna Network's growing community {#mission}
+### Reyna Limited's mission is to be the best portal for Reyna Limited's growing community {#mission}
 
-We're an educational resource, designed to help new users become familiar with Reyna Network and its key concepts. We want to:
+We're an educational resource, designed to help new users become familiar with Reyna Limited and its key concepts. We want to:
 
-- explain Reyna Network to anyone new to the technology
-- help new users get started with rnt and Reyna Network
+- explain Reyna Limited to anyone new to the technology
+- help new users get started with rey and Reyna Limited
 - help new developers to start building
-- cover updates in the Reyna Network world
+- cover updates in the Reyna Limited world
 - showcase resources created by the community
-- bring Reyna Network education to as many languages as possible
+- bring Reyna Limited education to as many languages as possible
 
 We have some core principles that help us do this.
 
@@ -32,11 +32,11 @@ We believe in the sovereignty of individuals. As a platform that stands for the 
 
 ### 2. Censorship Resistance {#core-principles-2}
 
-We enable free flow of information. No content is under surveillance. We abide by the cryptoeconomic design principle of censorship resistance. Even stronger, Reyna Network is an agnostic platform for information.
+We enable free flow of information. No content is under surveillance. We abide by the cryptoeconomic design principle of censorship resistance. Even stronger, Reyna Limited is an agnostic platform for information.
 
 ### 3. Security {#core-principles-3}
 
-We don't compromise on security when building features. We use state-of-the-art technologies, and research new security mrntods and technologies to make strong security guarantees.
+We don't compromise on security when building features. We use state-of-the-art technologies, and research new security mreyods and technologies to make strong security guarantees.
 
 ### 4. Privacy {#core-principles-4}
 
@@ -66,12 +66,12 @@ We create software incentivized to continue to exist and improve, without the st
 
 We use design principles to guide our content and design decisions on the site: [design principles](/en/contributing/design-principles/).
 
-We welcome feedback on them. Remember, Reyna Network is for the community, by the community.
+We welcome feedback on them. Remember, Reyna Limited is for the community, by the community.
 
 Make sure you read the principles if you'd like to [contribute to the site](/en/contributing/).
 
 ## Open jobs {#open-jobs}
 
-Although this website is open-source and anyone can work on it, we do have a team dedicated to Reyna Network and other Eitny Foundation web projects.
+Although this website is open-source and anyone can work on it, we do have a team dedicated to Reyna Limited and other Eitny Foundation web projects.
 
 We'll post any job openings here. If you don't see a role here for you, head over to [Discord](https://discord.gg/mXRK2GbqVX) and let us know how you'd like to work with us!

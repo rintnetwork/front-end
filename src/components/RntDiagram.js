@@ -6,7 +6,7 @@ import Link from "./Link"
 import Emoji from "./Emoji"
 import Translation from "../components/Translation"
 
-const rnt1 = styled.div`
+const rey1 = styled.div`
   cursor: pointer;
   border: 1px solid ${(props) => props.theme.colors.mainnetBorder};
   background: ${(props) => props.theme.colors.mainnet};
@@ -173,13 +173,13 @@ const ModalContent = ({ upgrade }) => {
     return (
       <>
         <H2>
-          <Translation id="page-rnt-diagram-ethereum-mainnet" />
+          <Translation id="page-rey-diagram-ethereum-mainnet" />
         </H2>
         <p>
-          <Translation id="page-rnt-diagram-p" />
+          <Translation id="page-rey-diagram-p" />
         </p>
         <p>
-          <Translation id="page-rnt-diagram-p-1" />
+          <Translation id="page-rey-diagram-p-1" />
         </p>
       </>
     )
@@ -188,16 +188,16 @@ const ModalContent = ({ upgrade }) => {
     return (
       <>
         <H2>
-          <Translation id="page-rnt-beacon-chain-title" />
+          <Translation id="page-rey-beacon-chain-title" />
         </H2>
         <p>
-          <Translation id="page-rnt-diagram-p-2" />
+          <Translation id="page-rey-diagram-p-2" />
         </p>
         <p>
-          <Translation id="page-rnt-diagram-p-3" />
+          <Translation id="page-rey-diagram-p-3" />
         </p>
-        <ButtonLink to="/rnt/beacon-chain/">
-          <Translation id="page-rnt-beacon-chain-btn" />
+        <ButtonLink to="/rey/beacon-chain/">
+          <Translation id="page-rey-beacon-chain-btn" />
         </ButtonLink>
       </>
     )
@@ -206,19 +206,19 @@ const ModalContent = ({ upgrade }) => {
     return (
       <>
         <H2>
-          <Translation id="page-rnt-shard-title" />
+          <Translation id="page-rey-shard-title" />
         </H2>
         <p>
-          <Translation id="page-rnt-diagram-p-4" />
+          <Translation id="page-rey-diagram-p-4" />
         </p>
         <p>
-          <Translation id="page-rnt-diagram-p-5" />{" "}
+          <Translation id="page-rey-diagram-p-5" />{" "}
           <Link to="/developers/docs/consensus-mechanisms/pow/">
-            <Translation id="page-rnt-diagram-link-1" />
+            <Translation id="page-rey-diagram-link-1" />
           </Link>
         </p>
-        <ButtonLink to="/rnt/shard-chains/">
-          <Translation id="page-rnt-diagram-link-2" />
+        <ButtonLink to="/rey/shard-chains/">
+          <Translation id="page-rey-diagram-link-2" />
         </ButtonLink>
       </>
     )
@@ -227,22 +227,22 @@ const ModalContent = ({ upgrade }) => {
     return (
       <>
         <H2>
-          <Translation id="page-rnt-docking" />
+          <Translation id="page-rey-docking" />
         </H2>
         <p>
-          <Translation id="page-rnt-diagram-p-6" />{" "}
+          <Translation id="page-rey-diagram-p-6" />{" "}
           <Link to="/developers/docs/consensus-mechanisms/pos/">
-            <Translation id="page-rnt-proof-stake-link" />
+            <Translation id="page-rey-proof-stake-link" />
           </Link>{" "}
         </p>
         <p>
-          <Translation id="page-rnt-diagram-p-8" />{" "}
+          <Translation id="page-rey-diagram-p-8" />{" "}
           <Link to="/glossary/#validator">
-            <Translation id="page-rnt-diagram-validators" />
+            <Translation id="page-rey-diagram-validators" />
           </Link>
         </p>
-        <ButtonLink to="/rnt/merge/">
-          <Translation id="page-rnt-docking-btn" />
+        <ButtonLink to="/rey/merge/">
+          <Translation id="page-rey-docking-btn" />
         </ButtonLink>
       </>
     )
@@ -251,7 +251,7 @@ const ModalContent = ({ upgrade }) => {
 }
 
 // TODO update z-indices so only the selected section of diagram is above the modal overlay
-const rntDiagram = () => {
+const reyDiagram = () => {
   const [modalState, setModalState] = useState(false)
 
   // Update modal state to upgrade props, else close modal
@@ -266,15 +266,15 @@ const rntDiagram = () => {
       </Modal>
       <Intro>
         <H2>
-          <Translation id="page-rnt-diagram-h2" />
+          <Translation id="page-rey-diagram-h2" />
         </H2>
         <p>
-          <Translation id="page-rnt-diagram-p10" />
+          <Translation id="page-rey-diagram-p10" />
         </p>
       </Intro>
       <MobileInstruction>
         <p>
-          <Translation id="page-rnt-diagram-scroll" />
+          <Translation id="page-rey-diagram-scroll" />
         </p>
         <Emoji ml={"1rem"} size="4" mb={"1rem"} text=":point_right:" />
       </MobileInstruction>
@@ -286,41 +286,41 @@ const rntDiagram = () => {
                 isAboveOverlay={modalState === BEACON_CHAIN}
                 onClick={() => handleClick(BEACON_CHAIN)}
               >
-                <Translation id="page-rnt-beacon-chain-title" />
+                <Translation id="page-rey-beacon-chain-title" />
               </Phase0>
               <Phase1 isAboveOverlay={modalState === SHARDS}>
-                <Translation id="page-rnt-beacon-chain-title" />
+                <Translation id="page-rey-beacon-chain-title" />
                 <Box onClick={() => handleClick(SHARDS)}>
-                  <Translation id="page-rnt-diagram-shard" />
+                  <Translation id="page-rey-diagram-shard" />
                 </Box>
                 <Box onClick={() => handleClick(SHARDS)}>
-                  <Translation id="page-rnt-diagram-shard-1" />
+                  <Translation id="page-rey-diagram-shard-1" />
                 </Box>
               </Phase1>
             </Phase01>
-            <rnt1
+            <rey1
               isAboveOverlay={modalState === MAINNET}
               onClick={() => handleClick(MAINNET)}
             >
-              <Translation id="page-rnt-diagram-mainnet" />
-            </rnt1>
+              <Translation id="page-rey-diagram-mainnet" />
+            </rey1>
           </PrePhase2>
           <Phase2
             isAboveOverlay={modalState === MERGE}
             onClick={() => handleClick(MERGE)}
           >
-            <Translation id="page-rnt-beacon-chain-title" />
+            <Translation id="page-rey-beacon-chain-title" />
             <ShardBox>
-              <Translation id="page-rnt-diagram-shard" />
+              <Translation id="page-rey-diagram-shard" />
             </ShardBox>
             <ShardBox>
-              <Translation id="page-rnt-diagram-shard-2" />
+              <Translation id="page-rey-diagram-shard-2" />
             </ShardBox>
             <ShardBox>
-              <Translation id="page-rnt-diagram-shard-3" />
+              <Translation id="page-rey-diagram-shard-3" />
             </ShardBox>
             <MainnetBox>
-              <Translation id="page-rnt-diagram-mainnet" />
+              <Translation id="page-rey-diagram-mainnet" />
             </MainnetBox>
           </Phase2>
         </Container>
@@ -329,4 +329,4 @@ const rntDiagram = () => {
   )
 }
 
-export default rntDiagram
+export default reyDiagram

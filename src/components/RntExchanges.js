@@ -181,7 +181,7 @@ export const cardListImage = graphql`
   }
 `
 
-// TODO move component into get-rnt.js page?
+// TODO move component into get-rey.js page?
 const RntExchanges = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -250,7 +250,7 @@ const RntExchanges = () => {
       kraken: file(relativePath: { eq: "exchanges/kraken.png" }) {
         ...cardListImage
       }
-      myrnterwallet: file(relativePath: { eq: "wallets/myrnterwallet.png" }) {
+      myreyerwallet: file(relativePath: { eq: "wallets/myreyerwallet.png" }) {
         ...cardListImage
       }
       mycrypto: file(relativePath: { eq: "wallets/mycrypto.png" }) {
@@ -402,10 +402,10 @@ const RntExchanges = () => {
     simplex: {
       usaExceptions: ["AL", "AK", "NM", "HI", "NV", "WA", "VT", "NY"],
       wallets: {
-        MyrnterWallet: {
-          url: "https://www.myrnterwallet.com/",
+        MyreyerWallet: {
+          url: "https://www.myreyerwallet.com/",
           platform: "Mobile/Web",
-          image: data.myrnterwallet,
+          image: data.myreyerwallet,
         },
       },
     },
@@ -455,12 +455,12 @@ const RntExchanges = () => {
         let description = null
         if (
           state.selectedCountry.country ===
-          translateMessageId("page-get-rnt-exchanges-usa", intl)
+          translateMessageId("page-get-rey-exchanges-usa", intl)
         ) {
           const exceptions = exchanges[exchange].usaExceptions
           if (exceptions.length > 0) {
             description = `${translateMessageId(
-              "page-get-rnt-exchanges-except",
+              "page-get-rey-exchanges-except",
               intl
             )} ${exceptions.join(", ")}`
           }
@@ -493,12 +493,12 @@ const RntExchanges = () => {
             let description = null
             if (
               state.selectedCountry.country ===
-              translateMessageId("page-get-rnt-exchanges-usa", intl)
+              translateMessageId("page-get-rey-exchanges-usa", intl)
             ) {
               const exceptions = walletProviders[currentProvider].usaExceptions
               if (exceptions.length > 0) {
                 description = `${translateMessageId(
-                  "page-get-rnt-exchanges-except",
+                  "page-get-rey-exchanges-except",
                   intl
                 )} ${exceptions.join(", ")}`
               }
@@ -524,10 +524,10 @@ const RntExchanges = () => {
   return (
     <Container>
       <h2>
-        <Translation id="page-get-rnt-exchanges-header" />
+        <Translation id="page-get-rey-exchanges-header" />
       </h2>
       <Intro>
-        <Translation id="page-get-rnt-exchanges-intro" />
+        <Translation id="page-get-rey-exchanges-intro" />
       </Intro>
       <StyledSelect
         className="react-select-container"
@@ -540,7 +540,7 @@ const RntExchanges = () => {
         <EmptyStateContainer>
           <Emoji text=":world_map:" size={5} />
           <EmptyStateText>
-            <Translation id="page-get-rnt-exchanges-empty-state-text" />
+            <Translation id="page-get-rey-exchanges-empty-state-text" />
           </EmptyStateText>
         </EmptyStateContainer>
       )}
@@ -548,7 +548,7 @@ const RntExchanges = () => {
       {hasSelectedCountry && !hasExchangeResults && !hasWalletResults && (
         <ResultsContainer>
           <NoResults>
-            <Translation id="page-get-rnt-exchanges-no-exchanges-or-wallets" />
+            <Translation id="page-get-rey-exchanges-no-exchanges-or-wallets" />
           </NoResults>
         </ResultsContainer>
       )}
@@ -558,33 +558,33 @@ const RntExchanges = () => {
           <ResultsContainer>
             <ListContainer>
               <h3>
-                <Translation id="page-get-rnt-exchanges-header-exchanges" />
+                <Translation id="page-get-rey-exchanges-header-exchanges" />
               </h3>
               {hasExchangeResults && (
                 <SuccessContainer>
                   <p>
-                    <Translation id="page-get-rnt-exchanges-success-exchange" />
+                    <Translation id="page-get-rey-exchanges-success-exchange" />
                   </p>
                   <CardList content={filteredExchanges} />
                 </SuccessContainer>
               )}
               {!hasExchangeResults && (
                 <NoResultsSingle>
-                  <Translation id="page-get-rnt-exchanges-no-exchanges" />
+                  <Translation id="page-get-rey-exchanges-no-exchanges" />
                 </NoResultsSingle>
               )}
             </ListContainer>
             <ListContainer>
               <h3>
-                <Translation id="page-get-rnt-exchanges-header-wallets" />
+                <Translation id="page-get-rey-exchanges-header-wallets" />
               </h3>
 
               {hasWalletResults && (
                 <SuccessContainer>
                   <p>
-                    <Translation id="page-get-rnt-exchanges-success-wallet-paragraph" />{" "}
+                    <Translation id="page-get-rey-exchanges-success-wallet-paragraph" />{" "}
                     <Link to="/wallets/">
-                      <Translation id="page-get-rnt-exchanges-success-wallet-link" />
+                      <Translation id="page-get-rey-exchanges-success-wallet-link" />
                     </Link>
                     .
                   </p>
@@ -593,13 +593,13 @@ const RntExchanges = () => {
               )}
               {!hasWalletResults && (
                 <NoResultsSingle>
-                  <Translation id="page-get-rnt-exchanges-no-wallets" />
+                  <Translation id="page-get-rey-exchanges-no-wallets" />
                 </NoResultsSingle>
               )}
             </ListContainer>
           </ResultsContainer>
           <Disclaimer>
-            <Translation id="page-get-rnt-exchanges-disclaimer" />{" "}
+            <Translation id="page-get-rey-exchanges-disclaimer" />{" "}
             <Link to="mailto:website@ethereum.org">website@ethereum.org</Link>.
             <Translation id="page-find-wallet-last-updated" />{" "}
             <strong>{lastUpdated}</strong>

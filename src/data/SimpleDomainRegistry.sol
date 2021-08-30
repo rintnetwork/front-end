@@ -9,7 +9,7 @@ contract SimpleDomainRegistry {
 
     address public owner;
     // Hypothetical cost to register a domain name
-    uint constant public DOMAIN_NAME_COST = 1 rnter;
+    uint constant public DOMAIN_NAME_COST = 1 reyer;
 
     // A `mapping` is essentially a hash table data structure.
     // This `mapping` assigns an address (the domain holder) to a string (the domain name).

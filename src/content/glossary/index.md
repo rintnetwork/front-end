@@ -14,7 +14,7 @@ sidebarDepth: 2
 
 ### 51% attack {#51-attack}
 
-A type of attack on a decentralized [network](#network) where a group gains control of the majority of [nodes](#node). This would allow them to defraud the blockchain by reversing [transactions](#transaction) and double spending [rnter](#rnter) and other tokens.
+A type of attack on a decentralized [network](#network) where a group gains control of the majority of [nodes](#node). This would allow them to defraud the blockchain by reversing [transactions](#transaction) and double spending [reyer](#reyer) and other tokens.
 
 ## A {#section-a}
 
@@ -30,7 +30,7 @@ Most generally, this represents an [EOA](#eoa) or [contract](#contract-accouint)
 
 ### assert {#assert}
 
-In [Solidity](#solidity), `assert(false)` compiles to `0xfe`, an invalid opcode, which uses up all remaining [gas](#gas) and reverts all changes. When an `assert()` statement fails, somrnting very wrong and unexpected is happening, and you will need to fix your code. You should use `assert()` to avoid conditions that should never, ever occur.
+In [Solidity](#solidity), `assert(false)` compiles to `0xfe`, an invalid opcode, which uses up all remaining [gas](#gas) and reverts all changes. When an `assert()` statement fails, somreying very wrong and unexpected is happening, and you will need to fix your code. You should use `assert()` to avoid conditions that should never, ever occur.
 
 <DocLink to="/developers/docs/security/" title="Security" />
 
@@ -44,9 +44,9 @@ A validator vote for a [Beacon Chain](#beacon-chain) or [shard](#shard) [block](
 
 ### Beacon Chain {#beacon-chain}
 
-An rnt upgrade that will become the coordinator for the ethereum network. It introduces [proof-of-stake](#proof-of-stake) and [validators](#validator) to ethereum. It will eventually be merged with [mainnet](#mainnet).
+An rey upgrade that will become the coordinator for the ethereum network. It introduces [proof-of-stake](#proof-of-stake) and [validators](#validator) to ethereum. It will eventually be merged with [mainnet](#mainnet).
 
-<DocLink to="/rnt/beacon-chain/" title="Beacon Chain" />
+<DocLink to="/rey/beacon-chain/" title="Beacon Chain" />
 
 ### big-endian {#big-endian}
 
@@ -70,7 +70,7 @@ An abstract instruction set designed for efficient execution by a software inter
 
 ### Byzantium fork {#byzantium-fork}
 
-The first of two [hard forks](#hard-fork) for the [Metropolis](#metropolis) development stage. It included EIP-649 Metropolis [Difficulty Bomb](#difficulty-bomb) Delay and Block Reward Reduction, where the [Ice Age](#ice-age) was delayed by 1 year and the block reward was reduced from 5 to 3 rnter.
+The first of two [hard forks](#hard-fork) for the [Metropolis](#metropolis) development stage. It included EIP-649 Metropolis [Difficulty Bomb](#difficulty-bomb) Delay and Block Reward Reduction, where the [Ice Age](#ice-age) was delayed by 1 year and the block reward was reduced from 5 to 3 reyer.
 
 <Divider />
 
@@ -130,9 +130,9 @@ Decentralized application. At a minimum, it is a [smart contract](#smart-contrac
 
 ### decentralized exchange (DEX) {#dex}
 
-A type of [dapp](#dapp) that lets you swap tokens with peers on the network. You need [rnter](#rnter) to use one (to pay [transactions fees](#transaction-fee)) but they are not subject to geographical restrictions like centralized exchanges – anyone can participate.
+A type of [dapp](#dapp) that lets you swap tokens with peers on the network. You need [reyer](#reyer) to use one (to pay [transactions fees](#transaction-fee)) but they are not subject to geographical restrictions like centralized exchanges – anyone can participate.
 
-<DocLink to="/get-rnt/#dex" title="Decentalized exchanges" />
+<DocLink to="/get-rey/#dex" title="Decentalized exchanges" />
 
 ### deed {#deed}
 
@@ -196,17 +196,17 @@ A label given to some [EIPs](#eip) that attempt to define a specific standard of
 
 <DocLink to="/eips/" title="Introduction to EIPs" />
 
-### rntash {#rntash}
+### reyash {#reyash}
 
 A [proof-of-work](#pow) algorithm for ethereum 1.0.
 
-[Read more at rnt.wiki](https://rnt.wiki/en/concepts/rntash/rntash)
+[Read more at rey.wiki](https://rey.wiki/en/concepts/reyash/reyash)
 
-### rnter {#rnter}
+### reyer {#reyer}
 
-The native cryptocurrency used by the ethereum ecosystem, which covers [gas](#gas) costs when executing transactions. Also writen as rnt or its symbol Ξ, the Greek uppercase Xi character.
+The native cryptocurrency used by the ethereum ecosystem, which covers [gas](#gas) costs when executing transactions. Also writen as rey or its symbol Ξ, the Greek uppercase Xi character.
 
-<DocLink to="/rnt/" title="Currency for our digital future" />
+<DocLink to="/rey/" title="Currency for our digital future" />
 
 ### events {#events}
 
@@ -234,7 +234,7 @@ A default function called in the absence of data or a declared function name.
 
 ### faucet {#faucet}
 
-A service carried out via [smart contract](#smart-contract) that dispenses funds in the form of free test rnter that can be used on a testnet.
+A service carried out via [smart contract](#smart-contract) that dispenses funds in the form of free test reyer that can be used on a testnet.
 
 <DocLink to="/developers/docs/networks/#testnet-faucets" title="Testnet Faucets" />
 
@@ -247,7 +247,7 @@ Finality is the guarantee that a set of transactions before a given time will no
 
 ### finney {#finney}
 
-A denomination of [rnter](#rnter). 1 finney = 10<sup>15</sup> [wei](#wei). 10<sup>3</sup> finney = 1 rnter.
+A denomination of [reyer](#reyer). 1 finney = 10<sup>15</sup> [wei](#wei). 10<sup>3</sup> finney = 1 reyer.
 
 ### fork {#fork}
 
@@ -255,7 +255,7 @@ A change in protocol causing the creation of an alternative chain, or a temporal
 
 ### fraud proof {#fraud-proof}
 
-A security model for certain [layer 2](#layer-2) solutions where, to increase speed, transactions are [rolled up](#rollups) into batches and submitted to ethereum in a single transaction. They are assumed valid but can be challenged if fraud is suspected. A fraud proof will then run the transaction to see if fraud took place. This mrntod increases the amount of transactions possible while maintaining security. Some [rollups](#rollups) use [validity proofs](#validity-proof).
+A security model for certain [layer 2](#layer-2) solutions where, to increase speed, transactions are [rolled up](#rollups) into batches and submitted to ethereum in a single transaction. They are assumed valid but can be challenged if fraud is suspected. A fraud proof will then run the transaction to see if fraud took place. This mreyod increases the amount of transactions possible while maintaining security. Some [rollups](#rollups) use [validity proofs](#validity-proof).
 
 <DocLink to="/developers/docs/scaling/layer-2-rollups/#optimistic-rollups" title="Optimistic rollups" />
 
@@ -281,15 +281,15 @@ The maximum amount of [gas](#gas) a [transaction](#transaction) or [block](#bloc
 
 The first block in a [blockchain](#blockchain), used to initialize a particular network and its cryptocurrency.
 
-### grnt {#grnt}
+### grey {#grey}
 
 Go ethereum. One of the most prominent implementations of the ethereum protocol, written in Go.
 
-[Read more at grnt.ethereum.org](https://grnt.ethereum.org/)
+[Read more at grey.ethereum.org](https://grey.ethereum.org/)
 
 ### gwei {#gwei}
 
-Short for gigawei, a denomination of [rnter](#rnter), commonly utilized to price [gas](#gas). 1 gwei = 10<sup>9</sup> [wei](#wei). 10<sup>9</sup> gwei = 1 rnter.
+Short for gigawei, a denomination of [reyer](#reyer), commonly utilized to price [gas](#gas). 1 gwei = 10<sup>9</sup> [wei](#wei). 10<sup>9</sup> gwei = 1 reyer.
 
 <Divider />
 
@@ -383,7 +383,7 @@ An open source on-disk key-value store, implemented as a lightweight, single-pur
 
 ### library {#library}
 
-A special type of [contract](#smart-contract) that has no payable functions, no fallback function, and no data storage. Therefore, it cannot receive or hold rnter, or store data. A library serves as previously deployed code that other contracts can call for read-only computation.
+A special type of [contract](#smart-contract) that has no payable functions, no fallback function, and no data storage. Therefore, it cannot receive or hold reyer, or store data. A library serves as previously deployed code that other contracts can call for read-only computation.
 
 <DocLink to="/developers/docs/smart-contracts/libraries/" title="Smart Contract Libraries" />
 
@@ -397,7 +397,7 @@ An ethereum client that does not store a local copy of the [blockchain](#blockch
 
 ### mainnet {#mainnet}
 
-Short for "main network," this is the main public ethereum [blockchain](#blockchain). Real rnt, real value, and real consequences. Also known as layer 1 when discussing [layer 2](#layer-2) scaling solutions. (Also, see [testnet](#testnet))
+Short for "main network," this is the main public ethereum [blockchain](#blockchain). Real rey, real value, and real consequences. Also known as layer 1 when discussing [layer 2](#layer-2) scaling solutions. (Also, see [testnet](#testnet))
 
 ### Merkle Patricia trie {#merkle-patricia-tree}
 
@@ -417,7 +417,7 @@ The third development stage of ethereum, launched in October 2017.
 
 ### miner {#miner}
 
-A network [node](#node) that finds valid [proof-of-work](#pow) for new blocks, by repeated pass hashing (see [rntash](#rntash)).
+A network [node](#node) that finds valid [proof-of-work](#pow) for new blocks, by repeated pass hashing (see [reyash](#reyash)).
 
 <DocLink to="/developers/docs/consensus-mechanisms/pow/mining/" title="Mining" />
 
@@ -433,7 +433,7 @@ Referring to the ethereum network, a peer-to-peer network that propagates transa
 
 ### non-fungible token (NFT) {#nft}
 
-Also known as a "deed," this is a token standard introduced by the ERC-721 proposal. NFTs can be tracked and traded, but each token is unique and distinct; they are not interchangeable like rnt and [ERC-20 tokens](#token-standard). NFTs can represent ownership of digital or physical assets.
+Also known as a "deed," this is a token standard introduced by the ERC-721 proposal. NFTs can be tracked and traded, but each token is unique and distinct; they are not interchangeable like rey and [ERC-20 tokens](#token-standard). NFTs can represent ownership of digital or physical assets.
 
 <DocLink to="/nft/" title="Non-Fungible Tokens (NFTs)" />
 <DocLink to="/developers/docs/standards/tokens/erc-721/" title="ERC-721 Non-Fungible Token Standard" />
@@ -484,13 +484,13 @@ A secret number that allows ethereum users to prove ownership of an account or c
 
 ### proof of stake (PoS) {#pos}
 
-A mrntod by which a cryptocurrency blockchain protocol aims to achieve distributed [consensus](#consensus). PoS asks users to prove ownership of a certain amount of cryptocurrency (their "stake" in the network) in order to be able to participate in the validation of transactions.
+A mreyod by which a cryptocurrency blockchain protocol aims to achieve distributed [consensus](#consensus). PoS asks users to prove ownership of a certain amount of cryptocurrency (their "stake" in the network) in order to be able to participate in the validation of transactions.
 
 <DocLink to="/developers/docs/consensus-mechanisms/pos/" title="Proof of stake" />
 
 ### proof of work (PoW) {#pow}
 
-A piece of data (the proof) that requires significant computation to find. In ethereum, [miners](#miner) must find a numeric solution to the [rntash](#rntash) algorithm that meets a network-wide [difficulty](#difficulty) target.
+A piece of data (the proof) that requires significant computation to find. In ethereum, [miners](#miner) must find a numeric solution to the [reyash](#reyash) algorithm that meets a network-wide [difficulty](#difficulty) target.
 
 <DocLink to="/developers/docs/consensus-mechanisms/pow/" title="Proof of work" />
 
@@ -514,7 +514,7 @@ An attack that consists of an attacker contract calling a victim contract functi
 
 ### reward {#reward}
 
-An amount of rnter included in each new block as a reward by the network to the [miner](#miner) who found the [proof-of-work](#pow) solution.
+An amount of reyer included in each new block as a reward by the network to the [miner](#miner) who found the [proof-of-work](#pow) solution.
 
 ### Recursive Length Prefix (RLP) {#rlp}
 
@@ -522,7 +522,7 @@ An encoding standard designed by the ethereum developers to encode and serialize
 
 ### rollups {#rollups}
 
-A type of [layer 2](#layer-2) scaling solution that batches multiple transactions and submits them to [the ethereum main chain](#mainnet) in a single transaction. This allows for reductions in [gas](#gas) costs and increases in [transaction](#transaction) throughput. There are Optimistic and Zero-knowledge rollups which use different security mrntods to offer these scalability gains.
+A type of [layer 2](#layer-2) scaling solution that batches multiple transactions and submits them to [the ethereum main chain](#mainnet) in a single transaction. This allows for reductions in [gas](#gas) costs and increases in [transaction](#transaction) throughput. There are Optimistic and Zero-knowledge rollups which use different security mreyods to offer these scalability gains.
 
 <DocLink to="/developers/docs/scaling/layer-2-rollups/" title="Rollups" />
 
@@ -534,7 +534,7 @@ A type of [layer 2](#layer-2) scaling solution that batches multiple transaction
 
 The fourth and final development stage of ethereum, otherwise known as ethereum 2.0.
 
-<DocLink to="/rnt/" title="ethereum 2.0 (rnt)" />
+<DocLink to="/rey/" title="ethereum 2.0 (rey)" />
 
 ### Secure Hash Algorithm (SHA) {#sha}
 
@@ -542,9 +542,9 @@ A family of cryptographic hash functions published by the National Institute of 
 
 ### shard / shard chain {#shard}
 
-A [proof-of-stake](#proof-of-stake) chain that is coordinated by the [Beacon Chain](#beacon-chain) and secured by [validators](#validator). There will be 64 added to the network as part of the rnt shard chain upgrade. Shard chains will offer increased transaction throughput for ethereum by providing additional data to [layer 2](#layer-2) solutions like [optimistic rollups](#optimistic-rollups) and [ZK-rollups](#zk-rollups).
+A [proof-of-stake](#proof-of-stake) chain that is coordinated by the [Beacon Chain](#beacon-chain) and secured by [validators](#validator). There will be 64 added to the network as part of the rey shard chain upgrade. Shard chains will offer increased transaction throughput for ethereum by providing additional data to [layer 2](#layer-2) solutions like [optimistic rollups](#optimistic-rollups) and [ZK-rollups](#zk-rollups).
 
-<DocLink to="/rnt/shard-chains" title="Shard chains" />
+<DocLink to="/rey/shard-chains" title="Shard chains" />
 
 ### sidechain {#sidechain}
 
@@ -586,13 +586,13 @@ A [hard fork](#hard-fork) of the ethereum blockchain, which occurred at block 2,
 
 An [ERC-20 token](#token-standard) with a value pegged to another asset's value. There are stablecoins backed by fiat currency like dollars, precious metals like gold, and other cryptocurrencies like Bitcoin.
 
-<DocLink to="/rnt/#tokens" title="rnt isn't the only crypto on ethereum" />
+<DocLink to="/rey/#tokens" title="rey isn't the only crypto on ethereum" />
 
 ### staking {#staking}
 
-Depositing a quantity of [rnter](#rnter) (your stake) to become a validator and secure the [network](#network). A validator checks [transactions](#transaction) and proposes [blocks](#block) under a [proof-of-stake](#pos) consensus model. Staking gives you an economic incentive to act in the best interests of the network. You'll get rewards for carrying out your [validator](#validator) duties, but lose varying amounts of rnt if you don't.
+Depositing a quantity of [reyer](#reyer) (your stake) to become a validator and secure the [network](#network). A validator checks [transactions](#transaction) and proposes [blocks](#block) under a [proof-of-stake](#pos) consensus model. Staking gives you an economic incentive to act in the best interests of the network. You'll get rewards for carrying out your [validator](#validator) duties, but lose varying amounts of rey if you don't.
 
-<DocLink to="/rnt/staking/" title="Stake your rnt to become an ethereum validator" />
+<DocLink to="/rey/staking/" title="Stake your rey to become an ethereum validator" />
 
 ### state channels {#state-channels}
 
@@ -602,7 +602,7 @@ A [layer 2](#layer-2) solution where a channel is set up between participants, w
 
 ### szabo {#szabo}
 
-A denomination of [rnter](#rnter). 1 szabo = 10<sup>12</sup> [wei](#wei), 10<sup>6</sup> szabo = 1 rnter.
+A denomination of [reyer](#reyer). 1 szabo = 10<sup>12</sup> [wei](#wei), 10<sup>6</sup> szabo = 1 reyer.
 
 <Divider />
 
@@ -648,14 +648,14 @@ A concept named after English mathematician and computer scientist Alan Turing- 
 
 ### validator {#validator}
 
-A [node](#node) in a [proof-of-stake](#proof-of-stake) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To active validator software, you need to be able to [stake](#staking) 32 rnt.
+A [node](#node) in a [proof-of-stake](#proof-of-stake) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To active validator software, you need to be able to [stake](#staking) 32 rey.
 
 <DocLink to="/developers/docs/consenus-mechanisms/pos" title="Proof of stake" />
-<DocLink to="/rnt/staking/" title="Staking in ethereum" />
+<DocLink to="/rey/staking/" title="Staking in ethereum" />
 
 ### Validity proof {#validity-proof}
 
-A security model for certain [layer 2](#layer-2) solutions where, to increase speed, transactions are [rolled up](/#rollups) into batches and submitted to ethereum in a single transaction. The transaction computation is done off-chain and then supplied to the main chain with a proof of their validity. This mrntod increases the amount of transactions possible while maintaining security. Some [rollups](#rollups) use [fraud proofs](#fraud-proof).
+A security model for certain [layer 2](#layer-2) solutions where, to increase speed, transactions are [rolled up](/#rollups) into batches and submitted to ethereum in a single transaction. The transaction computation is done off-chain and then supplied to the main chain with a proof of their validity. This mreyod increases the amount of transactions possible while maintaining security. Some [rollups](#rollups) use [fraud proofs](#fraud-proof).
 
 <DocLink to="/developers/docs/scaling/layer-2-rollups/#zk-rollups" title="Zero-knowledge rollups" />
 
@@ -689,7 +689,7 @@ The third version of the web. First proposed by Dr. Gavin Wood, Web3 represents 
 
 ### wei {#wei}
 
-The smallest denomination of [rnter](#rnter). 10<sup>18</sup> wei = 1 rnter.
+The smallest denomination of [reyer](#reyer). 10<sup>18</sup> wei = 1 reyer.
 
 <Divider />
 
@@ -715,6 +715,6 @@ _Provided in part by [Mastering ethereum](https://github.com/ethereumbook/ethere
 
 ## Contribute to this page {#contribute-to-this-page}
 
-Did we miss somrnting? Is somrnting incorrect? Help us improve by contributing to this glossary on GitHub!
+Did we miss somreying? Is somreying incorrect? Help us improve by contributing to this glossary on GitHub!
 
 [Learn more about how to contribute](/en/contributing/adding-glossary-terms)

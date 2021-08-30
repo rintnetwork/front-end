@@ -637,7 +637,7 @@ const DappsPage = ({ data, location }) => {
 
   const investments = [
     {
-      title: "Reyna Network",
+      title: "Reyna Limited",
       description: translateMessageId(
         "reyna-page-dapps-description-exchange",
         intl
@@ -650,7 +650,7 @@ const DappsPage = ({ data, location }) => {
 
   const utilities = [
     {
-      title: "reyna Messenger",
+      title: "Reyna Messenger",
       description: translateMessageId(
         "reyna-page-dapps-description-messenger",
         intl
@@ -730,17 +730,17 @@ const DappsPage = ({ data, location }) => {
         </p>
         <Row>
           <StepBoxContainer>
-            <StepBox to="/get-rnt/">
+            <StepBox to="/get-rey/">
               <div>
                 <H3>
                   1. <Translation id="reyna-page-dapp-get-some" />
                 </H3>
                 <p>
-                  <Translation id="reyna-page-dapps-get-some-rnt-description" />
+                  <Translation id="reyna-page-dapps-get-some-rey-description" />
                 </p>
               </div>
               <StyledButtonSecondary>
-                <Translation id="reyna-get-rnt" />
+                <Translation id="reyna-get-rey" />
               </StyledButtonSecondary>
             </StepBox>
             <StepBox to="/wallets/find-wallet/">
@@ -961,7 +961,10 @@ const DappsPage = ({ data, location }) => {
           <StyledGhostCard>
             <MagiciansImage
               fluid={data.magicians.childImageSharp.fluid}
-              alt={translateMessageId("reyna-page-dapps-magician-img-alt", intl)}
+              alt={translateMessageId(
+                "reyna-page-dapps-magician-img-alt",
+                intl
+              )}
             />
           </StyledGhostCard>
         </ImageContainer>
@@ -1096,7 +1099,7 @@ export const query = graphql`
     darkforestec: file(relativePath: { eq: "dapps/darkforest.png" }) {
       ...editorImage
     }
-    pooltogrnterec: file(relativePath: { eq: "dapps/pooltogrnter.png" }) {
+    pooltogreyerec: file(relativePath: { eq: "dapps/pooltogreyer.png" }) {
       ...editorImage
     }
     aave: file(relativePath: { eq: "dapps/aave.png" }) {
@@ -1105,7 +1108,7 @@ export const query = graphql`
     compound: file(relativePath: { eq: "dapps/compound.png" }) {
       ...dappImage
     }
-    pooltogrnter: file(relativePath: { eq: "dapps/pooltogrnter.png" }) {
+    pooltogreyer: file(relativePath: { eq: "dapps/pooltogreyer.png" }) {
       ...dappImage
     }
     uniswap: file(relativePath: { eq: "dapps/uni.png" }) {
@@ -1207,7 +1210,7 @@ export const query = graphql`
     nexus: file(relativePath: { eq: "dapps/nexus.png" }) {
       ...dappImage
     }
-    rnterisc: file(relativePath: { eq: "dapps/rnterisc.png" }) {
+    reyerisc: file(relativePath: { eq: "dapps/reyerisc.png" }) {
       ...dappImage
     }
     zapper: file(relativePath: { eq: "dapps/zapper.png" }) {

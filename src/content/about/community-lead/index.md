@@ -9,7 +9,7 @@ compensation: "$70,000 - $85,000 USD"
 location: Remote
 type: "Full-time"
 link: https://ethereum.bamboohr.com/jobs/view.php?id=37
-image: ../../../assets/enterprise-rnt.png
+image: ../../../assets/enterprise-rey.png
 ---
 
 ## Our background:
@@ -25,7 +25,7 @@ ethereum.org is led by a team within the ethereum Foundation. [Learn more about 
 ## Core responsibilities:
 
 - **Inspire contribution in our open source community across multiple platforms and projects.**
-  - Whrnter it's the ethereum.org [Github repo](https://github.com/ethereum/ethereum-org-website), our [Crowdin translation program](https://crowdin.com/project/ethereumfoundation), or just answering common questions for the curious, we rely on our community to drive our success.
+  - Whreyer it's the ethereum.org [Github repo](https://github.com/ethereum/ethereum-org-website), our [Crowdin translation program](https://crowdin.com/project/ethereumfoundation), or just answering common questions for the curious, we rely on our community to drive our success.
   - We want you to take our community to new heights; engage with them on Discord channels, respond to Github issues, coordinate contests, events, recognition campaigns; expand participation and impact.
 - **Work with ethereum's wider community to facilitate collaboration.**
   - ethereum.org is an important part of the ethereum ecosystem. You'll work with partners and stakeholders to maximize our impact wherever possible.
@@ -35,7 +35,7 @@ ethereum.org is led by a team within the ethereum Foundation. [Learn more about 
   - We'll look to you to help establish what milestones we should strive for and to hold yourself accountable to achieving them.
 - **Surface insights and distill community feedback to improve our web applications.**
   - You should have a product mindset and always be looking for opportunities to improve the content on ethereum.org and the UX in our web applications. You're excited to take an active voice in driving our product roadmap.
-  - Have you answered the same question ten times this week? Are people reading ethereum.org content but still coming out confused? Are we getting consistent feedback from our community about a feature missing from somrnting we built? What changes should we be making to address these issues? You should derive insights proactively.
+  - Have you answered the same question ten times this week? Are people reading ethereum.org content but still coming out confused? Are we getting consistent feedback from our community about a feature missing from somreying we built? What changes should we be making to address these issues? You should derive insights proactively.
 
 ## About you:
 

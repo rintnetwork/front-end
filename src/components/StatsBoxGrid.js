@@ -142,7 +142,7 @@ const tooltipContent = (metric) => (
 
 const StatsBoxGrid = () => {
   const intl = useIntl()
-  const [rntPrice, setrntPrice] = useState({
+  const [reyPrice, setreyPrice] = useState({
     value: 0,
     hasError: false,
   })
@@ -196,7 +196,7 @@ const StatsBoxGrid = () => {
   useEffect(() => {
     // Skip APIs when not in production
     if (process.env.NODE_ENV !== "production") {
-      setrntPrice({
+      setreyPrice({
         value: formatPrice(2265),
         hasError: false,
       })
@@ -220,13 +220,13 @@ const StatsBoxGrid = () => {
           )
           const { usd } = response.data.ethereum
           const value = formatPrice(usd)
-          setrntPrice({
+          setreyPrice({
             value,
             hasError: false,
           })
         } catch (error) {
           console.error(error)
-          setrntPrice({
+          setreyPrice({
             hasError: true,
           })
         }
@@ -235,7 +235,7 @@ const StatsBoxGrid = () => {
 
       const fetchNodes = async () => {
         try {
-          const data = await getData("/.netlify/functions/rnterscan")
+          const data = await getData("/.netlify/functions/reyerscan")
           const total = data.result.TotalNodeCount
           const value = formatNodes(total)
           setNodes({
@@ -295,12 +295,12 @@ const StatsBoxGrid = () => {
       apiProvider: "CoinGecko",
       apiUrl: "https://www.coingecko.com/en/coins",
       title: (
-        <Translation id="reyna-page-index-network-stats-rnt-price-description" />
+        <Translation id="reyna-page-index-network-stats-rey-price-description" />
       ),
       description: (
-        <Translation id="reyna-page-index-network-stats-rnt-price-explainer" />
+        <Translation id="reyna-page-index-network-stats-rey-price-explainer" />
       ),
-      state: rntPrice,
+      state: reyPrice,
     },
     {
       apiProvider: "BscScan",

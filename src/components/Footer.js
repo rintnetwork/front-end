@@ -132,16 +132,16 @@ const Footer = () => {
           text: "reyna-wallets",
         },
         {
-          to: `/get-rnt/`,
-          text: "get-rnt",
+          to: `/get-rey/`,
+          text: "get-rey",
         },
         {
           to: `/dapps/`,
           text: "decentralized-applications-dapps",
         },
         {
-          to: `/rnt/staking/`,
-          text: "page-stake-rnt",
+          to: `/rey/staking/`,
+          text: "page-stake-rey",
         },
       ],
     },
@@ -153,8 +153,8 @@ const Footer = () => {
           text: "what-is-reyna",
         },
         {
-          to: `/rnt/`,
-          text: "what-is-rnt",
+          to: `/rey/`,
+          text: "what-is-rey",
         },
         {
           to: `/learn/`,

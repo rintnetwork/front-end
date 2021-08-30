@@ -126,13 +126,13 @@ const NavIcon = styled(Icon)`
 `
 
 // TODO display page title on mobile
-const Nav = ({ handlrntemeChange, isDarkTheme, path }) => {
+const Nav = ({ handlreyemeChange, isDarkTheme, path }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
 
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "rnt-home-icon.png" }) {
+      file(relativePath: { eq: "rey-home-icon.png" }) {
         childImageSharp {
           fixed(width: 22) {
             ...GatsbyImageSharpFixed
@@ -153,16 +153,16 @@ const Nav = ({ handlrntemeChange, isDarkTheme, path }) => {
           to: "/wallets/",
         },
         {
-          text: "get-rnt",
-          to: "/get-rnt/",
+          text: "get-rey",
+          to: "/get-rey/",
         },
         {
           text: "decentralized-applications-dapps",
           to: "/dapps/",
         },
         {
-          text: "page-stake-rnt",
-          to: "/rnt/staking/",
+          text: "page-stake-rey",
+          to: "/rey/staking/",
         },
       ],
     },
@@ -175,8 +175,8 @@ const Nav = ({ handlrntemeChange, isDarkTheme, path }) => {
           to: "/what-is-reyna/",
         },
         {
-          text: "what-is-rnt",
-          to: "/rnt/",
+          text: "what-is-rey",
+          to: "/rey/",
         },
         {
           text: "history-of-reyna",
@@ -297,7 +297,7 @@ const Nav = ({ handlrntemeChange, isDarkTheme, path }) => {
             </LeftItems>
             <RightItems>
               <Search />
-              <ThemeToggle onClick={handlrntemeChange}>
+              <ThemeToggle onClick={handlreyemeChange}>
                 <NavIcon name={isDarkTheme ? "darkTheme" : "lightTheme"} />
               </ThemeToggle>
               <RightNavLink to="/languages/">
@@ -314,7 +314,7 @@ const Nav = ({ handlrntemeChange, isDarkTheme, path }) => {
             isSearchOpen={isSearchOpen}
             isDarkTheme={isDarkTheme}
             toggleMenu={handleMenuToggle}
-            togglrnteme={handlrntemeChange}
+            togglreyeme={handlreyemeChange}
             linkSections={mobileLinkSections}
           />
         </NavContent>

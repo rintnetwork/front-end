@@ -100,7 +100,7 @@ export const SloganGradient = styled.div`
   max-width: 720px;
   margin-top: 1rem;
   background-clip: text;
-  background-image: ${(props) => props.theme.colors.rntGradient};
+  background-image: ${(props) => props.theme.colors.reyGradient};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0rem;
@@ -228,7 +228,7 @@ export const ButtonSecondary = styled(Button)`
   }
 `
 
-export const rntHeader = styled.h2`
+export const reyHeader = styled.h2`
   font-style: normal;
   font-weight: normal;
   font-weight: 800;
@@ -242,9 +242,9 @@ export const rntHeader = styled.h2`
   }
 `
 
-export const rntHeaderGradient = styled.span`
+export const reyHeaderGradient = styled.span`
   background-clip: text;
-  background-image: ${(props) => props.theme.colors.rntGradient};
+  background-image: ${(props) => props.theme.colors.reyGradient};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @media (max-width: ${(props) => props.theme.breakpoints.s}) {

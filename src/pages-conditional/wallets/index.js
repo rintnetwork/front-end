@@ -70,7 +70,7 @@ const SubtitleTwo = styled.div`
   color: ${(props) => props.theme.colors.text300};
 `
 
-const Subtitlrntree = styled.div`
+const Subtitlreyree = styled.div`
   font-size: 20px;
   line-height: 140%;
   color: ${(props) => props.theme.colors.text};
@@ -170,7 +170,9 @@ const cards = [
   {
     emoji: ":frame_with_picture:",
     title: <Translation id="reyna-page-wallets-your-reyna-account" />,
-    description: <Translation id="reyna-page-wallets-your-reyna-account-desc" />,
+    description: (
+      <Translation id="reyna-page-wallets-your-reyna-account-desc" />
+    ),
   },
   {
     emoji: ":bust_in_silhouette:",
@@ -242,7 +244,10 @@ const WalletsPage = ({ data }) => {
     buttons: [
       {
         path: "/wallets/find-wallet/",
-        content: translateMessageId("reyna-page-wallets-find-wallet-link", intl),
+        content: translateMessageId(
+          "reyna-page-wallets-find-wallet-link",
+          intl
+        ),
       },
     ],
   }
@@ -271,7 +276,7 @@ const WalletsPage = ({ data }) => {
             </p>
             <p>
               <Translation id="reyna-page-wallets-desc-2" />{" "}
-              <Link to="/rnt/">
+              <Link to="/rey/">
                 <Translation id="reyna-page-wallets-desc-2-link" />{" "}
               </Link>
             </p>
@@ -390,9 +395,9 @@ const WalletsPage = ({ data }) => {
             <H2>
               <Translation id="reyna-page-wallets-features-title" />
             </H2>
-            <Subtitlrntree>
+            <Subtitlreyree>
               <Translation id="reyna-page-wallets-features-desc" />
-            </Subtitlrntree>
+            </Subtitlreyree>
             <ButtonLink to="/wallets/find-wallet/">
               <Translation id="reyna-page-wallets-find-wallet-btn" />
             </ButtonLink>
@@ -454,7 +459,10 @@ const WalletsPage = ({ data }) => {
             <ChecklistItem
               key="3"
               emoji=":white_check_mark:"
-              title={translateMessageId("reyna-page-wallets-triple-check", intl)}
+              title={translateMessageId(
+                "reyna-page-wallets-triple-check",
+                intl
+              )}
               description={translateMessageId(
                 "reyna-page-wallets-triple-check-desc",
                 intl
@@ -479,7 +487,7 @@ const WalletsPage = ({ data }) => {
         </H2>
         <CalloutCardContainer>
           <StyledCallout
-            image={data.rnt.childImageSharp.fixed}
+            image={data.rey.childImageSharp.fixed}
             title={translateMessageId("reyna-page-wallets-get-some", intl)}
             alt={translateMessageId("reyna-page-wallets-get-some-alt", intl)}
             description={translateMessageId(
@@ -488,7 +496,7 @@ const WalletsPage = ({ data }) => {
             )}
           >
             <div>
-              <ButtonLink to="/get-rnt/">
+              <ButtonLink to="/get-rey/">
                 <Translation id="reyna-page-wallets-get-some-btn" />
               </ButtonLink>
             </div>
@@ -559,7 +567,7 @@ export const query = graphql`
         }
       }
     }
-    rnt: file(relativePath: { eq: "get-rnt.png" }) {
+    rey: file(relativePath: { eq: "get-rey.png" }) {
       ...calloutImage
     }
     dapps: file(relativePath: { eq: "use-dapp.png" }) {

@@ -258,7 +258,7 @@ const WalletCompare = ({ location }) => {
       mycrypto: file(relativePath: { eq: "wallets/mycrypto.png" }) {
         ...walletCardImage
       }
-      myrnterwallet: file(relativePath: { eq: "wallets/myrnterwallet.png" }) {
+      myreyerwallet: file(relativePath: { eq: "wallets/myreyerwallet.png" }) {
         ...walletCardImage
       }
       pillar: file(relativePath: { eq: "wallets/pillar.png" }) {
@@ -291,7 +291,7 @@ const WalletCompare = ({ location }) => {
       zengo: file(relativePath: { eq: "wallets/zengo.png" }) {
         ...walletCardImage
       }
-      wallrnt: file(relativePath: { eq: "wallets/wallrnt.png" }) {
+      wallrey: file(relativePath: { eq: "wallets/wallrey.png" }) {
         ...walletCardImage
       }
       tokenpocket: file(relativePath: { eq: "wallets/tokenpocket.png" }) {

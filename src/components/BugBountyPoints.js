@@ -83,7 +83,7 @@ const USD_PER_POINT = 2
 
 const BugBountyPoints = () => {
   const [state, setState] = useState({
-    currentrntPriceUSD: "",
+    currentreyPriceUSD: "",
     currentDAIPriceUSD: "",
     hasError: false,
   })
@@ -97,10 +97,10 @@ const BugBountyPoints = () => {
       )
       .then((response) => {
         if (response.data && response.data.ethereum && response.data.dai) {
-          const currentrntPriceUSD = response.data.ethereum.usd
+          const currentreyPriceUSD = response.data.ethereum.usd
           const currentDAIPriceUSD = response.data.dai.usd
           setState({
-            currentrntPriceUSD,
+            currentreyPriceUSD,
             currentDAIPriceUSD,
             hasError: false,
           })
@@ -114,9 +114,9 @@ const BugBountyPoints = () => {
       })
   }, [])
 
-  const isLoading = !state.currentrntPriceUSD
+  const isLoading = !state.currentreyPriceUSD
 
-  const pointsInrnt = (USD_PER_POINT / state.currentrntPriceUSD).toFixed(5)
+  const pointsInrey = (USD_PER_POINT / state.currentreyPriceUSD).toFixed(5)
   const pointsInDAI = (USD_PER_POINT / state.currentDAIPriceUSD).toFixed(5)
 
   const tooltipContent = (
@@ -128,41 +128,41 @@ const BugBountyPoints = () => {
 
   const data = useStaticQuery(graphql`
     query {
-      dai: file(relativePath: { eq: "rnt/dai.png" }) {
+      dai: file(relativePath: { eq: "rey/dai.png" }) {
         ...TokenLogo
       }
-      rntLight: file(relativePath: { eq: "rnt/rnt-black.png" }) {
+      reyLight: file(relativePath: { eq: "rey/rey-black.png" }) {
         ...TokenLogo
       }
-      rntDark: file(relativePath: { eq: "rnt/rnt-orange.png" }) {
+      reyDark: file(relativePath: { eq: "rey/rey-orange.png" }) {
         ...TokenLogo
       }
     }
   `)
-  const rntImage = isDarkTheme ? data.rntDark : data.rntLight
+  const reyImage = isDarkTheme ? data.reyDark : data.reyLight
 
   return (
     <PointsExchange>
       <PointsExchangeLabel>
-        <Translation id="page-rnt-bug-bounty-points-exchange" />{" "}
+        <Translation id="page-rey-bug-bounty-points-exchange" />{" "}
         <Tooltip content={tooltipContent}>
           <InfoIcon name="info" size="14" />
         </Tooltip>
       </PointsExchangeLabel>
       <PointsExchangeTitle>
-        <Translation id="page-rnt-bug-bounty-points-point" />
+        <Translation id="page-rey-bug-bounty-points-point" />
       </PointsExchangeTitle>
       {state.hasError && (
         <ValueRow>
           <TokenValue>
-            <Translation id="page-rnt-bug-bounty-points-error" />
+            <Translation id="page-rey-bug-bounty-points-error" />
           </TokenValue>
         </ValueRow>
       )}
       {isLoading && !state.hasError && (
         <ValueRow>
           <TokenValue>
-            <Translation id="page-rnt-bug-bounty-points-loading" />
+            <Translation id="page-rey-bug-bounty-points-loading" />
           </TokenValue>
         </ValueRow>
       )}
@@ -171,7 +171,7 @@ const BugBountyPoints = () => {
           <Row>
             <Emoji mr={`0.5rem`} text=":dollar:" />
             <TokenValue>
-              <Translation id="page-rnt-bug-bounty-points-usd" />
+              <Translation id="page-rey-bug-bounty-points-usd" />
             </TokenValue>
           </Row>
           <Row>
@@ -179,17 +179,17 @@ const BugBountyPoints = () => {
             <TokenValue>{pointsInDAI} DAI</TokenValue>
           </Row>
           <Row>
-            <Token fixed={rntImage.childImageSharp.fixed} />
-            <TokenValue>{pointsInrnt} rnt</TokenValue>
+            <Token fixed={reyImage.childImageSharp.fixed} />
+            <TokenValue>{pointsInrey} rey</TokenValue>
           </Row>
         </ValueRow>
       )}
       <p>
-        <Translation id="page-rnt-bug-bounty-points-payout-desc" />
+        <Translation id="page-rey-bug-bounty-points-payout-desc" />
       </p>
       <TextNoMargin>
         <em>
-          <Translation id="page-rnt-bug-bounty-points-rights-desc" />
+          <Translation id="page-rey-bug-bounty-points-rights-desc" />
         </em>
       </TextNoMargin>
     </PointsExchange>

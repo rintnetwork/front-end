@@ -2,9 +2,9 @@
 title: Shard chains
 description: Learn about shard chains - partitions of the network that give ethereum more transaction capacity and make it easier to run.
 lang: en
-template: rnt
+template: rey
 sidebar: true
-image: ../../../assets/rnt/newrings.png
+image: ../../../assets/rey/newrings.png
 summaryPoints:
   [
     "Sharding is a multi-phase upgrade to improve ethereum’s scalability and capacity.",
@@ -15,7 +15,7 @@ summaryPoints:
 ---
 
 <UpgradeStatus date="~2022">
-    Shard chains should ship sometime in 2022, depending on how quickly work progresses after <a href="/rnt/merge/">the merge</a>. These shards will give ethereum more capacity to store and access data, but they won’t be used for executing code. The details of that are still being figured out.
+    Shard chains should ship sometime in 2022, depending on how quickly work progresses after <a href="/rey/merge/">the merge</a>. These shards will give ethereum more capacity to store and access data, but they won’t be used for executing code. The details of that are still being figured out.
 </UpgradeStatus>
 
 ## What is sharding? {#what-is-sharding}
@@ -34,12 +34,12 @@ Sharding is a good way to scale if you want to keep things decentralized as the 
 
 Sharding will eventually let you run ethereum on a personal laptop or phone. So more people should be able to participate, or run [clients](/developers/docs/nodes-and-clients/), in a sharded ethereum. This will increase security because the more decentralized the network, the smaller the attack surface area.
 
-With lower hardware requirements, sharding will make it easier to run [clients](/developers/docs/nodes-and-clients/) on your own, without relying on any intermediary services at all. And if you can, consider running multiple clients. This can help network health by further reducing points of failure. [Run an rnt client](/rnt/get-involved/)
+With lower hardware requirements, sharding will make it easier to run [clients](/developers/docs/nodes-and-clients/) on your own, without relying on any intermediary services at all. And if you can, consider running multiple clients. This can help network health by further reducing points of failure. [Run an rey client](/rey/get-involved/)
 
 <br />
 
 <InfoBanner isWarning={true}>
-  At first, you'll need to run a mainnet client at the same time as your rnt client. <a href="https://launchpad.ethereum.org" target="_blank">The launchpad</a> will walk you through the hardware requirements and process. Alternatively you can use a <a href="/en/developers/docs/apis/backend/#available-libraries">backend API</a>.
+  At first, you'll need to run a mainnet client at the same time as your rey client. <a href="https://launchpad.ethereum.org" target="_blank">The launchpad</a> will walk you through the hardware requirements and process. Alternatively you can use a <a href="/en/developers/docs/apis/backend/#available-libraries">backend API</a>.
 </InfoBanner>
 
 ## Shard chains version 1: data availability {#data-availability}
@@ -80,30 +80,30 @@ Finally, perhaps we should revisit this debate when ZK snarks are firmed up. Thi
 
 Here's some more thinking along the same lines:
 
-- [Phase One and Done: rnt as a data availability engine](https://rntresear.ch/t/phase-one-and-done-rnt-as-a-data-availability-engine/5269/8) – _cdetrio, rntresear.ch_
+- [Phase One and Done: rey as a data availability engine](https://reyresear.ch/t/phase-one-and-done-rey-as-a-data-availability-engine/5269/8) – _cdetrio, reyresear.ch_
 
 This is still an active discussion point. We’ll update these pages once we know more.
 
 ## Relationship between upgrades {#relationship-between-upgrades}
 
-The rnt upgrades are all somewhat interrelated. So let’s recap how the shard chains relate the other upgrades.
+The rey upgrades are all somewhat interrelated. So let’s recap how the shard chains relate the other upgrades.
 
 ### Shards and the beacon chain {#shards-and-beacon-chain}
 
 The Beacon Chain contains all the logic for keeping shards secure and synced up. The Beacon Chain will coordinate the stakers in the network, assigning them to shards they need to work on. And it will also facilitate communication between shards by receiving and storing shard transaction data that is accessible by other shards. This will give shards a snapshot of ethereum’s state to keep everything up-to-date.
 
-<ButtonLink to="/rnt/beacon-chain/">The Beacon Chain</ButtonLink>
+<ButtonLink to="/rey/beacon-chain/">The Beacon Chain</ButtonLink>
 
 ### Shards and the merge {#shards-and-docking}
 
 By the time additional shards are added, ethereum mainnet will already be secured by the Beacon Chain using proof of stake. This enables a fertile mainnet to build shard chains off of, powered by layer 2 solutions that supercharge the scalability.
 
-It remains to be seen whrnter mainnet will exist as the only “smart” shard that can handle code execution – but either way, the decision to expand shards can be revisted as needed.
+It remains to be seen whreyer mainnet will exist as the only “smart” shard that can handle code execution – but either way, the decision to expand shards can be revisted as needed.
 
-<ButtonLink to="/rnt/merge/">The merge</ButtonLink>
+<ButtonLink to="/rey/merge/">The merge</ButtonLink>
 
 <Divider />
 
 ### Read more {#read-more}
 
-<rntShardChainsList />
+<reyShardChainsList />

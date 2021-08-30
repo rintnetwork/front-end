@@ -74,7 +74,7 @@ const CircleSelect = styled.g`
 const FillCircle = styled.circle`
   fill: ${(props) =>
     props.isActive
-      ? props.isrnt
+      ? props.isrey
         ? props.theme.colors.primary300
         : props.theme.colors.primary
       : props.theme.colors.background};
@@ -181,7 +181,7 @@ const Trilemma = () => {
   })
 
   const handleClick = (selection) => {
-    if (selection === "isrnt") {
+    if (selection === "isrey") {
       setState({
         isDecentralizedAndSecure: true,
         isDecentralizedAndScalable: true,
@@ -224,40 +224,40 @@ const Trilemma = () => {
   const isScalable =
     state.isDecentralizedAndScalable || state.isScalableAndSecure
   const isSecure = state.isScalableAndSecure || state.isDecentralizedAndSecure
-  const isrnt = isDecentralized && isScalable && isSecure
+  const isrey = isDecentralized && isScalable && isSecure
 
-  let cardTitle = <Translation id="page-rnt-vision-trilemma-title-1" />
-  let cardText = <Translation id="page-rnt-vision-trilemma-press-button" />
-  if (isrnt) {
-    cardTitle = <Translation id="page-rnt-vision-trilemma-title-2" />
-    cardText = <Translation id="page-rnt-vision-trilemma-cardtext-1" />
+  let cardTitle = <Translation id="page-rey-vision-trilemma-title-1" />
+  let cardText = <Translation id="page-rey-vision-trilemma-press-button" />
+  if (isrey) {
+    cardTitle = <Translation id="page-rey-vision-trilemma-title-2" />
+    cardText = <Translation id="page-rey-vision-trilemma-cardtext-1" />
   } else if (state.isDecentralizedAndSecure) {
-    cardTitle = <Translation id="page-rnt-vision-trilemma-title-3" />
-    cardText = <Translation id="page-rnt-vision-trilemma-cardtext-2" />
+    cardTitle = <Translation id="page-rey-vision-trilemma-title-3" />
+    cardText = <Translation id="page-rey-vision-trilemma-cardtext-2" />
   } else if (state.isDecentralizedAndScalable) {
-    cardTitle = <Translation id="page-rnt-vision-trilemma-title-4" />
-    cardText = <Translation id="page-rnt-vision-trilemma-cardtext-3" />
+    cardTitle = <Translation id="page-rey-vision-trilemma-title-4" />
+    cardText = <Translation id="page-rey-vision-trilemma-cardtext-3" />
   } else if (state.isScalableAndSecure) {
-    cardTitle = <Translation id="page-rnt-vision-trilemma-title-5" />
-    cardText = <Translation id="page-rnt-vision-trilemma-cardtext-4" />
+    cardTitle = <Translation id="page-rey-vision-trilemma-title-5" />
+    cardText = <Translation id="page-rey-vision-trilemma-cardtext-4" />
   }
   return (
     <Container>
       <CardContainer>
         <H2>
-          <Translation id="page-rnt-vision-trilemma-h2" />
+          <Translation id="page-rey-vision-trilemma-h2" />
         </H2>
         <p>
-          <Translation id="page-rnt-vision-trilemma-p" />
+          <Translation id="page-rey-vision-trilemma-p" />
         </p>
         <p>
-          <Translation id="page-rnt-vision-trilemma-p-1" />
+          <Translation id="page-rey-vision-trilemma-p-1" />
         </p>
         <p>
-          <Translation id="page-rnt-vision-trilemma-p-2" />
+          <Translation id="page-rey-vision-trilemma-p-2" />
         </p>
         <MobileTip>
-          <Translation id="page-rnt-vision-trilemma-modal-tip" />:
+          <Translation id="page-rey-vision-trilemma-modal-tip" />:
         </MobileTip>
         <ExplanationCard title={cardTitle} description={cardText} />
       </CardContainer>
@@ -311,13 +311,13 @@ const Trilemma = () => {
             cx="337.5"
             cy="326.5"
             r="21"
-            isrnt={isrnt}
+            isrey={isrey}
             isActive={state.isDecentralizedAndSecure}
             stroke="black"
             strokeOpacity="0.12"
           />
         </CircleSelect>
-        <CircleSelect onClick={() => handleClick("isrnt")}>
+        <CircleSelect onClick={() => handleClick("isrey")}>
           <circle
             cx="400"
             cy="480"
@@ -330,7 +330,7 @@ const Trilemma = () => {
             cx="400"
             cy="480"
             r="21"
-            isActive={isrnt}
+            isActive={isrey}
             stroke="black"
             strokeOpacity="0.12"
           />
@@ -348,7 +348,7 @@ const Trilemma = () => {
             cx="321.5"
             cy="611.501"
             r="21"
-            isrnt={isrnt}
+            isrey={isrey}
             isActive={state.isScalableAndSecure}
             stroke="black"
             strokeOpacity="0.12"
@@ -367,23 +367,23 @@ const Trilemma = () => {
             cx="582.5"
             cy="460.5"
             r="21"
-            isrnt={isrnt}
+            isrey={isrey}
             isActive={state.isDecentralizedAndScalable}
             stroke="black"
             strokeOpacity="0.12"
           />
         </CircleSelect>
-        <Text x="400" y="540" isActive={isrnt}>
-          rnt
+        <Text x="400" y="540" isActive={isrey}>
+          rey
         </Text>
         <Text x="460" y="150" isActive={isDecentralized}>
-          <Translation id="page-rnt-vision-trilemma-text-1" />
+          <Translation id="page-rey-vision-trilemma-text-1" />
         </Text>
         <Text x="-24" y="486" isActive={isSecure}>
-          <Translation id="page-rnt-vision-trilemma-text-2" />
+          <Translation id="page-rey-vision-trilemma-text-2" />
         </Text>
         <Text x="540" y="835" isActive={isScalable}>
-          <Translation id="page-rnt-vision-trilemma-text-3" />
+          <Translation id="page-rey-vision-trilemma-text-3" />
         </Text>
       </Triangle>
     </Container>

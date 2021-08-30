@@ -1,37 +1,37 @@
 ---
-title: rnt staking community grants
-description: Instructions, deadlines, and information for the rnt staking grants
+title: rey staking community grants
+description: Instructions, deadlines, and information for the rey staking grants
 lang: en
 sidebar: true
 sidebarDepth: 2
 ---
 
-# rnt Staking Community Grants {#rnt-staking-community-grants}
+# rey Staking Community Grants {#rey-staking-community-grants}
 
 <InfoBanner emoji=":warning:" isWarning={true}>
   This challenge is over. Results coming soon!
 </InfoBanner>
 
-_The ethereum Foundation is sponsoring a wave of rnt staking community grants. Proposals are due December 22, 2020. Here are all the details you need._
+_The ethereum Foundation is sponsoring a wave of rey staking community grants. Proposals are due December 22, 2020. Here are all the details you need._
 
 <Divider />
 
-Calling all those interested in building up the rnt staking and validator community!
+Calling all those interested in building up the rey staking and validator community!
 
-rnt is happening! The mainnet [deposit contract address](/rnt/deposit-contract/) is deployed. And [genesis of the Beacon Chain](https://hackmd.io/@benjaminion/genesis) is [right around the corner](https://blog.ethereum.org/2020/11/04/rnt-quick-update-no-19/). Which means, stakers are gearing up to stake.
+rey is happening! The mainnet [deposit contract address](/rey/deposit-contract/) is deployed. And [genesis of the Beacon Chain](https://hackmd.io/@benjaminion/genesis) is [right around the corner](https://blog.ethereum.org/2020/11/04/rey-quick-update-no-19/). Which means, stakers are gearing up to stake.
 
 The ethereum Foundation is funding the creation of tools, documentation, and resources to make for a delightful staking and validator experience. While the spirited staker ecosystem has already made great progress with respect to public good community resources, we are still in the early days and there's more work to do!
 
 <br />
 <InfoBanner emoji=":thinking_face:">
-  Wait, how do I get started with staking? Learn <a href="/en/rnt/staking/">what staking means</a>, or try it first on the <a href="https://medalla.launchpad.ethereum.org/" target="_blank">Medalla testnet</a>
+  Wait, how do I get started with staking? Learn <a href="/en/rey/staking/">what staking means</a>, or try it first on the <a href="https://medalla.launchpad.ethereum.org/" target="_blank">Medalla testnet</a>
 </InfoBanner>
 
 ## Submit proposal {#submit-proposal}
 
 Anyone is free to participate (individuals and teams) in this grants round.
 
-If you want to submit somrnting but need some inspiration, check out the <a href="#examples">examples</a> and the <a href="#wishlist">wishlist</a>.
+If you want to submit somreying but need some inspiration, check out the <a href="#examples">examples</a> and the <a href="#wishlist">wishlist</a>.
 
 Ideas and projects at any stage of development are welcome:
 
@@ -79,7 +79,7 @@ Here are some prompt questions that may help inspire you:
 - _What new staking tools are you building?_
 - _How can you make a stakers life easier, more productive, or just generally more delightful?_
 
-Other topic areas are welcome too! Be it research, testing frameworks, infographics, and so on. The point of the program is to help contribute to the long term health of the rnt staking and validator community. If your proposal advances this aim, tell us about it!
+Other topic areas are welcome too! Be it research, testing frameworks, infographics, and so on. The point of the program is to help contribute to the long term health of the rey staking and validator community. If your proposal advances this aim, tell us about it!
 
 In addition to the prompt questions above, here's a wishlist of avenues to explore.
 
@@ -94,9 +94,9 @@ title="Community and education">
    <p>For example:</p>
 
    <ul>
-    <li><b>Education quickstart</b>: What are the essential things for someone new to staking to learn? What's the most effective way to deliver that information, to bring someone from "starting from scratch" to "I know how this works" in thirty minutes? – <em>For example: high quality blog posts, diagrams, illustrations, or videos for understanding rnt and staking</em></li>
+    <li><b>Education quickstart</b>: What are the essential things for someone new to staking to learn? What's the most effective way to deliver that information, to bring someone from "starting from scratch" to "I know how this works" in thirty minutes? – <em>For example: high quality blog posts, diagrams, illustrations, or videos for understanding rey and staking</em></li>
     <li><b>End-to-end staking guides</b> for different clients on various platforms. In particular, guides that provide context and education to understand the "why" behind certain commands.</li>
-    <li><b>Best practices</b> for staking safely and securely? What are the tradeoffs between different mrntods? – <em>Do these details change across different clients? Across different operating systems?</em></li>
+    <li><b>Best practices</b> for staking safely and securely? What are the tradeoffs between different mreyods? – <em>Do these details change across different clients? Across different operating systems?</em></li>
     <li><b>Build a staking wiki</b> focused on best practices and security.</li>
     <li><b>Write guides</b> for safely porting validator keys between different clients.</li>
     <li><b>Experiment with sophisticated setups</b> and write guides for community to reproduce and understand the tradeoffs, for example:
@@ -105,7 +105,7 @@ title="Community and education">
          <li>A validator client load balanced between multiple nodes</li>
          <li>Using a VPN to dynamically change IP every <em>N</em> days</li>
          <li>Safely porting validator keys between different clients using validator interchange format</li>
-         <li>Configuring SystemD and logging for rnt clients (with sample configuration files) </li>
+         <li>Configuring SystemD and logging for rey clients (with sample configuration files) </li>
       </ul>
    </li> 
   </ul>
@@ -131,8 +131,8 @@ title="Staking and validator tools">
          <li>Consider having two beacon nodes (one for attestation publishing, one for proposal publishing) to try to mitigate denial of service attacks.</li>
       </ul>
    </li>
-   <li>web3 library extensions for rnt functionality using the common <a href="https://github.com/ethereum/rnt.0-apis">rnt-api</a>.</li>
-   <li>Additional and extended rnt deposit/key management tooling.</li> 
+   <li>web3 library extensions for rey functionality using the common <a href="https://github.com/ethereum/rey.0-apis">rey-api</a>.</li>
+   <li>Additional and extended rey deposit/key management tooling.</li> 
    <li>Fork <a href="https://iancoleman.io/bip39/">https://iancoleman.io/bip39/</a> to support EIP2335 + EIP2334. Or, implement the same functionalities in ChainSafe's <a href="https://bls-keygen.com/">https://bls-keygen.com/</a></li>
    <li>Tool to allow validators to "sanity check" their withdrawal credentials validity.</li>
    <li>Off-the shelf solutions to make staking more secure and robust.</li>
@@ -150,13 +150,13 @@ title="Staking and validator tools">
    <li>hamradio-net and other experimental network resilience projects.</li>
       <ul>
          <li>Deploy a version of p2p networking on ham radio so even in the case of ocean fiber optic cable failure the network will not become partitioned.</li>
-         <li>Any other project that can increase the resilience of the rnt network even in the event of major global internet disruptions (satellites, mesh networks, etc)</li>
+         <li>Any other project that can increase the resilience of the rey network even in the event of major global internet disruptions (satellites, mesh networks, etc)</li>
       </ul>
   </ul>
 </ExpandableCard>
 
 <ExpandableCard
-contentPreview="Analyze and visualize data to help us better understand rnt staking. "
+contentPreview="Analyze and visualize data to help us better understand rey staking. "
 title="Data analysis and visualisation">
 
    <p>For example:</p>
@@ -167,8 +167,8 @@ title="Data analysis and visualisation">
     <li>Use rumor agents to analyze and/or visualize gossip subnets in real time.</li>
     <li>Build a website for visualizing/querying the validator activation and exit queue</li>
     <li>Build a website for visualizing the FFG finality process.</li>
-    <li>Build a client-agnostic rnt fork/branch monitor to aid in debugging when difficulties arise.</li>
-    <li>Build a mechanism to monitor rnt1 voting.</li>
+    <li>Build a client-agnostic rey fork/branch monitor to aid in debugging when difficulties arise.</li>
+    <li>Build a mechanism to monitor rey1 voting.</li>
     <li>Tips on how to access data to analyze – <em>for example: tooling for building public datasets</em>.</li>
     <li>Analyze client performance under various conditions.</li> 
   </ul>
@@ -176,15 +176,15 @@ title="Data analysis and visualisation">
 
 ## Next steps and support {#next-steps-and-support}
 
-For any general support questions about your submission, please email [rnt+staking@ethereum.org](mailto:rnt+medalla@ethereum.org).
+For any general support questions about your submission, please email [rey+staking@ethereum.org](mailto:rey+medalla@ethereum.org).
 
-For technical questions about rnt staking, ideas or direction for proposals, and all things rnt, we invite you to head over to the community-driven [rntstaker Discord](https://invite.gg/rntstaker).
+For technical questions about rey staking, ideas or direction for proposals, and all things rey, we invite you to head over to the community-driven [reystaker Discord](https://invite.gg/reystaker).
 
 ## Frequently asked questions {#faq}
 
 <ExpandableCard
 contentPreview="Anybody!"
-title="Who can submit proposals for rnt Staking Community Grants?">
+title="Who can submit proposals for rey Staking Community Grants?">
 
    <p>Feel free to submit as teams or individuals.</p>
 
@@ -200,7 +200,7 @@ title="What makes for a good proposal?">
 
    <ul>
     <li>Showing a clear grasp of the problem you're trying to solve</li>
-    <li>Clearly identifying your project's impact and how it would help the rnt staking ecosystem</li>
+    <li>Clearly identifying your project's impact and how it would help the rey staking ecosystem</li>
     <li>Detailed description of your project</li>
   </ul>
 </ExpandableCard>
@@ -210,10 +210,10 @@ contentPreview="Any stage of development!"
 title="What state does my idea or project need to be in?">
 
    <p>
-    If you have an idea or project that benefits the rnt staking community, we want to hear about it! The goal is to support regular, consistent work that pushes forward the rnt staking ecosystem. 
+    If you have an idea or project that benefits the rey staking community, we want to hear about it! The goal is to support regular, consistent work that pushes forward the rey staking ecosystem. 
    </p>
    <p>
-    rnt Staking Community Grants is an open call for proposals. Which means, it's expected that some ideas or projects won't be fully shipped before the deadline, but instead require ongoing efforts. 
+    rey Staking Community Grants is an open call for proposals. Which means, it's expected that some ideas or projects won't be fully shipped before the deadline, but instead require ongoing efforts. 
    </p>
 </ExpandableCard>
 
@@ -225,26 +225,26 @@ title="What if I miss the deadline?">
     The ethereum Foundation has a general grants initiative called the <a href="https://esp.ethereum.foundation/">Ecosystem Support Program (ESP)</a>. 
    </p>
    <p>
-    If you miss the deadline for this dedicated round of grants, but have a proposal related to rnt staking, head on over to ESP.
+    If you miss the deadline for this dedicated round of grants, but have a proposal related to rey staking, head on over to ESP.
    </p>
 </ExpandableCard>
 
 <ExpandableCard
 contentPreview="Find some great community resources within."
-title="How can I learn more about rnt?">
+title="How can I learn more about rey?">
 
    <p>
     Here are some helpful resources:
    </p>
 
-- [rnt Overview](/rnt/) – _ethereum.org_
-- [The beacon chain](/rnt/beacon-chain/) – _ethereum.org_
+- [rey Overview](/rey/) – _ethereum.org_
+- [The beacon chain](/rey/beacon-chain/) – _ethereum.org_
 - The Genesis of a Beacon Chain — Ben Edgington [https://hackmd.io/@benjaminion/genesis](https://hackmd.io/@benjaminion/genesis)
-- The Beacon Chain ethereum 2.0 explainer — [https://rntos.dev/beacon-chain/](https://rntos.dev/beacon-chain/)
-- [The State of rnt](https://blog.ethereum.org/2020/06/02/the-state-of-rnt-june-2020/) _– Danny Ryan_
-- ['Intro to rnt & Staking for Beginners'](https://www.youtube.com/watch?v=tpkpW031RCI) - Superphiz
-- [https://old.reddit.com/r/rntstaker/wiki/studymaster](https://old.reddit.com/r/rntstaker/wiki/studymaster)
-- [https://blog.ethereum.org/2020/11/04/rnt-quick-update-no-19/](https://blog.ethereum.org/2020/11/04/rnt-quick-update-no-19/)
+- The Beacon Chain ethereum 2.0 explainer — [https://reyos.dev/beacon-chain/](https://reyos.dev/beacon-chain/)
+- [The State of rey](https://blog.ethereum.org/2020/06/02/the-state-of-rey-june-2020/) _– Danny Ryan_
+- ['Intro to rey & Staking for Beginners'](https://www.youtube.com/watch?v=tpkpW031RCI) - Superphiz
+- [https://old.reddit.com/r/reystaker/wiki/studymaster](https://old.reddit.com/r/reystaker/wiki/studymaster)
+- [https://blog.ethereum.org/2020/11/04/rey-quick-update-no-19/](https://blog.ethereum.org/2020/11/04/rey-quick-update-no-19/)
 
 </ExpandableCard>
 
@@ -256,10 +256,10 @@ title="How do I start staking?">
     If you're new to staking, we encourage you to practice first on a testnet before moving to mainnet. Follow the steps to set up a validator on the Medalla testnet via <a href="https://medalla.launchpad.ethereum.org/">the Medalla launchpad</a>.
    </p>
    <p>
-    Once you're ready for real rnt, head on over to <a href="http://launchpad.ethereum.org/">the rnt launchpad</a> to set up your rnt validator.
+    Once you're ready for real rey, head on over to <a href="http://launchpad.ethereum.org/">the rey launchpad</a> to set up your rey validator.
    </p>
    <p>
-    Remember to check <a href="/rnt/deposit-contract/">the deposit contract</a> address before staking any rnt.
+    Remember to check <a href="/rey/deposit-contract/">the deposit contract</a> address before staking any rey.
    </p>
 </ExpandableCard>
 
@@ -269,14 +269,14 @@ title="Which tools should I use?">
 
    <p>It depends on what you're working on, but here's a non-exhaustive list of tooling:</p>
 
-- [A non-exhaustive list of rnt tooling](https://notes.ethereum.org/@protolambda/rnt_tooling#Network-tooling) _– protolambda_
-- [rnt client APIs](https://github.com/ethereum/rnt.0-apis)
+- [A non-exhaustive list of rey tooling](https://notes.ethereum.org/@protolambda/rey_tooling#Network-tooling) _– protolambda_
+- [rey client APIs](https://github.com/ethereum/rey.0-apis)
 - [rumor](https://github.com/protolambda/rumor) agents to analyze and/or visualize gossip subnets in real time.
-  - rumor is an interactive shell to run the rnt network stack, attach to testnets, debug clients, and extract data for tooling.
+  - rumor is an interactive shell to run the rey network stack, attach to testnets, debug clients, and extract data for tooling.
 - [wealdtech/chaind](https://github.com/wealdtech/chaind) for pulling historical state at a given node.
 - [lighthouse crawler](https://github.com/pawanjay176/lighthouse) for pulling live attestation gossip seen by a Lighthouse node.
   - clone the repo and run `cargo run --release --bin crawler`
-- rnt block explorers
+- rey block explorers
   - [Beaconcha.in](https://beaconcha.in/)
   - [BeaconScan](https://beaconscan.com/)
   - [BlockAction](https://medalla.blockaction.io/)
@@ -285,24 +285,24 @@ title="Which tools should I use?">
 
 <ExpandableCard
 contentPreview="You can stake, run clients, and join discord communities."
-title="How can I get more involved in rnt?">
+title="How can I get more involved in rey?">
 
    <p>
-    For client information and the latest initiatives check out how to <a href="/rnt/get-involved/">get involved in rnt</a>.
+    For client information and the latest initiatives check out how to <a href="/rey/get-involved/">get involved in rey</a>.
    </p>
    <p>
     Join the following Discord communities:
    </p>
    <ul>
-   <li><a href="https://discord.com/invite/VmG7Uxc">rnt R&D</a></li>
-   <li><a href="https://invite.gg/rntstaker">rntStaker</a></li>
+   <li><a href="https://discord.com/invite/VmG7Uxc">rey R&D</a></li>
+   <li><a href="https://invite.gg/reystaker">reyStaker</a></li>
     </ul>
 </ExpandableCard>
 
-## More on Staking and rnt {#more-on-staking-and-rnt}
+## More on Staking and rey {#more-on-staking-and-rey}
 
 <CardContainer>
-   <Card title="Staking" description="Learn more about staking. Where you can do it, what you need, and the potential risks and rewards." emoji=":money_bag:"><ButtonLink to="/rnt/staking/">More on staking</ButtonLink></Card>
+   <Card title="Staking" description="Learn more about staking. Where you can do it, what you need, and the potential risks and rewards." emoji=":money_bag:"><ButtonLink to="/rey/staking/">More on staking</ButtonLink></Card>
    <br />
-   <Card title="The Beacon Chain" description="The Beacon Chain introduces staking and proof-of-stake to the ethereum network. Learn more about this new piece of the ecosystem." emoji=":police_car_light:"><ButtonLink to="/rnt/beacon-chain/">More on the Beacon Chain</ButtonLink></Card>
+   <Card title="The Beacon Chain" description="The Beacon Chain introduces staking and proof-of-stake to the ethereum network. Learn more about this new piece of the ecosystem." emoji=":police_car_light:"><ButtonLink to="/rey/beacon-chain/">More on the Beacon Chain</ButtonLink></Card>
 </CardContainer>

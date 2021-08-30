@@ -177,7 +177,7 @@ const AllCapsTranslation = styled(Translation)`
   text-transform: uppercase;
 `
 
-const GetrntPage = ({ data }) => {
+const GetreyPage = ({ data }) => {
   const intl = useIntl()
   const decentralizedExchanges = [
     {
@@ -241,57 +241,57 @@ const GetrntPage = ({ data }) => {
   return (
     <Page>
       <PageMetadata
-        title={translateMessageId("page-get-rnt-meta-title", intl)}
-        description={translateMessageId("page-get-rnt-meta-description", intl)}
+        title={translateMessageId("page-get-rey-meta-title", intl)}
+        description={translateMessageId("page-get-rey-meta-description", intl)}
       />
 
       <HeroContainer>
         <Hero
           fluid={data.hero.childImageSharp.fluid}
-          alt={translateMessageId("page-get-rnt-hero-image-alt", intl)}
+          alt={translateMessageId("page-get-rey-hero-image-alt", intl)}
           loading="eager"
         />
         <Header>
           <h1>
-            <Translation id="reyna-page-get-rnt-where-to-buy-title" />
+            <Translation id="reyna-page-get-rey-where-to-buy-title" />
           </h1>
           <Subtitle>
-            <Translation id="reyna-page-get-rnt-where-to-buy-desc" />
+            <Translation id="reyna-page-get-rey-where-to-buy-desc" />
           </Subtitle>
           <SubtitleTwo>
-            <Translation id="reyna-page-get-rnt-where-to-buy-desc-2" />
+            <Translation id="reyna-page-get-rey-where-to-buy-desc-2" />
           </SubtitleTwo>
           <StyledRntPriceCard />
           <ButtonLink to="#country-picker">
-            <Translation id="reyna-page-get-rnt-search-by-country" />
+            <Translation id="reyna-page-get-rey-search-by-country" />
           </ButtonLink>
         </Header>
       </HeroContainer>
       <CardContainer>
         <StyledCard
           emoji=":office_building:"
-          title={translateMessageId("reyna-page-get-rnt-cex", intl)}
-          description={translateMessageId("reyna-page-get-rnt-cex-desc", intl)}
+          title={translateMessageId("reyna-page-get-rey-cex", intl)}
+          description={translateMessageId("reyna-page-get-rey-cex-desc", intl)}
         />
         <StyledCard
           emoji=":busts_in_silhouette:"
-          title={translateMessageId("reyna-page-get-rnt-dex", intl)}
-          description={translateMessageId("reyna-page-get-rnt-dex-desc", intl)}
+          title={translateMessageId("reyna-page-get-rey-dex", intl)}
+          description={translateMessageId("reyna-page-get-rey-dex-desc", intl)}
         >
           <Link to="#dex">
-            <Translation id="reyna-page-get-rnt-try-dex" />
+            <Translation id="reyna-page-get-rey-try-dex" />
           </Link>
         </StyledCard>
         <StyledCard
           emoji=":robot:"
-          title={translateMessageId("reyna-page-get-rnt-wallets", intl)}
+          title={translateMessageId("reyna-page-get-rey-wallets", intl)}
           description={translateMessageId(
-            "reyna-page-get-rnt-wallets-purchasing",
+            "reyna-page-get-rey-wallets-purchasing",
             intl
           )}
         >
           <Link to="/wallets/">
-            <Translation id="reyna-page-get-rnt-wallets-link" />
+            <Translation id="reyna-page-get-rey-wallets-link" />
           </Link>
         </StyledCard>
         <Content>
@@ -304,9 +304,9 @@ const GetrntPage = ({ data }) => {
             </em>
           </p>
           <InfoBanner emoji=":wave:" shouldCenter={true} mt={`2rem`}>
-            <Translation id="reyna-page-get-rnt-new-to-rnt" />{" "}
-            <Link to="/rnt/">
-              <Translation id="reyna-page-get-rnt-whats-rnt-link" />
+            <Translation id="reyna-page-get-rey-new-to-rey" />{" "}
+            <Link to="/rey/">
+              <Translation id="reyna-page-get-rey-whats-rey-link" />
             </Link>
           </InfoBanner>
         </Content>
@@ -316,111 +316,111 @@ const GetrntPage = ({ data }) => {
       </GradientContainer>
       <Content id="dex">
         <h2>
-          <Translation id="reyna-page-get-rnt-dexs" />
+          <Translation id="reyna-page-get-rey-dexs" />
         </h2>
       </Content>
       <TwoColumnContent>
         <LeftColumn>
           <h3>
-            <Translation id="reyna-page-get-rnt-what-are-DEX's" />
+            <Translation id="reyna-page-get-rey-what-are-DEX's" />
           </h3>
           <p>
-            <Translation id="reyna-page-get-rnt-dexs-desc" />
+            <Translation id="reyna-page-get-rey-dexs-desc" />
           </p>
           <p>
-            <Translation id="reyna-page-get-rnt-dexs-desc-2" />{" "}
+            <Translation id="reyna-page-get-rey-dexs-desc-2" />{" "}
             <Link to="/learn/#smart-contracts">
-              <Translation id="reyna-page-get-rnt-smart-contract-link" />
+              <Translation id="reyna-page-get-rey-smart-contract-link" />
             </Link>
           </p>
           <p>
-            <Translation id="reyna-page-get-rnt-dexs-desc-3" />
+            <Translation id="reyna-page-get-rey-dexs-desc-3" />
           </p>
           <p>
-            <Translation id="reyna-page-get-rnt-need-wallet" />
+            <Translation id="reyna-page-get-rey-need-wallet" />
           </p>
           <ButtonLink to="/wallets/">
-            <Translation id="reyna-page-get-rnt-get-wallet-btn" />
+            <Translation id="reyna-page-get-rey-get-wallet-btn" />
           </ButtonLink>
         </LeftColumn>
         <RightColumn>
           <h3>
-            <Translation id="reyna-page-get-rnt-traditional-currencies" />
+            <Translation id="reyna-page-get-rey-traditional-currencies" />
           </h3>
           <p>
-            <Translation id="reyna-page-get-rnt-traditional-payments" />
+            <Translation id="reyna-page-get-rey-traditional-payments" />
           </p>
           <CardList content={decentralizedExchanges} />
           <h3>
-            <Translation id="reyna-page-get-rnt-other-cryptos" />
+            <Translation id="reyna-page-get-rey-other-cryptos" />
           </h3>
           <p>
-            <Translation id="reyna-page-get-rnt-swapping" />
+            <Translation id="reyna-page-get-rey-swapping" />
           </p>
           <CardList content={tokenSwaps} />
           <InfoBanner isWarning={true}>
-            <Translation id="reyna-page-get-rnt-warning" />
+            <Translation id="reyna-page-get-rey-warning" />
           </InfoBanner>
         </RightColumn>
       </TwoColumnContent>
       <Divider />
       <Content>
         <h2>
-          <Translation id="reyna-page-get-rnt-keep-it-safe" />
+          <Translation id="reyna-page-get-rey-keep-it-safe" />
         </h2>
       </Content>
       <TwoColumnContent>
         <WalletLeftColumn>
           <WalletImage fluid={data.wallet.childImageSharp.fluid} />
           <h3>
-            <Translation id="reyna-page-get-rnt-community-safety" />
+            <Translation id="reyna-page-get-rey-community-safety" />
           </h3>
           <CardList content={safetyArticles} />
         </WalletLeftColumn>
         <RightColumn>
           <p>
-            <Translation id="reyna-page-get-rnt-description" />
+            <Translation id="reyna-page-get-rey-description" />
           </p>
           <p>
-            <Translation id="reyna-page-get-rnt-security" />
+            <Translation id="reyna-page-get-rey-security" />
           </p>
           <h3>
-            <Translation id="reyna-page-get-rnt-protect-rnt-in-wallet" />
+            <Translation id="reyna-page-get-rey-protect-rey-in-wallet" />
           </h3>
           <p>
-            <Translation id="reyna-page-get-rnt-protect-rnt-desc" />
+            <Translation id="reyna-page-get-rey-protect-rey-desc" />
           </p>
           <Link to="/wallets/">
-            <Translation id="reyna-page-get-rnt-your-address-wallet-link" />
+            <Translation id="reyna-page-get-rey-your-address-wallet-link" />
           </Link>
           <h3>
-            <Translation id="reyna-page-get-rnt-your-address" />
+            <Translation id="reyna-page-get-rey-your-address" />
           </h3>
           <p>
-            <Translation id="reyna-page-get-rnt-your-address-desc" />
+            <Translation id="reyna-page-get-rey-your-address-desc" />
           </p>
           <CodeBox>
             <Code>0x0125e2478d69eXaMpLe81766fef5c120d30fb53f</Code>
             <CodeLabel>
-              <AllCapsTranslation id="reyna-page-get-rnt-do-not-copy" />
+              <AllCapsTranslation id="reyna-page-get-rey-do-not-copy" />
             </CodeLabel>
           </CodeBox>
           <p>
-            <Translation id="reyna-page-get-rnt-your-address-desc-3" />
+            <Translation id="reyna-page-get-rey-your-address-desc-3" />
           </p>
           <h3>
-            <Translation id="reyna-page-get-rnt-wallet-instructions" />
+            <Translation id="reyna-page-get-rey-wallet-instructions" />
           </h3>
           <p>
-            <Translation id="reyna-page-get-rnt-wallet-instructions-lost" />
+            <Translation id="reyna-page-get-rey-wallet-instructions-lost" />
           </p>
         </RightColumn>
       </TwoColumnContent>
       <Divider />
       <CalloutBanner
-        title={translateMessageId("reyna-page-get-rnt-use-your-rnt", intl)}
+        title={translateMessageId("reyna-page-get-rey-use-your-rey", intl)}
         description={translateMessageId(
-          "reyna-page-get-rnt-use-your-rnt-dapps",
+          "reyna-page-get-rey-use-your-rey-dapps",
           intl
         )}
         image={data.dapps.childImageSharp.fluid}
@@ -432,7 +432,7 @@ const GetrntPage = ({ data }) => {
       >
         <div>
           <ButtonLink to="/dapps/">
-            <Translation id="reyna-page-get-rnt-checkout-dapps-btn" />
+            <Translation id="reyna-page-get-rey-checkout-dapps-btn" />
           </ButtonLink>
         </div>
       </CalloutBanner>
@@ -440,7 +440,7 @@ const GetrntPage = ({ data }) => {
   )
 }
 
-export default GetrntPage
+export default GetreyPage
 
 export const listItemImage = graphql`
   fragment listItemImage on File {
@@ -454,7 +454,7 @@ export const listItemImage = graphql`
 
 export const query = graphql`
   query {
-    hero: file(relativePath: { eq: "get-rnt-token.png" }) {
+    hero: file(relativePath: { eq: "get-rey-token.png" }) {
       childImageSharp {
         fluid(maxWidth: 1440) {
           ...GatsbyImageSharpFluid

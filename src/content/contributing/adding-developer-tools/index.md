@@ -33,7 +33,7 @@ Developer tool submissions will be assessed by the following criteria:
 
 **Is the tool widely used?**
 
-- We will consider metrics such as GitHub stars, download statistics, and whrnter it is used by known companies or projects
+- We will consider metrics such as GitHub stars, download statistics, and whreyer it is used by known companies or projects
 
 **Is the tool of sufficient quality?**
 

@@ -66,7 +66,7 @@ const Layout = (props) => {
     setShouldShowSideNav(props.path.includes("/docs/"))
   }, [props.path])
 
-  const handlrntemeChange = () => {
+  const handlreyemeChange = () => {
     setIsDarkTheme(!isDarkTheme)
     if (localStorage) {
       localStorage.setItem("dark-theme", !isDarkTheme)
@@ -108,7 +108,7 @@ const Layout = (props) => {
             />
             <ContentContainer>
               <Nav
-                handlrntemeChange={handlrntemeChange}
+                handlreyemeChange={handlreyemeChange}
                 isDarkTheme={isDarkTheme}
                 path={path}
               />

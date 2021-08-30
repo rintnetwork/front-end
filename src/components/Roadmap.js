@@ -206,7 +206,7 @@ const Roadmap = () => {
           </Link>
         </li>
         <li>
-          <Link to="https://twitter.com/rntdotorg">
+          <Link to="https://twitter.com/reydotorg">
             <Translation id="page-about-link-5" />
           </Link>
         </li>

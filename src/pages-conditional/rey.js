@@ -166,117 +166,119 @@ const StyledCalloutBanner = styled(CalloutBanner)`
 const tokens = [
   {
     emoji: ":scales:",
-    title: <Translation id="page-rnt-stablecoins" />,
-    description: <Translation id="page-rnt-stablecoins-desc" />,
+    title: <Translation id="page-rey-stablecoins" />,
+    description: <Translation id="page-rey-stablecoins-desc" />,
   },
   {
     emoji: ":ballot_box_with_ballot:",
-    title: <Translation id="page-rnt-gov-tokens" />,
-    description: <Translation id="page-rnt-gov-tokens-desc" />,
+    title: <Translation id="page-rey-gov-tokens" />,
+    description: <Translation id="page-rey-gov-tokens-desc" />,
   },
   {
     emoji: ":pile_of_poo:",
-    title: <Translation id="page-rnt-shit-coins" />,
-    description: <Translation id="page-rnt-shit-coins-desc" />,
+    title: <Translation id="page-rey-shit-coins" />,
+    description: <Translation id="page-rey-shit-coins-desc" />,
   },
   {
     emoji: ":frame_with_picture:",
-    title: <Translation id="page-rnt-collectible-tokens" />,
-    description: <Translation id="page-rnt-collectible-tokens-desc" />,
+    title: <Translation id="page-rey-collectible-tokens" />,
+    description: <Translation id="page-rey-collectible-tokens-desc" />,
   },
 ]
 
 const benefits = [
   {
     emoji: ":gear:",
-    title: <Translation id="reyna-page-rnt-network-incentivization" />,
+    title: <Translation id="reyna-page-rey-network-incentivization" />,
     description: (
-      <Translation id="reyna-page-rnt-network-incentivization-desc" />
+      <Translation id="reyna-page-rey-network-incentivization-desc" />
     ),
   },
   {
     emoji: ":currency_exchange:",
-    title: <Translation id="reyna-page-rnt-reyna-exchange-network" />,
-    description: <Translation id="reyna-page-rnt-reyna-exchange-network-desc" />,
+    title: <Translation id="reyna-page-rey-reyna-exchange-network" />,
+    description: (
+      <Translation id="reyna-page-rey-reyna-exchange-network-desc" />
+    ),
   },
   {
     emoji: ":id_button:",
-    title: <Translation id="reyna-page-rnt-rns-name" />,
-    description: <Translation id="reyna-page-rnt-rns-name-desc" />,
+    title: <Translation id="reyna-page-rey-rns-name" />,
+    description: <Translation id="reyna-page-rey-rns-name-desc" />,
   },
   {
     emoji: ":ghost:",
-    title: <Translation id="reyna-page-rnt-sticker-market" />,
-    description: <Translation id="reyna-page-rnt-sticker-market-desc" />,
+    title: <Translation id="reyna-page-rey-sticker-market" />,
+    description: <Translation id="reyna-page-rey-sticker-market-desc" />,
   },
   {
     emoji: ":robot:",
-    title: <Translation id="reyna-page-rnt-tribute-to-talk" />,
-    description: <Translation id="reyna-page-rnt-tribute-to-talk-desc" />,
+    title: <Translation id="reyna-page-rey-tribute-to-talk" />,
+    description: <Translation id="reyna-page-rey-tribute-to-talk-desc" />,
   },
   {
     emoji: ":speaking_head:",
-    title: <Translation id="reyna-page-rnt-dao" />,
-    description: <Translation id="reyna-page-rnt-dao-desc" />,
+    title: <Translation id="reyna-page-rey-dao" />,
+    description: <Translation id="reyna-page-rey-dao-desc" />,
   },
   {
     emoji: ":mobile_phone:",
-    title: <Translation id="reyna-page-rnt-dapp-curation" />,
-    description: <Translation id="reyna-page-rnt-dapp-curation-desc" />,
+    title: <Translation id="reyna-page-rey-dapp-curation" />,
+    description: <Translation id="reyna-page-rey-dapp-curation-desc" />,
   },
   {
     emoji: ":ballot_box_with_ballot:",
-    title: <Translation id="reyna-page-rnt-voting-dapp" />,
-    description: <Translation id="reyna-page-rnt-voting-dapp-desc" />,
+    title: <Translation id="reyna-page-rey-voting-dapp" />,
+    description: <Translation id="reyna-page-rey-voting-dapp-desc" />,
   },
   {
     emoji: ":handshake:",
-    title: <Translation id="reyna-page-rnt-acquisition-engine" />,
-    description: <Translation id="reyna-page-rnt-acquisition-engine-desc" />,
+    title: <Translation id="reyna-page-rey-acquisition-engine" />,
+    description: <Translation id="reyna-page-rey-acquisition-engine-desc" />,
   },
 ]
 
 const tokenLinks = [
   {
     caption: "",
-    title: <Translation id="page-rnt-tokens-stablecoins" />,
-    description: <Translation id="page-rnt-tokens-stablecoins-description" />,
+    title: <Translation id="page-rey-tokens-stablecoins" />,
+    description: <Translation id="page-rey-tokens-stablecoins-description" />,
   },
   {
     caption: "",
-    title: <Translation id="page-rnt-tokens-defi" />,
-    description: <Translation id="page-rnt-tokens-defi-description" />,
+    title: <Translation id="page-rey-tokens-defi" />,
+    description: <Translation id="page-rey-tokens-defi-description" />,
   },
   {
     caption: "",
-    title: <Translation id="page-rnt-tokens-nft" />,
-    description: <Translation id="page-rnt-tokens-nft-description" />,
+    title: <Translation id="page-rey-tokens-nft" />,
+    description: <Translation id="page-rey-tokens-nft-description" />,
   },
   {
     caption: "",
-    title: <Translation id="page-rnt-tokens-dao" />,
-    description: <Translation id="page-rnt-tokens-dao-description" />,
+    title: <Translation id="page-rey-tokens-dao" />,
+    description: <Translation id="page-rey-tokens-dao-description" />,
   },
 ]
 
 const cardListContent = [
   {
-    link: "https://docs.rnthub.io/ethereum-basics/monetary-policy/",
-    title: <Translation id="page-rnt-monetary-policy" />,
-    description: "rntHub",
-    caption: <Translation id="page-rnt-rnthub-caption" />,
+    link: "https://docs.reyhub.io/ethereum-basics/monetary-policy/",
+    title: <Translation id="page-rey-monetary-policy" />,
+    description: "reyHub",
+    caption: <Translation id="page-rey-reyhub-caption" />,
   },
   {
-    link: "https://medium.com/rnthub/why-rnter-is-valuable-2b4e39e01eb3",
-    title: <Translation id="page-rnt-value" />,
+    link: "https://medium.com/reyhub/why-reyer-is-valuable-2b4e39e01eb3",
+    title: <Translation id="page-rey-value" />,
     description: "Anthony Sassano",
-    caption: <Translation id="page-rnt-last-updated" />,
+    caption: <Translation id="page-rey-last-updated" />,
   },
   {
-    link: "https://support.mycrypto.com/how-to/getting-started/how-to-buy-rnter-with-usd",
-    title: <Translation id="page-rnt-how-to-buy" />,
+    link: "https://support.mycrypto.com/how-to/getting-started/how-to-buy-reyer-with-usd",
+    title: <Translation id="page-rey-how-to-buy" />,
     description: "MyCrypto",
-    caption: <Translation id="page-rnt-how-to-buy-caption" />,
+    caption: <Translation id="page-rey-how-to-buy-caption" />,
   },
 ]
 
@@ -286,9 +288,9 @@ const WhatIsethereumPage = (props) => {
   return (
     <Page>
       <PageMetadata
-        title={translateMessageId("reyna-page-rnt-whats-rnt-meta-title", intl)}
+        title={translateMessageId("reyna-page-rey-whats-rey-meta-title", intl)}
         description={translateMessageId(
-          "reyna-page-rnt-whats-rnt-meta-desc",
+          "reyna-page-rey-whats-rey-meta-desc",
           intl
         )}
         image={data.ogImage.childImageSharp.fixed.src}
@@ -297,25 +299,25 @@ const WhatIsethereumPage = (props) => {
         <HeroContainer>
           <Header>
             <Title>
-              <Translation id="reyna-page-rnt-whats-rnt" />
+              <Translation id="reyna-page-rey-whats-rey" />
             </Title>
             <Slogan>
-              <Translation id="reyna-page-rnt-currency-for-future" />
+              <Translation id="reyna-page-rey-currency-for-future" />
             </Slogan>
             <Subtitle>
-              <Translation id="reyna-page-rnt-is-money" />
+              <Translation id="reyna-page-rey-is-money" />
             </Subtitle>
             <SubtitleTwo>
-              <Translation id="reyna-page-rnt-currency-for-apps" />
+              <Translation id="reyna-page-rey-currency-for-apps" />
             </SubtitleTwo>
             <StyledRntPriceCard />
-            <ButtonLink to="/get-rnt/" title="where to buy rnt">
-              <Translation id="reyna-page-rnt-button-buy-rnt" />
+            <ButtonLink to="/get-rey/" title="where to buy rey">
+              <Translation id="reyna-page-rey-button-buy-rey" />
             </ButtonLink>
           </Header>
           <Hero
-            fluid={data.rnt.childImageSharp.fluid}
-            alt={translateMessageId("reyna-page-rnt-whats-rnt-hero-alt", intl)}
+            fluid={data.rey.childImageSharp.fluid}
+            alt={translateMessageId("reyna-page-rey-whats-rey-hero-alt", intl)}
             loading="eager"
           />
         </HeroContainer>
@@ -324,7 +326,7 @@ const WhatIsethereumPage = (props) => {
         <Content>
           <Intro>
             <p>
-              <Translation id="reyna-page-rnt-description" />{" "}
+              <Translation id="reyna-page-rey-description" />{" "}
             </p>
           </Intro>
           <StyledCardContainer>
@@ -339,57 +341,60 @@ const WhatIsethereumPage = (props) => {
           </StyledCardContainer>
           <InfoBanner emoji=":wave:" shouldCenter={true}>
             <b>
-              <Translation id="reyna-page-rnt-buy-some" />
+              <Translation id="reyna-page-rey-buy-some" />
             </b>{" "}
-            <Translation id="reyna-page-rnt-buy-some-desc" />{" "}
+            <Translation id="reyna-page-rey-buy-some-desc" />{" "}
             <Link to="/what-is-ethereum/">
-              <Translation id="reyna-page-rnt-more-on-reyna-link" />
+              <Translation id="reyna-page-rey-more-on-reyna-link" />
             </Link>
-            <Translation id="reyna-page-rnt-period" />
+            <Translation id="reyna-page-rey-period" />
           </InfoBanner>
         </Content>
       </GrayContainer>
       <Content>
         <CentralColumn>
           <H2>
-            <Translation id="reyna-page-rnt-whats-unique" />
+            <Translation id="reyna-page-rey-whats-unique" />
           </H2>
           <p>
-            <Translation id="reyna-page-rnt-whats-unique-desc" />
+            <Translation id="reyna-page-rey-whats-unique-desc" />
           </p>
-          <rntVideo alt={translateMessageId("page-rnt-video-alt", intl)} />
+          <reyVideo alt={translateMessageId("page-rey-video-alt", intl)} />
           <div>
             <H4>
-              <Translation id="reyna-page-rnt-fuels" />
+              <Translation id="reyna-page-rey-fuels" />
             </H4>
             <p>
-              <Translation id="reyna-page-rnt-fuels-desc" />
+              <Translation id="reyna-page-rey-fuels-desc" />
             </p>
             <p>
-              <Translation id="reyna-page-rnt-fuels-desc-2" />
+              <Translation id="reyna-page-rey-fuels-desc-2" />
             </p>
             <p>
-              <Translation id="reyna-page-rnt-fuels-desc-3" />{" "}
+              <Translation id="reyna-page-rey-fuels-desc-3" />{" "}
               <strong>
-                <Translation id="reyna-page-rnt-powers-reyna-network" />
+                <Translation id="reyna-page-rey-powers-reyna-network" />
               </strong>
               .{" "}
               <Link to="/developers/docs/consensus-mechanisms/pow/mining/">
-                <Translation id="reyna-page-rnt-mining-link" />
+                <Translation id="reyna-page-rey-mining-link" />
               </Link>
             </p>
             <p>
-              <Translation id="reyna-page-rnt-fuels-staking" />{" "}
-              <Link to="/rnt/staking/">
-                <Translation id="reyna-page-rnt-fuels-more-staking" />
+              <Translation id="reyna-page-rey-fuels-staking" />{" "}
+              <Link to="/rey/staking/">
+                <Translation id="reyna-page-rey-fuels-more-staking" />
               </Link>
             </p>
           </div>
           <CentralActionCard
             to="/what-is-ethereum/"
-            title={translateMessageId("reyna-page-rnt-whats-reyna-network", intl)}
+            title={translateMessageId(
+              "reyna-page-rey-whats-reyna-network",
+              intl
+            )}
             description={translateMessageId(
-              "reyna-page-rnt-whats-reyna-network-desc",
+              "reyna-page-rey-whats-reyna-network-desc",
               intl
             )}
             image={data.reynanetwork.childImageSharp.fixed}
@@ -397,19 +402,19 @@ const WhatIsethereumPage = (props) => {
           <TextDivider />
           <div>
             <H4>
-              <Translation id="reyna-page-rnt-underpins" />
+              <Translation id="reyna-page-rey-underpins" />
             </H4>
             <p>
-              <Translation id="reyna-page-rnt-underpins-desc" />
+              <Translation id="reyna-page-rey-underpins-desc" />
             </p>
             <p>
-              <Translation id="reyna-page-rnt-underpins-desc-2" />
+              <Translation id="reyna-page-rey-underpins-desc-2" />
             </p>
             <CentralActionCard
               to="/dapps/"
-              title={translateMessageId("reyna-page-rnt-whats-dapps", intl)}
+              title={translateMessageId("reyna-page-rey-whats-dapps", intl)}
               description={translateMessageId(
-                "reyna-page-rnt-whats-dapps-description",
+                "reyna-page-rey-whats-dapps-description",
                 intl
               )}
               image={data.dapps.childImageSharp.fixed}
@@ -419,18 +424,18 @@ const WhatIsethereumPage = (props) => {
           <Divider />
         </CentralColumn>
         <StyledCalloutBanner
-          title={translateMessageId("reyna-page-rnt-where-to-buy", intl)}
+          title={translateMessageId("reyna-page-rey-where-to-buy", intl)}
           description={translateMessageId(
-            "reyna-page-rnt-where-to-buy-desc",
+            "reyna-page-rey-where-to-buy-desc",
             intl
           )}
-          image={data.getRNT.childImageSharp.fluid}
-          alt={translateMessageId("reyna-page-rnt-get-rnt-img-alt", intl)}
+          image={data.getREY.childImageSharp.fluid}
+          alt={translateMessageId("reyna-page-rey-get-rey-img-alt", intl)}
           maxImageWidth={300}
         >
           <div>
-            <ButtonLink to="/get-rnt/">
-              <Translation id="reyna-page-rnt-get-rnt-btn" />
+            <ButtonLink to="/get-rey/">
+              <Translation id="reyna-page-rey-get-rey-btn" />
             </ButtonLink>
           </div>
         </StyledCalloutBanner>
@@ -443,14 +448,14 @@ export default WhatIsethereumPage
 
 export const query = graphql`
   query {
-    rnt: file(relativePath: { eq: "get-rnt.png" }) {
+    rey: file(relativePath: { eq: "get-rey.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    ogImage: file(relativePath: { eq: "get-rnt.png" }) {
+    ogImage: file(relativePath: { eq: "get-rey.png" }) {
       childImageSharp {
         fixed(width: 1200) {
           src
@@ -471,7 +476,7 @@ export const query = graphql`
         }
       }
     }
-    getRNT: file(relativePath: { eq: "get-rnt.png" }) {
+    getREY: file(relativePath: { eq: "get-rey.png" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid

@@ -144,7 +144,7 @@ const RntPriceCard = ({ className, isLeftAlign }) => {
       isNegativeChange={isNegativeChange}
     >
       <Title>
-        <Translation id="rnt-current-price" />
+        <Translation id="rey-current-price" />
         <Tooltip content={tooltipContent}>
           <InfoIcon name="info" size="14" />
         </Tooltip>

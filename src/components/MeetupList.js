@@ -12,10 +12,10 @@ const meetups = [
     link: "https://www.meetup.com/BokkyPooBahs-ethereum-Workshop/",
   },
   {
-    title: "rntSydney",
+    title: "reySydney",
     emoji: ":australia:",
     location: "Sydney",
-    link: "https://www.meetup.com/rntsydney/",
+    link: "https://www.meetup.com/reysydney/",
   },
   {
     title: "Web3 Sydney",
@@ -111,11 +111,11 @@ const meetups = [
     title: "ethereum Malaysia",
     emoji: ":malaysia:",
     location: "Kuala Lumpur",
-    link: "https://www.meetup.com/rntMALAYSIA/",
+    link: "https://www.meetup.com/reyMALAYSIA/",
   },
   {
     title: "ethereum DEV NL",
-    emoji: ":nrnterlands:",
+    emoji: ":nreyerlands:",
     location: "Amsterdam",
     link: "https://www.meetup.com/ethereum-DEV-NL/",
   },
@@ -195,7 +195,7 @@ const meetups = [
     title: "ethereum Columbus",
     emoji: ":us:",
     location: "Columbus",
-    link: "https://www.meetup.com/rnt-columbus/",
+    link: "https://www.meetup.com/rey-columbus/",
   },
   {
     title: "ethereum Denver",

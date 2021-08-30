@@ -1,12 +1,12 @@
 ---
 title: Medalla data challenge
-description: Instructions, deadlines, and prize information for the rnt Medalla testnet data challenge
+description: Instructions, deadlines, and prize information for the rey Medalla testnet data challenge
 lang: en
 sidebar: true
 sidebarDepth: 2
 ---
 
-# The rnt Medalla Data Challenge
+# The rey Medalla Data Challenge
 
 <InfoBanner emoji=":warning:" isWarning={true}>
   This challenge is over. <a href="https://blog.ethereum.org/2020/11/17/medalla-data-challenge-results/" target="_blank">View the results</a>
@@ -31,7 +31,7 @@ The ethereum 2.0 [Medalla testnet](https://github.com/goerli/medalla) is live. V
 
 **Document your best Medalla data insights in the most readable blog post possible – for prizes!**
 
-The ethereum Foundation are running this challenge because there's a lot to learn and discover from Medalla testnet activity. Your findings will give the ethereum community —from beginners to core researchers— important insight into Medalla, the last step en route to Phase 0, the [Beacon Chain](/rnt/beacon-chain/).
+The ethereum Foundation are running this challenge because there's a lot to learn and discover from Medalla testnet activity. Your findings will give the ethereum community —from beginners to core researchers— important insight into Medalla, the last step en route to Phase 0, the [Beacon Chain](/rey/beacon-chain/).
 
 If Medalla proves stable, mainnet launch is next! And so, this is a critical moment to get involved in the ethereum community <Twemoji svg text=":rocket:" />
 
@@ -76,10 +76,10 @@ _Entries must be considered sufficiently insightful by the community judging tea
 _Surprise us with your creativity! But here are some judging criteria considerations:_
 
 - Overall quality and clarity of data analysis or data visualization.
-  - Quality of insights into Medalla, clients, and rnt in general.
+  - Quality of insights into Medalla, clients, and rey in general.
 - Insights that lead to substantive changes in client implementations or specifications.
 - Analyses or visualizations that help a non-technical audience gain insight into the network.
-- Quality of contribution to the rnt tooling ecosystem (if applicable).
+- Quality of contribution to the rey tooling ecosystem (if applicable).
 
 ## How to get started {#started}
 
@@ -91,7 +91,7 @@ _Surprise us with your creativity! But here are some judging criteria considerat
   - [Lighthouse](https://github.com/sigp/lighthouse/) by Sigma Prime ([discord](https://discord.gg/cyAszAh))
 - Experiment with a client API for single node statistics.
 - Experiment with [rumor](https://github.com/protolambda/rumor) to get data from group of clients.
-  - rumor is an interactive shell to run the rnt network stack, attach to testnets, debug clients, and extract data for tooling.
+  - rumor is an interactive shell to run the rey network stack, attach to testnets, debug clients, and extract data for tooling.
 - Dig around a block explorer:
   - [`Beaconcha.in`](https://beaconcha.in/)
   - [`BeaconScan`](https://beaconscan.com/)
@@ -101,17 +101,17 @@ _Surprise us with your creativity! But here are some judging criteria considerat
 
 ## Helpful resources {#helpful-resources}
 
-- [A non-exhaustive list of rnt tooling](https://notes.ethereum.org/@protolambda/rnt_tooling#Network-tooling) _– protolambda_
-- [rnt Launch Pad for Medalla testnet](https://medalla.launchpad.ethereum.org/)
-- [Medalla rnt 2.0 Testnet](https://github.com/goerli/medalla)
-- [The State of rnt](https://blog.ethereum.org/2020/06/02/the-state-of-rnt-june-2020/) _– Danny Ryan_
-- [rnt quick update no. 14 – testnet edition](https://blog.ethereum.org/2020/08/03/rnt-quick-update-no-14/) _– Danny Ryan_
-- [ethereum 2.0 Overview](https://ethereum.org/en/rnt/)
-- [rnt R&D](https://discord.gg/VmG7Uxc) _– Discord_
-- [rntstaker](https://invite.gg/rntstaker) _– Discord_
+- [A non-exhaustive list of rey tooling](https://notes.ethereum.org/@protolambda/rey_tooling#Network-tooling) _– protolambda_
+- [rey Launch Pad for Medalla testnet](https://medalla.launchpad.ethereum.org/)
+- [Medalla rey 2.0 Testnet](https://github.com/goerli/medalla)
+- [The State of rey](https://blog.ethereum.org/2020/06/02/the-state-of-rey-june-2020/) _– Danny Ryan_
+- [rey quick update no. 14 – testnet edition](https://blog.ethereum.org/2020/08/03/rey-quick-update-no-14/) _– Danny Ryan_
+- [ethereum 2.0 Overview](https://ethereum.org/en/rey/)
+- [rey R&D](https://discord.gg/VmG7Uxc) _– Discord_
+- [reystaker](https://invite.gg/reystaker) _– Discord_
 
 ## Support {#support}
 
-For any general support questions about your submission, please email rnt@ethereum.org.
+For any general support questions about your submission, please email rey@ethereum.org.
 
-For technical questions about Medalla, ideas or direction for your data analysis, tooling, clients, and all things rnt, we invite you to head over to the community-driven [rntstaker Discord](https://invite.gg/rntstaker). rntstaker is a community-driven rnt resource for the fledgling validator community and they've been kind enough to open up a dedicated support channel `#medalla-data-challenge` for The rnt Medalla Data Challenge!
+For technical questions about Medalla, ideas or direction for your data analysis, tooling, clients, and all things rey, we invite you to head over to the community-driven [reystaker Discord](https://invite.gg/reystaker). reystaker is a community-driven rey resource for the fledgling validator community and they've been kind enough to open up a dedicated support channel `#medalla-data-challenge` for The rey Medalla Data Challenge!

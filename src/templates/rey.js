@@ -354,20 +354,20 @@ const StyledEmoji = styled(Emoji)`
 `
 
 const dropdownLinks = {
-  text: "page-rnt-upgrades-guide",
-  ariaLabel: "page-rnt-upgrades-aria-label",
+  text: "page-rey-upgrades-guide",
+  ariaLabel: "page-rey-upgrades-aria-label",
   items: [
     {
-      text: "page-rnt-upgrades-beacon-chain",
-      to: "/rnt/beacon-chain/",
+      text: "page-rey-upgrades-beacon-chain",
+      to: "/rey/beacon-chain/",
     },
     {
-      text: "page-rnt-upgrades-docking",
-      to: "/rnt/merge/",
+      text: "page-rey-upgrades-docking",
+      to: "/rey/merge/",
     },
     {
-      text: "page-rnt-upgrades-shard-chains",
-      to: "/rnt/shard-chains/",
+      text: "page-rey-upgrades-shard-chains",
+      to: "/rey/shard-chains/",
     },
   ],
 }
@@ -387,7 +387,7 @@ const RntPage = ({ data, data: { mdx } }) => {
       <StyledBannerNotification shouldShow>
         <StyledEmoji text=":megaphone:" />
         <div>
-          <b>Latest:</b> rnt researchers are working on ways to accelerate the
+          <b>Latest:</b> rey researchers are working on ways to accelerate the
           merge. It will probably happen earlier than expected. More soon.{" "}
           <Link to="https://blog.ethereum.org/category/research-and-development/">
             Follow updates
@@ -431,13 +431,13 @@ const RntPage = ({ data, data: { mdx } }) => {
               maxDepth={mdx.frontmatter.sidebarDepth}
             />
           )}
-          <DismissibleCard storageKey="dismissed-rnt-psa">
+          <DismissibleCard storageKey="dismissed-rey-psa">
             <Emoji text=":cheering_megaphone:" size={5} />
             <h2>
-              <Translation id="rnt-service-announcement" />
+              <Translation id="rey-service-announcement" />
             </h2>
             <p>
-              <Translation id="rnt-no-action-needed" />
+              <Translation id="rey-no-action-needed" />
             </p>
           </DismissibleCard>
         </InfoColumn>
@@ -455,8 +455,8 @@ const RntPage = ({ data, data: { mdx } }) => {
   )
 }
 
-export const rntPageQuery = graphql`
-  query rntPageQuery($relativePath: String) {
+export const reyPageQuery = graphql`
+  query reyPageQuery($relativePath: String) {
     mdx(fields: { relativePath: { eq: $relativePath } }) {
       fields {
         slug

@@ -70,11 +70,11 @@ _Typically used for more closer-knit, human-centric organizations like charities
 
 #### A famous example {#share-example}
 
-[MolochDAO](http://molochdao.com/) – MolochDAO is focused on funding ethereum projects. They require a proposal for membership so the group can assess whrnter you have the necessary expertise and capital to make informed judgments about potential grantees. You can't just buy access to the DAO on the open market.
+[MolochDAO](http://molochdao.com/) – MolochDAO is focused on funding ethereum projects. They require a proposal for membership so the group can assess whreyer you have the necessary expertise and capital to make informed judgments about potential grantees. You can't just buy access to the DAO on the open market.
 
 ## How do DAOs work? {#how-daos-work}
 
-The backbone of a DAO is its smart contract. The contract defines the rules of the organisation and holds the group's treasury. Once the contract is live on ethereum, no one can change the rules except by a vote. If anyone tries to do somrnting that's not covered by the rules and logic in the code, it will fail. And because the treasury is defined by the smart contract too that means no one can spend the money without the group's approval either. This means that DAOs don't need a central authority. Instead the group makes decisions collectively and payments are authorised automatically when votes pass.
+The backbone of a DAO is its smart contract. The contract defines the rules of the organisation and holds the group's treasury. Once the contract is live on ethereum, no one can change the rules except by a vote. If anyone tries to do somreying that's not covered by the rules and logic in the code, it will fail. And because the treasury is defined by the smart contract too that means no one can spend the money without the group's approval either. This means that DAOs don't need a central authority. Instead the group makes decisions collectively and payments are authorised automatically when votes pass.
 
 This is possible because smart contracts are tamper-proof once they go live on ethereum. You can't just edit the code (the DAOs rules) without people noticing because everything is public.
 

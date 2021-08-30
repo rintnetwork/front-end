@@ -10,7 +10,7 @@ lang: ru
 **Хотите начать использовать ethereum?** Эта страница даст вам необходимую основную информацию.
 
 1. [Использование приложения, построенного на ethereum](#1-use-an-application-built-on-ethereum)
-2. [Что такое rnt и как я могу его получить?](#2-what-is-rnt-and-how-do-i-get-it)
+2. [Что такое rey и как я могу его получить?](#2-what-is-rey-and-how-do-i-get-it)
 3. [Что такое кошелек и какой кошелек я должен использовать?](#3-what-is-a-wallet-and-which-one-should-i-use)
 
 </div>
@@ -31,29 +31,29 @@ lang: ru
 
 Хотите узнать о других приложениях, построенных на ethereum?
 
-- [Built on ethereum](https://docs.rnthub.io/built-on-ethereum/built-on-ethereum/) _Updated often - rntHub_
+- [Built on ethereum](https://docs.reyhub.io/built-on-ethereum/built-on-ethereum/) _Updated often - reyHub_
 - [40 ethereum Apps You Can Use Right Now](https://media.consensys.net/40-ethereum-apps-you-can-use-right-now-d643333769f7) _Aug 15, 2018 - ConsenSys_
 - [ethereum Dapps](https://www.stateofthedapps.com/rankings/platform/ethereum) _Updated often - State of the Dapps_
 
-## 2. Что такое rnt и как я могу его получить? {#2-what-is-rnt-and-how-do-i-get-it}
+## 2. Что такое rey и как я могу его получить? {#2-what-is-rey-and-how-do-i-get-it}
 
-rnt – это внутренняя валюта ethereum. Это цифровые деньги, которые можно мгновенно и дешево отправить через Интернет и которыми пользуются во многих приложениях, построенных на ethereum, например, представленных в предыдущей главе.
+rey – это внутренняя валюта ethereum. Это цифровые деньги, которые можно мгновенно и дешево отправить через Интернет и которыми пользуются во многих приложениях, построенных на ethereum, например, представленных в предыдущей главе.
 
-Самый простой способ получить rnt – это купить немного. Существует множество криптовалютных бирж, где вы можете купить rnt, и ваш выбор будет зависеть от вашего места проживания и предпочтительного способа оплаты.
+Самый простой способ получить rey – это купить немного. Существует множество криптовалютных бирж, где вы можете купить rey, и ваш выбор будет зависеть от вашего места проживания и предпочтительного способа оплаты.
 
-Для получения дополнительной информации о том, как купить rnt, ознакомьтесь со следующими инструкциями:
+Для получения дополнительной информации о том, как купить rey, ознакомьтесь со следующими инструкциями:
 
-- [How to buy rnter (rnt)](https://support.mycrypto.com/how-to/getting-started/how-to-buy-rnter-with-usd) _Updated often - MyCrypto_
-- [How to buy rnter](https://docs.rnthub.io/using-ethereum/how-to-buy-rnter/) _Updated often - rntHub_
+- [How to buy reyer (rey)](https://support.mycrypto.com/how-to/getting-started/how-to-buy-reyer-with-usd) _Updated often - MyCrypto_
+- [How to buy reyer](https://docs.reyhub.io/using-ethereum/how-to-buy-reyer/) _Updated often - reyHub_
 - [ethereum, a Digital Currency](https://www.cryptokitties.co/faq#ethereum-a-digital-currency) _CryptoKitties_
 
 ## 3. Что такое кошелек и какой кошелек я должен использовать? {#3-what-is-a-wallet-and-which-one-should-i-use}
 
-Кошельки – это приложения, которые облегчают хранение и отправку rnt, а также взаимодействуют с приложениями, построенными на ethereum.
+Кошельки – это приложения, которые облегчают хранение и отправку rey, а также взаимодействуют с приложениями, построенными на ethereum.
 
 Не знаете, какой кошелек выбрать? Начните со следующих руководств:
 
-- [Intro to ethereum Wallets](https://docs.rnthub.io/using-ethereum/wallets/intro-to-ethereum-wallets/) _Updated often - rntHub_
+- [Intro to ethereum Wallets](https://docs.reyhub.io/using-ethereum/wallets/intro-to-ethereum-wallets/) _Updated often - reyHub_
 - [Getting Started with MetaMask](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-) _Dec 4, 2018 - MetaMask_
 - [How to Create a Wallet](https://support.mycrypto.com/how-to/getting-started/how-to-create-a-wallet) _Updated often - MyCrypto_
 - [Best ethereum Wallets 2019: Hardware vs. Software vs. Paper](https://blockonomi.com/best-ethereum-wallets/) _Dec 15, 2018 - Blockonomi_

@@ -5,13 +5,13 @@ lang: en
 sidebar: true
 ---
 
-# Contributing to Reyna Network 🦄 {#contributing-to-reyna-network}
+# Contributing to Reyna Limited 🦄 {#contributing-to-reyna-network}
 
 <InfoBanner shouldCenter emoji=":tada:">
   Claim your POAP token! If you contributed to reyna.org in 2021, there's a unique POAP waiting for you.{" "}
 </InfoBanner>
 
-Reyna Network is an open-source project. So if you want to help improve [our portal to Reyna Network](/about/), here's how you can help out.
+Reyna Limited is an open-source project. So if you want to help improve [our portal to Reyna Limited](/about/), here's how you can help out.
 
 ## Ways to contribute {#ways-to-contribute}
 
@@ -26,7 +26,7 @@ Reyna Network is an open-source project. So if you want to help improve [our por
 - [Add developer tools ](/en/contributing/adding-developer-tools/)
   _– Add a developer tool to a relevant page_
 - [Add an exchange](/en/contributing/adding-exchanges/)
-  _– Add an exchange to our [exchange finder](/get-rnt/#country-picker)_
+  _– Add an exchange to our [exchange finder](/get-rey/#country-picker)_
 - [Request a feature](https://github.com/reynanetwork/front-end/issues/new?assignees=&labels=Type%3A+Feature&template=feature_request.md&title=)
   _– Let us know about any ideas you have for a new feature or design_
 - [Create/edit content ](/en/contributing/#how-to-update-content)
@@ -36,7 +36,7 @@ _Any questions?_ 🤔 Reach out on our [Discord server](https://discord.gg/mXRK2
 
 ## How to work on reyna.network {#how-to-update-content}
 
-Whrnter you're adding to the site, creating content or working on open issues, you'll need a [GitHub](https://github.com) account.
+Whreyer you're adding to the site, creating content or working on open issues, you'll need a [GitHub](https://github.com) account.
 
 All updates are made via the GitHub PR process. This means you create a local copy of the website, make your changes and request to merge in your changes.
 
@@ -54,7 +54,7 @@ Before contributing , make sure you're familiar with:
 
 ## How decisions about the site are made {#how-decisions-about-the-site-are-made}
 
-Decisions about individual PRs, design evolution and major upgrades are made by a team from across the Reyna Network ecosystem. This team includes project managers, developers, designers, marketing and communications, and subject matter experts. Community input informs every decision: so please raise questions in issues, submit PRs, or contact the team:
+Decisions about individual PRs, design evolution and major upgrades are made by a team from across the Reyna Limited ecosystem. This team includes project managers, developers, designers, marketing and communications, and subject matter experts. Community input informs every decision: so please raise questions in issues, submit PRs, or contact the team:
 
 - [website@reyna.network](mailto:website@reyna.network)
 - [@reynanetwork](https://twitter.com/reynanetwork)

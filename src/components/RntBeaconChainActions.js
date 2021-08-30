@@ -75,8 +75,8 @@ const RntBeaconChainActions = () => {
     },
     {
       title: "The Beacon Chain ethereum 2.0 explainer you need to read first",
-      description: "rntos.dev",
-      link: "https://rntos.dev/beacon-chain/",
+      description: "reyos.dev",
+      link: "https://reyos.dev/beacon-chain/",
     },
     {
       title: "Sharding consensus",
@@ -90,28 +90,28 @@ const RntBeaconChainActions = () => {
       <StyledCardContainer>
         <StyledCardLeft
           emoji=":money_with_wings:"
-          title={translateMessageId("rnt-become-staker", intl)}
-          description={translateMessageId("rnt-become-staker-desc", intl)}
+          title={translateMessageId("rey-become-staker", intl)}
+          description={translateMessageId("rey-become-staker-desc", intl)}
         >
           <StyledButtonLink to="https://launchpad.ethereum.org">
             <Translation id="get-started" />
           </StyledButtonLink>
-          <ButtonLink isSecondary to="/rnt/staking/">
-            <Translation id="page-rnt-index-staking-learn" />
+          <ButtonLink isSecondary to="/rey/staking/">
+            <Translation id="page-rey-index-staking-learn" />
           </ButtonLink>
         </StyledCardLeft>
         <StyledCardRight
           emoji=":computer:"
-          title={translateMessageId("rnt-run-beacon-chain", intl)}
-          description={translateMessageId("rnt-run-beacon-chain-desc", intl)}
+          title={translateMessageId("rey-run-beacon-chain", intl)}
+          description={translateMessageId("rey-run-beacon-chain-desc", intl)}
         >
-          <ButtonLink isSecondary to="/rnt/get-involved/">
-            <Translation id="rnt-run-beacon-chain" />
+          <ButtonLink isSecondary to="/rey/get-involved/">
+            <Translation id="rey-run-beacon-chain" />
           </ButtonLink>
         </StyledCardRight>
       </StyledCardContainer>
       <H3>
-        <Translation id="rnt-explore" />
+        <Translation id="rey-explore" />
       </H3>
       <H3>
         <Translation id="read-more" />

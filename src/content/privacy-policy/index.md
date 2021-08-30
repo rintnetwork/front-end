@@ -7,9 +7,9 @@ lang: en
 
 **1. General information**
 
-Stiftung Reyna Network, a Swiss Stiftung, located at Zeughausgasse 7a, 6300
+Stiftung Reyna Limited, a Swiss Stiftung, located at Zeughausgasse 7a, 6300
 Zug, Switzerland (the "Foundation," "we" or "us") is the operator
-of this website, togrnter with reyna.network, eitny.foundation (each a "website" and togrnter, our "websites"). As
+of this website, togreyer with reyna.network, eitny.foundation (each a "website" and togreyer, our "websites"). As
 the operator of the sites, we take the protection of your personal data
 very seriously. We collect, process and use your personal data in
 accordance with this privacy policy and in compliance with the Swiss
@@ -59,7 +59,7 @@ and stability, optimisingour website, and for internal statistical
 purposes. This is our legitimate interest in the processing of data in
 the sense of Art. 6 Par. 1 lit. f GDPR.
 
-Furthermore, the IP addresses will be evaluated, togrnter with other
+Furthermore, the IP addresses will be evaluated, togreyer with other
 data, in case of attacks on the network infrastructure or other
 unauthorised use or misuse of the website, for the purpose of
 intelligence and protection, and if appropriate, used in criminal
@@ -195,7 +195,7 @@ and may use this information. This processing of your personal data lays
 in the responsibility of these individual social media platforms and
 occurs according to their privacy policy. Please check with these
 individual social media platforms regarding their privacy policies.
-Reyna Network is not responsible for data collected by these individual
+Reyna Limited is not responsible for data collected by these individual
 social media platforms. We only use these platforms to inform our
 community of updates and answer user questions.
 
@@ -279,7 +279,7 @@ responsibility and liability for these.
 **7.1 Right to confirmation**
 
 You have the right to obtain confirmation from the Foundation as to
-whrnter or not personal data concerning you is being processed. If you
+whreyer or not personal data concerning you is being processed. If you
 wish to avail yourself of this right of confirmation, you may, at any
 time, contact the responsible person as stated in section 1 of this
 Privacy Policy.
@@ -372,7 +372,7 @@ processing where one of the following applies:
   the processing, but they are required by you for the establishment,
   exercise or defense of legal claims; and/or
 - the data subject has objected to processing pursuant to Article
-  21(1) of the GDPR pending the verification whrnter the legitimate
+  21(1) of the GDPR pending the verification whreyer the legitimate
   grounds of the Foundation override those of the data subject.
 
 If any one of the aforementioned conditions is met, and you wish to

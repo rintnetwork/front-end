@@ -69,7 +69,7 @@ The Crowdin glossary is the best place for clarification of terms and definition
 
 ### Terminology translation policy {#terminology}
 
-_For names (brands, companies, people) and new tech terms (rnt, beacon chain, etc.)_
+_For names (brands, companies, people) and new tech terms (rey, beacon chain, etc.)_
 
 ethereum presents a lot of new terms that have been coined recently. Some terms will vary from translator to translator as there is no official translation in their respective language. Such inconsistencies can cause misunderstanding and decrease readability.
 

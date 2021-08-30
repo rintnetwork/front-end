@@ -16,7 +16,7 @@ const NavLink = styled(Link)`
 
 const Morpher = () => {
   const [state, setState] = useState({
-    text: "Reyna Network",
+    text: "Reyna Limited",
     words: [
       "린트",
       "ரிண்ட்",

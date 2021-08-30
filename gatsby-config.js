@@ -8,8 +8,8 @@ const siteUrl = `https://reyna.network`
 module.exports = {
   siteMetadata: {
     // `title` & `description` pulls from respective ${lang}.json files in PageMetadata.js
-    title: `Reyna Network`,
-    description: `Reyna Network is free and open-source project for enabling anonymous, encryption & communication by directing Internet traffic through a worldwide, volunteer overlay network.`,
+    title: `Reyna Limited`,
+    description: `Reyna Limited is free and open-source project for enabling anonymous, encryption & communication by directing Internet traffic through a worldwide, volunteer overlay network.`,
     url: siteUrl,
     siteUrl,
     author: `@reynanetwork`,
@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Reyna Network`,
-        short_name: `RNT`,
+        name: `Reyna Limited`,
+        short_name: `REY`,
         start_url: `/en/`,
         background_color: `#fff`,
         theme_color: `#1c1ce1`,

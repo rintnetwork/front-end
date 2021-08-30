@@ -6,7 +6,7 @@ template: use-cases
 emoji: ":money_with_wings:"
 sidebar: true
 image: ../../assets/use-cases/defi.png
-alt: "An rnt logo made of lego bricks."
+alt: "An rey logo made of lego bricks."
 sidebarDepth: 2
 summaryPoints:
   [
@@ -16,7 +16,7 @@ summaryPoints:
   ]
 ---
 
-DeFi is an open and global financial system built for the internet age – an alternative to a system that's opaque, tightly controlled, and held togrnter by decades-old infrastructure and processes. It gives you control and visibility over your money. It gives you exposure to global markets and alternatives to your local currency or banking options. DeFi products open up financial services to anyone with an internet connection and they're largely owned and maintained by their users. So far tens of billions of dollars worth of crypto has flowed through DeFi applications and it's growing every day.
+DeFi is an open and global financial system built for the internet age – an alternative to a system that's opaque, tightly controlled, and held togreyer by decades-old infrastructure and processes. It gives you control and visibility over your money. It gives you exposure to global markets and alternatives to your local currency or banking options. DeFi products open up financial services to anyone with an internet connection and they're largely owned and maintained by their users. So far tens of billions of dollars worth of crypto has flowed through DeFi applications and it's growing every day.
 
 ## What's DeFi? {#what-is-defi}
 
@@ -90,15 +90,15 @@ There's a decentralized alternative to most financial services. But ethereum als
 
 ### Send money around the globe quickly {#send-money}
 
-As a blockchain, ethereum is designed for sending transactions in a secure and global way. Like Bitcoin, ethereum makes sending money around the world as easy as sending an email. Just enter your recipient's [ENS name](/nft/#nft-domains) (like bob.rnt) or their account address from your wallet and your payment will go directly to them in minutes (usually). To send or receive payments, you will need a [wallet](/wallets/).
+As a blockchain, ethereum is designed for sending transactions in a secure and global way. Like Bitcoin, ethereum makes sending money around the world as easy as sending an email. Just enter your recipient's [ENS name](/nft/#nft-domains) (like bob.rey) or their account address from your wallet and your payment will go directly to them in minutes (usually). To send or receive payments, you will need a [wallet](/wallets/).
 
 <ButtonLink to="/dapps/?category=finance">See payment dapps</ButtonLink>
 
 #### Stream money around the globe... {#stream-money}
 
-You can also stream money over ethereum. This lets you pay someone their salary by the second, giving them access to their money whenever they need it. Or rent somrnting by the second like a storage locker or electric scooter.
+You can also stream money over ethereum. This lets you pay someone their salary by the second, giving them access to their money whenever they need it. Or rent somreying by the second like a storage locker or electric scooter.
 
-And if you don't want to send or stream [rnt](/rnt/) because of how much its value can change, there are alternative currencies on ethereum: stablecoins.
+And if you don't want to send or stream [rey](/rey/) because of how much its value can change, there are alternative currencies on ethereum: stablecoins.
 
 <Divider />
 
@@ -125,7 +125,7 @@ There are many advantages to using a decentralized lender...
 
 #### Borrowing with privacy {#borrowing-privacy}
 
-Today, lending and borrowing money all revolves around the individuals involved. Banks need to know whrnter you're likely to repay a loan before lending.
+Today, lending and borrowing money all revolves around the individuals involved. Banks need to know whreyer you're likely to repay a loan before lending.
 
 Decentralized lending works without either party having to identify themselves. Instead the borrower must put up collateral that the lender will automatically receive if their loan is not repaid. Some lenders even accept NFTs as collateral. NFTs are a deed to a unique asset, like a painting. [More on NFTs](/nft/)
 
@@ -137,7 +137,7 @@ When you use a decentralized lender you have access to funds deposited from all 
 
 #### Tax-efficiencies {#tax-efficiencies}
 
-Borrowing can give you access to the funds you need without needing to sell your rnt (a taxable event). Instead you can use rnt as collateral for a stablecoin loan. This gives you the cash-flow you need and lets you keep your rnt. Stablecoins are tokens that are much better for when you need cash as they don't fluctuate in value like rnt. [More on stablecoins](#stablecoins)
+Borrowing can give you access to the funds you need without needing to sell your rey (a taxable event). Instead you can use rey as collateral for a stablecoin loan. This gives you the cash-flow you need and lets you keep your rey. Stablecoins are tokens that are much better for when you need cash as they don't fluctuate in value like rey. [More on stablecoins](#stablecoins)
 
 #### Flash loans {#flash-loans}
 
@@ -174,14 +174,14 @@ You can earn interest on your crypto by lending it and see your funds grow in re
 
 - You lend your 100 Dai, a [stablecoin](/stablecoins/), to a product like Aave.
 - You receive 100 Aave Dai (aDai) which is a token that represents your loaned Dai.
-- Your aDai will increase based on the interest rates and you can see your balance growing in your wallet. Dependent on the APR, your wallet balance will read somrnting like 100.1234 after a few days or even hours!
+- Your aDai will increase based on the interest rates and you can see your balance growing in your wallet. Dependent on the APR, your wallet balance will read somreying like 100.1234 after a few days or even hours!
 - You can withdraw an amount of regular Dai that's equal to your aDai balance at any time.
 
 <ButtonLink to="/dapps/?category=finance">See lending dapps</ButtonLink>
 
 #### No-loss lotteries {#no-loss-lotteries}
 
-No-loss lotteries like PoolTogrnter are a fun and innovative new way to save money.
+No-loss lotteries like PoolTogreyer are a fun and innovative new way to save money.
 
 - You buy 100 tickets using 100 Dai tokens.
 - You receive 100 plDai representing your 100 tickets.
@@ -191,7 +191,7 @@ No-loss lotteries like PoolTogrnter are a fun and innovative new way to save mon
 
 The prize pool is generated by all the interest generated by lending the ticket deposits like in the lending example above.
 
-<ButtonLink isSecondary to="https://pooltogrnter.com">Try PoolTogrnter</ButtonLink>
+<ButtonLink isSecondary to="https://pooltogreyer.com">Try PoolTogreyer</ButtonLink>
 
 <Divider />
 
@@ -199,7 +199,7 @@ The prize pool is generated by all the interest generated by lending the ticket 
 
 There are thousands of tokens on ethereum. Decentralized exchanges (DEXs) let you trade different tokens whenever you want. You never give up control of your assets. This is like using a currency exchange when visiting a different country. But the DeFi version never closes. The markets are 24/7, 365 days a year and the technology guarantees there will always be someone to accept a trade.
 
-For example, if you want to use the no-loss lottery PoolTogrnter (described above), you'll need a token like Dai or USDC. These DEXss allow you to swap your rnt for those tokens and back again when you're finished.
+For example, if you want to use the no-loss lottery PoolTogreyer (described above), you'll need a token like Dai or USDC. These DEXss allow you to swap your rey for those tokens and back again when you're finished.
 
 <ButtonLink to="/dapps/?category=finance">See token exchanges</ButtonLink>
 
@@ -256,7 +256,7 @@ This means Project A with its 100 donations of 1 dollar could end up with more f
 
 Decentralized insurance aims to make insurance cheaper, faster to pay out, and more transparent. With more automation, coverage is more affordable and pay-outs are a lot quicker. The data used to decide on your claim is completely transparent.
 
-ethereum products, like any software, can suffer from bugs and exploits. So right now a lot of insurance products in the space focus on protecting their users against loss of funds. However there are projects starting to build out coverage for everything life can throw at us. A good example of this is rnterisc's Crop cover which aims to [protect smallholder farmers in Kenya against droughts and flooding](https://blog.rnterisc.com/rnterisc-teams-up-with-chainlink-to-deliver-crop-insurance-in-kenya-137e433c29dc). Decentralized insurance can provide cheaper cover for farmers who are often priced out of traditional insurance.
+ethereum products, like any software, can suffer from bugs and exploits. So right now a lot of insurance products in the space focus on protecting their users against loss of funds. However there are projects starting to build out coverage for everything life can throw at us. A good example of this is reyerisc's Crop cover which aims to [protect smallholder farmers in Kenya against droughts and flooding](https://blog.reyerisc.com/reyerisc-teams-up-with-chainlink-to-deliver-crop-insurance-in-kenya-137e433c29dc). Decentralized insurance can provide cheaper cover for farmers who are often priced out of traditional insurance.
 
 <ButtonLink to="/dapps/?category=finance">See insurance dapps</ButtonLink>
 
@@ -287,14 +287,14 @@ This does mean there's currently a need to trust the more technical members of t
 ethereum is the perfect foundation for DeFi for a number of reasons:
 
 - No one owns ethereum or the smart contracts that live on it – this gives everyone an opportunity to use DeFi. This also means no one can change the rules on you.
-- DeFi products all speak the same language behind the scenes: ethereum. This means many of the products work togrnter seamlessly. You can lend tokens on one platform and exchange the interest-bearing token in a different market on an entirely different application. This is like being able to cash loyalty points in at your bank.
+- DeFi products all speak the same language behind the scenes: ethereum. This means many of the products work togreyer seamlessly. You can lend tokens on one platform and exchange the interest-bearing token in a different market on an entirely different application. This is like being able to cash loyalty points in at your bank.
 - Tokens and cryptocurrency are built into ethereum, a shared ledger – keeping track of transactions and ownership is kinda ethereum's thing.
 - ethereum allows complete financial freedom – most products will never take custody of your funds, leaving you in control.
 
 You can think of DeFi in layers:
 
 1. The blockchain – ethereum contains the transaction history and state of accounts.
-2. The assets – [rnt](/rnt/) and the other tokens (currencies).
+2. The assets – [rey](/rey/) and the other tokens (currencies).
 3. The protocols – [smart contracts](/glossary/#smart-contract) that provide the functionality, for example a service that allows for decentralized lending of assets.
 4. [The applications](/dapps/) – the products we use to manage and access the protocols.
 
@@ -314,7 +314,7 @@ At such an early stage in DeFi, there are both opportunities and risks. Make sur
 
 - **Combination opportunities** – the system is open, new products are coming to market all the time that combine existing services to unlock new opportunities.
 - **Greater efficiency** – smart contracts remove the need for custodians and escrows reducing transaction time and cost without compromising security.
-- **More transparency** – everything is public, this makes auditing and understanding risks a lot easier. If somrnting does go wrong, investigations are far simpler.
+- **More transparency** – everything is public, this makes auditing and understanding risks a lot easier. If somreying does go wrong, investigations are far simpler.
 - **More accessible** – DeFi allows you to use these markets without giving away your identity. These protocols are open to everyone an can't discriminate based on personal details.
 
 ### Risks
@@ -349,7 +349,7 @@ DeFi relies on ethereum to keep transactions secure. ethereum security comes at 
 
 <InfoBanner isWarning emoji=":fuel_pump:">
     Using DeFi products right now is expensive. The network is in such high demand that gas is very expensive. The community is working on ways to improve the network's capacity, but don't be surprised if you see gas prices exceed your transaction value.
-    <a href="https://www.rntgasstation.info/">Check gas prices</a> [What's a normal amount?]
+    <a href="https://www.reygasstation.info/">Check gas prices</a> [What's a normal amount?]
 </InfoBanner>
 
 ### On/off-ramps
@@ -359,7 +359,7 @@ Getting funds in or out of DeFi into the traditional financial system will requi
 ### The DeFi essentials
 
 - a wallet – you'll need one to connect to applications and manage your funds.
-- some rnt – you'll need to pay transaction fees
+- some rey – you'll need to pay transaction fees
 - some time – don't DeFi in a rush, take time to read everything, double check everything. With greater financial freedom comes some risk. In most cases sending funds to the wrong place is irreversible.
 
 ### Do a token swap
@@ -379,7 +379,7 @@ todo -->
 
 ### DeFi articles {#defi-articles}
 
-- [What is Decentralized Finance?](https://docs.rnthub.io/built-on-ethereum/open-finance/what-is-open-finance/) – _rntHub, updated regularly_
+- [What is Decentralized Finance?](https://docs.reyhub.io/built-on-ethereum/open-finance/what-is-open-finance/) – _reyHub, updated regularly_
 - [A beginner's guide to DeFi](https://blog.coinbase.com/a-beginners-guide-to-decentralized-finance-defi-574c68ff43c4) – _Sid Coelho-Prabhu, January 6 2020_
 
 ### Videos {#videos}

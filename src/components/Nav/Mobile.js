@@ -253,7 +253,7 @@ const MobileNavMenu = ({
   isHelpOpen,
   isDarkTheme,
   toggleMenu,
-  togglrnteme,
+  togglreyeme,
   linkSections,
 }) => {
   const intl = useIntl()
@@ -333,7 +333,7 @@ const MobileNavMenu = ({
               <Translation id="search" />
             </BottomItemText>
           </BottomItem>
-          <BottomItem onClick={togglrnteme}>
+          <BottomItem onClick={togglreyeme}>
             <MenuIcon name={isDarkTheme ? "darkTheme" : "lightTheme"} />
             <BottomItemText>
               <Translation id={isDarkTheme ? "dark-mode" : "light-mode"} />

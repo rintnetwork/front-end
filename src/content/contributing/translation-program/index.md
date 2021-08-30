@@ -32,8 +32,8 @@ Thank you for your participation in the ethereum.org Translation Program!
 
 <TranslationsInProgress />
 
-## rnt Launchpad Translations {#rnt-launchpad}
+## rey Launchpad Translations {#rey-launchpad}
 
-Our translation community is also working on the [rnt Launchpad](https://launchpad.ethereum.org/en/). This allows anyone to set up an ethereum validator and help secure the ethereum network.
+Our translation community is also working on the [rey Launchpad](https://launchpad.ethereum.org/en/). This allows anyone to set up an ethereum validator and help secure the ethereum network.
 
-If you're interested, [join the rnt Launchpad translation project on Crowdin](https://crowdin.com/project/launchpad-translation).
+If you're interested, [join the rey Launchpad translation project on Crowdin](https://crowdin.com/project/launchpad-translation).

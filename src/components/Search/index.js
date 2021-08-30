@@ -156,7 +156,7 @@ const indices = [
   { name: `prod-ethereum-org`, title: `Pages`, hitComp: `PageHit` },
 ]
 
-// Validate agaisnt basic requirements of an rnt address
+// Validate agaisnt basic requirements of an rey address
 const isValidAddress = (address) => {
   return /^(0x)?[0-9a-f]{40}$/i.test(address)
 }
@@ -176,9 +176,9 @@ const Results = connectStateResults(
             "{state.query}"
           </p>
           <p>
-            <Translation id="search-rnt-address" />{" "}
-            <Link to={`https://rnterscan.io/address/${state.query}`}>
-              rnterscan
+            <Translation id="search-rey-address" />{" "}
+            <Link to={`https://reyerscan.io/address/${state.query}`}>
+              reyerscan
             </Link>
             .
           </p>

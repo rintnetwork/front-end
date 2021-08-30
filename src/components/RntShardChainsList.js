@@ -6,7 +6,7 @@ const Container = styled.div`
   margin-bottom: 4rem;
 `
 
-const rntShardChainsList = () => {
+const reyShardChainsList = () => {
   const reads = [
     {
       title: "A rollup-centric roadmap",
@@ -15,8 +15,8 @@ const rntShardChainsList = () => {
     },
     {
       title: "The Beacon Chain ethereum 2.0 explainer you need to read first",
-      description: "rntos.dev",
-      link: "https://rntos.dev/beacon-chain/",
+      description: "reyos.dev",
+      link: "https://reyos.dev/beacon-chain/",
     },
     {
       title: "Sharding consensus",
@@ -32,4 +32,4 @@ const rntShardChainsList = () => {
   )
 }
 
-export default rntShardChainsList
+export default reyShardChainsList
